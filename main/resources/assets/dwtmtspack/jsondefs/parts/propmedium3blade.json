@@ -1,9 +1,9 @@
 {
   "general": {
-	"name" : "White 3-Bladed Constant-Speed Propeller",
+	"name" : "§cMcCauley §fWhite §73-Blade Constant-Speed Propeller",
     "type" : "propeller",
 	"modelName" : "propmedium3blade",
-	"materials" : ["minecraft:dye:15:1", "dwtmtspack:smallpropblade:0:3", "dwtmtspack:smallpropspinner:0:1"]
+	"materials" : ["minecraft:dye:15:1", "mtsofficialpack:smallpropblade:0:3", "mtsofficialpack:smallpropspinner:0:1"]
   },
 	
 	"propeller" : {

@@ -1,6 +1,6 @@
 {
   "general": {
 	"name" : "Motor",
-	"materials" : ["minecraft:redstone:0:6", "minecraft:compass:0:2", "minecraft:iron_ingot:0:6"]
+	"materials" : ["minecraft:redstone:0:6", "minecraft:compass:0:2", "minecraft:iron_ingot:0:3"]
   }
 }

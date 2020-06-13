@@ -1,6 +1,6 @@
 {
   "general": {
 	"name" : "Small Aircraft Engine Piston",
-	"materials" : ["minecraft:iron_ingot:0:5", "minecraft:coal:0:1", "minecraft:slime_ball:0:1"]
+	"materials" : ["minecraft:iron_ingot:0:4", "minecraft:coal:0:1", "minecraft:slime_ball:0:1"]
   }
 }

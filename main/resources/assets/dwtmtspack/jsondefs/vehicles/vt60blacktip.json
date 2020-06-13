@@ -1,0 +1,1030 @@
+{
+  "definitions" : [
+		{
+		"name" : "§bVoltere §fVT-60 §9Blacktip §7(§fFactory White§7)",
+		"subName" : "",
+    	"extraMaterials" : [ "minecraft:dye:0:3","minecraft:dye:15:20"]
+		},
+		{
+		"name" : "§bVoltere §fVT-60 §9Blacktip §7(§fWhite §7w/ §cRed/§6Gold §fStripes§7)",
+		"subName" : "_pinstripes",
+    	"extraMaterials" : [ "minecraft:dye:0:3","minecraft:dye:15:20"]
+		},
+		{
+		"name" : "§bVoltere §fVT-60 §9Blacktip §7(§fWhite §7w/ §8Black §fUnderside§7)",
+		"subName" : "_colorunderside1_black",
+    	"extraMaterials" : [ "minecraft:dye:0:3","minecraft:dye:15:20"]
+		},
+		{
+		"name" : "§bVoltere §fVT-60 §9Blacktip §7(§cRed §7w/ §7Light Gray §fUnderside§7)",
+		"subName" : "_colorunderside2_red",
+    	"extraMaterials" : [ "minecraft:dye:0:3","minecraft:dye:15:20"]
+		},
+		{
+		"name" : "§bVoltere §fVT-60 §9Blacktip §7(§fWhite §7w/ §3Cyan §fNose§7)",
+		"subName" : "_colornose2_cyan",
+    	"extraMaterials" : [ "minecraft:dye:0:3","minecraft:dye:15:20"]
+		}
+	],
+
+  "general": {
+	"description" : "Created to compete directly with the Swiss-built Pilatus PC-12, the VT-60 Blacktip is a truly versatile aircraft. Capable of carrying large payloads over long distances and landing on dirt runways, it's good for almost any job from luxury business craft to flying ambulance. \n §cTO GET INSIDE THE CABIN: §7Walk up to the front left side where the small door is or rear left side where the large door is, and jump towards the opening while sneaking and moving forward. It may take a few tries, so reposition yourself if it doesn't work. You'll need to stay sneaking while you walk around the cabin, otherwise you're too tall and will get stuck. \n §7(Some exceptions apply when using a small custom player model.)",
+    "type" : "plane",
+		"openTop" : false,
+		"emptyMass" : 2650,
+		"materials" : [ "minecraft:leather:0:10", "minecraft:iron_bars:0:30", "dwtmtspack:carbonfiberpanel:0:10", "dwtmtspack:motor:0:3", "dwtmtspack:basicsmallaircraftcomponents:0:1"]
+  },
+
+	"motorized" : {
+    "fuelCapacity" : 62000,
+    "instruments" : [
+	//left gauges
+	{
+        "pos": [0.28125, 1.0625, 3.117],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.015625,
+        "hudX": 120,
+        "hudY": 48,
+        "hudScale": 0.3125,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [0.4375, 1.078125, 3.117],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.01953125,
+        "hudX": 74,
+        "hudY": 43,
+        "hudScale": 0.390625,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [0.59375, 1.0625, 3.117],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.015625,
+        "hudX": 28,
+        "hudY": 48,
+        "hudScale": 0.3125,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [0.28125, 0.890625, 3.117],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.015625,
+        "hudX": 120,
+        "hudY": 101,
+        "hudScale": 0.3125,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [0.4375, 0.90625, 3.117],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.01953125,
+        "hudX": 74,
+        "hudY": 96,
+        "hudScale": 0.390625,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [0.59375, 0.890625, 3.117],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.015625,
+        "hudX": 28,
+        "hudY": 101,
+        "hudScale": 0.3125,
+        "optionalPartNumber": 0
+      },
+	  //right gauges
+		{
+        "pos": [-0.28125, 1.0625, 3.117],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.015625,
+        "hudX": 280,
+        "hudY": 48,
+        "hudScale": 0.3125,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [-0.4375, 1.078125, 3.117],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.01953125,
+        "hudX": 326,
+        "hudY": 43,
+        "hudScale": 0.390625,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [-0.59375, 1.0625, 3.117],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.015625,
+        "hudX": 372,
+        "hudY": 48,
+        "hudScale": 0.3125,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [-0.28125, 0.890625, 3.117],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.015625,
+        "hudX": 280,
+        "hudY": 101,
+        "hudScale": 0.3125,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [-0.4375, 0.90625, 3.117],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.01953125,
+        "hudX": 326,
+        "hudY": 96,
+        "hudScale": 0.390625,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [-0.59375, 0.890625, 3.117],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.015625,
+        "hudX": 372,
+        "hudY": 101,
+        "hudScale": 0.3125,
+        "optionalPartNumber": 0
+      },
+	  	//central gauges
+	{
+        "pos": [0.09375, 1.0625, 3.117],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.01171875,
+        "hudX": 160,
+        "hudY": 33,
+        "hudScale": 0.3125,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [0, 1.0625, 3.117],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.01171875,
+        "hudX": 200,
+        "hudY": 33,
+        "hudScale": 0.3125,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [-0.09375, 1.0625, 3.117],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.01171875,
+        "hudX": 240,
+        "hudY": 33,
+        "hudScale": 0.3125,
+        "optionalPartNumber": 0
+      },
+	  {
+        "pos": [0.09375, 0.96875, 3.117],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.01171875,
+        "hudX": 160,
+        "hudY": 73,
+        "hudScale": 0.3125,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [0, 0.96875, 3.117],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.01171875,
+        "hudX": 200,
+        "hudY": 73,
+        "hudScale": 0.3125,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [-0.09375, 0.96875, 3.117],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.01171875,
+        "hudX": 240,
+        "hudY": 73,
+        "hudScale": 0.3125,
+        "optionalPartNumber": 0
+      },
+	  {
+        "pos": [0.09375, 0.875, 3.117],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.01171875,
+        "hudX": 160,
+        "hudY": 113,
+        "hudScale": 0.3125,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [0, 0.875, 3.117],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.01171875,
+        "hudX": 200,
+        "hudY": 113,
+        "hudScale": 0.3125,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [-0.09375, 0.875, 3.117],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.01171875,
+        "hudX": 240,
+        "hudY": 113,
+        "hudScale": 0.3125,
+        "optionalPartNumber": 0
+      }
+    ],
+		"controls" : []
+  },
+
+  "plane" : {
+    "hasFlaps" : true,
+	"hasAutopilot" : true,
+    "wingSpan" : 16.33,
+    "wingArea" : 26.5,
+    "tailDistance" : 8.90625,
+    "rudderArea" : 0.75,
+    "elevatorArea" : 1.5,
+	"aileronArea" : 1.3
+  },
+	
+	"parts": [
+    {
+      "pos" : [0, -0.65625, 4.25],
+      "types" : ["wheel"],
+			"minValue" : 0.3,
+			"maxValue" : 0.3125,
+			"turnsWithSteer" : true
+    },
+    {
+      "pos" : [-2.17594, -0.589375, -0.1875],
+      "types" : ["wheel"],
+			"minValue" : 0.45,
+			"maxValue" : 0.5
+    },
+    {
+      "pos" : [2.17594, -0.589375, -0.1875],
+      "types" : ["wheel"],
+			"minValue" : 0.45,
+			"maxValue" : 0.5
+    },
+    {
+      "pos" : [0, 0.859375, 4.3125],
+      "types" : ["engine_aircraft"],
+	  "exhaustPos" : [
+	   -0.566407, 0.859375, 4.63281, 
+	   0.566407, 0.859375, 4.63281
+	   ],
+	   "exhaustVelocity" : [
+	   -2.0, 0.75, -5.0,
+		2.0, 0.75, -5.0
+	   ],
+		"minValue" : 1.0,
+		"maxValue" : 1.4,
+		"customTypes" : ["turboprop"]
+    },
+    {
+      "pos" : [-0.375, 0.4375, 2.28125],
+      "types" : ["seat"],
+	  "customTypes" : ["pilot"],
+			"isController" : true,
+			"dismountPos" : [2.5, 0, 1.5]
+    },
+		{
+      "pos" : [0.375, 0.4375, 2.28125],
+      "types" : ["seat"],
+	  "customTypes" : ["pilot"],
+			"isController" : true,
+			"dismountPos" : [2.5, 0, 1.5]
+    },
+	 {
+      "pos" : [-0.4375, 0.5, 0.25],
+	  "rot" : [0, 180, 0],
+      "types" : ["seat"],
+	  "customTypes" : ["business"],
+			"dismountPos" : [2.5, 0, 1.5]
+    },
+	{
+      "pos" : [0.4375, 0.5, 0.25],
+	  "rot" : [0, 180, 0],
+      "types" : ["seat"],
+	  "customTypes" : ["business"],
+			"dismountPos" : [2.5, 0, 1.5]
+    },
+	{
+      "pos" : [-0.4375, 0.5, -1.1875],
+      "types" : ["seat"],
+	  "customTypes" : ["business"],
+			"dismountPos" : [2.5, 0, 1.5]
+    },
+	{
+      "pos" : [0.4375, 0.5, -1.1875],
+      "types" : ["seat"],
+	  "customTypes" : ["business"],
+			"dismountPos" : [2.5, 0, 1.5]
+    },
+	{
+      "pos" : [-0.4375, 0.5, -2.1875],
+      "types" : ["seat"],
+	  "customTypes" : ["business"],
+			"dismountPos" : [2.5, 0, 1.5]
+    },
+	{
+      "pos" : [0.4375, 0.5, -2.1875],
+      "types" : ["seat"],
+	  "customTypes" : ["business"],
+			"dismountPos" : [2.5, 0, 1.5]
+    },
+	{
+      "pos" : [-0.4375, 0.5, -3.1875],
+      "types" : ["seat"],
+	  "customTypes" : ["business"],
+			"dismountPos" : [2.5, 0, 1.5]
+    },
+	{
+      "pos" : [0.4375, 0.5, -3.1875],
+      "types" : ["seat"],
+	  "customTypes" : ["business"],
+			"dismountPos" : [2.5, 0, 1.5]
+    }
+  ],
+
+  "collision": [
+    //nose
+	{
+      "pos" : [0, 0.625, 4.9375],
+      "width" : 1,
+      "height" : 0.75
+    },
+    {
+      "pos" : [0, 0.625, 3.6875],
+      "width" : 1.5,
+      "height" : 1
+    },
+	//tail fuselage
+	{
+      "pos" : [0, 1, -4.5],
+      "width" : 1.6875,
+      "height" : 1.9375
+    },
+	{
+      "pos" : [0, 1, -6],
+      "width" : 1.25,
+      "height" : 1.4375
+    },
+	{
+      "pos" : [0, 1, -7],
+      "width" : 0.75,
+      "height" : 1
+    },
+	//vertical stabilizer
+	{
+      "pos" : [0, 1.75, -5.5],
+      "width" : 0.1875,
+      "height" : 0.6
+    },
+	{
+      "pos" : [0, 1.75, -6],
+      "width" : 0.1875,
+      "height" : 0.65
+    },
+	{
+      "pos" : [0, 1.75, -6.5],
+      "width" : 0.1875,
+      "height" : 0.7
+    },
+	{
+      "pos" : [0, 1.75, -7],
+      "width" : 0.1875,
+      "height" : 0.75
+    },
+    {
+      "pos" : [0, 1.375, -7.5],
+      "width" : 0.1875,
+      "height" : 1.75
+    },
+	{
+      "pos" : [0, 1.4375, -7.875],
+      "width" : 0.1875,
+      "height" : 1.75
+    },
+	{
+      "pos" : [0, 2, -8.25],
+      "width" : 0.1875,
+      "height" : 2.75
+    },
+	{
+      "pos" : [0, 2.5, -8.75],
+      "width" : 0.1875,
+      "height" : 1.75
+    },
+	{
+      "pos" : [0, 3, -9.25],
+      "width" : 0.1875,
+      "height" : 0.75
+    },
+	//horizontal stabilizer
+	{
+      "pos" : [-0.625, 2.375, -8.625],
+      "width" : 1.25,
+      "height" : 0.125
+    },
+	{
+      "pos" : [-1.75, 2.25, -8.75],
+      "width" : 1,
+      "height" : 0.125
+    },
+	{
+      "pos" : [0.625, 2.375, -8.625],
+      "width" : 1.25,
+      "height" : 0.125
+    },
+	{
+      "pos" : [1.75, 2.25, -8.75],
+      "width" : 1,
+      "height" : 0.125
+    },
+	//floor
+	{
+      "pos" : [0.4375, 0.09375, 2.6875],
+      "width" : 0.875,
+      "height" : 0.09375,
+	  "isInterior" : true
+    },
+	{
+      "pos" : [-0.4375, 0.09375, 2.6875],
+      "width" : 0.875,
+      "height" : 0.09375,
+	  "isInterior" : true
+    },
+	{
+      "pos" : [0, 0.09375, 1.375],
+      "width" : 1.75,
+      "height" : 0.09375,
+	  "isInterior" : true
+    },
+	{
+      "pos" : [0, 0.09375, -0.375],
+      "width" : 1.75,
+      "height" : 0.09375,
+	  "isInterior" : true
+    },
+	{
+      "pos" : [0, 0.09375, -2.125],
+      "width" : 1.75,
+      "height" : 0.09375,
+	  "isInterior" : true
+    },
+	{
+      "pos" : [0.4375, 0.09375, -3.4375],
+      "width" : 0.875,
+      "height" : 0.09375,
+	  "isInterior" : true
+    },
+	{
+      "pos" : [-0.4375, 0.09375, -3.4375],
+      "width" : 0.875,
+      "height" : 0.09375,
+	  "isInterior" : true
+    },
+	//roof
+	{
+      "pos" : [0, 1.875, 2],
+      "width" : 1.25,
+      "height" : 0.0625
+    },
+	{
+      "pos" : [0, 1.875, 1.375],
+      "width" : 1.75,
+      "height" : 0.0625
+    },
+	{
+      "pos" : [0, 1.875, -0.375],
+      "width" : 1.75,
+      "height" : 0.0625
+    },
+	{
+      "pos" : [0, 1.875, -2.125],
+      "width" : 1.75,
+      "height" : 0.0625
+    },
+	{
+      "pos" : [0.4375, 1.875, -3.4375],
+      "width" : 0.875,
+      "height" : 0.0625
+    },
+	{
+      "pos" : [-0.4375, 1.875, -3.4375],
+      "width" : 0.875,
+      "height" : 0.0625
+    },
+	//left wall
+	{
+      "pos" : [0.875, 0.625, 2.5],
+      "width" : 0.125,
+      "height" : 1
+    },
+	{
+      "pos" : [0.875, 1, 2],
+      "width" : 0.125,
+      "height" : 1.75
+    },
+	{
+      "pos" : [0.875, 1, 1],
+      "width" : 0.125,
+      "height" : 1.75
+    },
+	{
+      "pos" : [0.875, 1, 0.5],
+      "width" : 0.125,
+      "height" : 1.75
+    },
+	{
+      "pos" : [0.875, 1, 0],
+      "width" : 0.125,
+      "height" : 1.75
+    },
+	{
+      "pos" : [0.875, 1, -0.5],
+      "width" : 0.125,
+      "height" : 1.75
+    },
+	{
+      "pos" : [0.875, 1, -1],
+      "width" : 0.125,
+      "height" : 1.75
+    },
+	{
+      "pos" : [0.875, 1, -1.5],
+      "width" : 0.125,
+      "height" : 1.75
+    },
+	{
+      "pos" : [0.875, 1, -3.5],
+      "width" : 0.125,
+      "height" : 1.75
+    },
+	//right wall
+	{
+      "pos" : [-0.875, 0.625, 2.5],
+      "width" : 0.125,
+      "height" : 1
+    },
+	{
+      "pos" : [-0.875, 1, 2],
+      "width" : 0.125,
+      "height" : 1.75
+    },
+	{
+      "pos" : [-0.875, 1, 1.5],
+      "width" : 0.125,
+      "height" : 1.75
+    },
+	{
+      "pos" : [-0.875, 1, 1],
+      "width" : 0.125,
+      "height" : 1.75
+    },
+	{
+      "pos" : [-0.875, 1, 0.5],
+      "width" : 0.125,
+      "height" : 1.75
+    },
+	{
+      "pos" : [-0.875, 1, 0],
+      "width" : 0.125,
+      "height" : 1.75
+    },
+	{
+      "pos" : [-0.875, 1, -0.5],
+      "width" : 0.125,
+      "height" : 1.75
+    },
+	{
+      "pos" : [-0.875, 1, -1],
+      "width" : 0.125,
+      "height" : 1.75
+    },
+	{
+      "pos" : [-0.875, 1, -1.5],
+      "width" : 0.125,
+      "height" : 1.75
+    },
+	{
+      "pos" : [-0.875, 1, -2],
+      "width" : 0.125,
+      "height" : 1.75
+    },
+	{
+      "pos" : [-0.875, 1, -2.5],
+      "width" : 0.125,
+      "height" : 1.75
+    },
+	{
+      "pos" : [-0.875, 1, -3],
+      "width" : 0.125,
+      "height" : 1.75
+    },
+	{
+      "pos" : [-0.875, 1, -3.5],
+      "width" : 0.125,
+      "height" : 1.75
+    },
+	//wings
+    {
+      "pos" : [-1.25, 0.125, -0.375],
+      "width" : 1.75,
+      "height" : 0.125
+    },
+    {
+      "pos" : [1.25, 0.125, -0.375],
+      "width" : 1.75,
+      "height" : 0.125
+    },
+    {
+      "pos" : [-2.5, 0.1875, -0.375],
+      "width" : 1.75,
+      "height" : 0.125
+    },
+    {
+      "pos" : [2.5, 0.1875, -0.375],
+      "width" : 1.75,
+      "height" : 0.125
+    },
+    {
+      "pos" : [-3.75, 0.25, -0.25],
+      "width" : 1.5,
+      "height" : 0.125
+    },
+    {
+      "pos" : [3.75, 0.25, -0.25],
+      "width" : 1.5,
+      "height" : 0.125
+    },
+	{
+      "pos" : [-5, 0.3125, -0.25],
+      "width" : 1.5,
+      "height" : 0.0625
+    },
+    {
+      "pos" : [5, 0.3125, -0.25],
+      "width" : 1.5,
+      "height" : 0.0625
+    },
+	{
+      "pos" : [-6.25, 0.4375, -0.125],
+      "width" : 1.25,
+      "height" : 0.0625
+    },
+    {
+      "pos" : [6.25, 0.4375, -0.125],
+      "width" : 1.25,
+      "height" : 0.0625
+    },
+	{
+      "pos" : [-7.5, 0.5, -0.125],
+      "width" : 1.25,
+      "height" : 0.0625
+    },
+    {
+      "pos" : [7.5, 0.5, -0.125],
+      "width" : 1.25,
+      "height" : 0.0625
+    }
+  ],
+
+  "rendering": {
+		"defaultDisplayText" : "N663KQ",
+		"displayTextMaxLength" : 6,
+		"textMarkings" : [
+				{
+				"pos" : [0.0125, 2.0625, -6.65],
+				"rot" : [0, 89.75, 0],
+				"scale" : 0.65,
+				"color" : "#000000"
+			},
+			{
+				"pos" : [-0.0125, 2.0625, -6.65],
+				"rot" : [0, -89.75, 0],
+				"scale" : 0.65,
+				"color" : "#000000"
+			}
+			],
+		"rotatableModelObjects" : [
+			{
+				"partName" : "$Aileron_L",
+				"rotationPoint" : [7.29703, 0.466301, -0.546875],
+				"rotationAxis" : [-0.992250992, -0.0647968248, -0.124031374],
+				"rotationVariable" : "aileron"
+			},
+			{
+				"partName" : "$Aileron_R",
+				"rotationPoint" : [-7.29703, 0.466301, -0.546875],
+				"rotationAxis" : [0.992250992, -0.0647968248, -0.124031374],
+				"rotationVariable" : "aileron"
+			},
+			{
+				"partName" : "$Elevator_L",
+				"rotationPoint" : [1.28713, 2.31944, -8.90625],
+				"rotationAxis" : [0.787846202, -0.138918542, 0],
+				"rotationVariable" : "elevator"
+			},
+			{
+				"partName" : "$Elevator_R",
+				"rotationPoint" : [-1.28713, 2.31944, -8.90625],
+				"rotationAxis" : [0.787846202, 0.138918542, 0],
+				"rotationVariable" : "elevator"
+			},
+			{
+				"partName" : "$Rudder",
+				"rotationPoint" : [0, 1.53125, -8.34375],
+				"rotationAxis" : [0, 0.496791046, -0.248396071],
+				"rotationVariable" : "rudder"
+			},
+			{
+				"partName" : "$%Flap_L",
+				"rotationPoint" : [3.8065, 0.253545, -0.984375],
+				"rotationAxis" : [-1.1410886408, -0.07451634852, -0.1426360801],
+				"rotationVariable" : "flaps_actual"
+			},
+			{
+				"partName" : "$%Flap_R",
+				"rotationPoint" : [-3.8065, 0.253545, -0.984375],
+				"rotationAxis" : [-1.1410886408, 0.07451634852, 0.1426360801],
+				"rotationVariable" : "flaps_actual"
+			},
+			{
+				"partName" : "$Nose_Gear_Yoke",
+				"rotationPoint" : [0, -0.65625, 4.25],
+				"rotationAxis" : [0, -1, 0],
+				"rotationVariable" : "rudder"
+			},
+			{
+				"partName" : "$&TaxiLight_FFFFFF_FFFFF_111",
+				"rotationPoint" : [0, -0.65625, 4.25],
+				"rotationAxis" : [0, -1, 0],
+				"rotationVariable" : "rudder"
+			},
+			{
+				"partName" : "$Door_Front",
+				"rotationPoint" : [0.9375, 0.1875, 0],
+				"rotationAxis" : [0, 0, -135],
+				"rotationVariable" : "door"
+			},
+			{
+				"partName" : "$Door_Front_Upper_Stair",
+				"rotationPoint" : [0.9375, 0.1875, 0],
+				"rotationAxis" : [0, 0, -135],
+				"rotationVariable" : "door"
+			},
+			{
+				"partName" : "$Door_Front_Middle_Stair",
+				"rotationPoint" : [0.9375, 0.1875, 0],
+				"rotationAxis" : [0, 0, -135],
+				"rotationVariable" : "door"
+			},
+			{
+				"partName" : "$Door_Front_Lower_Stair",
+				"rotationPoint" : [0.9375, 0.1875, 0],
+				"rotationAxis" : [0, 0, -135],
+				"rotationVariable" : "door"
+			},
+			{
+				"partName" : "$Door_Front_Upper_Struts",
+				"rotationPoint" : [0.9375, 0.1875, 0],
+				"rotationAxis" : [0, 0, -135],
+				"rotationVariable" : "door"
+			},
+			{
+				"partName" : "$Door_Front_Lower_Struts",
+				"rotationPoint" : [0.9375, 0.1875, 0],
+				"rotationAxis" : [0, 0, -135],
+				"rotationVariable" : "door"
+			},
+			{
+				"partName" : "$Door_Front_Railings",
+				"rotationPoint" : [0.9375, 0.1875, 0],
+				"rotationAxis" : [0, 0, -135],
+				"rotationVariable" : "door"
+			},
+			{
+				"partName" : "$Door_Front_Lower_Stair",
+				"rotationPoint" : [0.980469, 1.125, 0],
+				"rotationAxis" : [0, 0, -135],
+				"rotationVariable" : "door"
+			},
+			{
+				"partName" : "$Door_Front_Middle_Stair",
+				"rotationPoint" : [0.972656, 0.8125, 0],
+				"rotationAxis" : [0, 0, -130],
+				"rotationVariable" : "door"
+			},
+			{
+				"partName" : "$Door_Front_Upper_Stair",
+				"rotationPoint" : [0.949219, 0.5, 0],
+				"rotationAxis" : [0, 0, -125],
+				"rotationVariable" : "door"
+			},
+			{
+				"partName" : "$Door_Front_Upper_Struts",
+				"rotationPoint" : [0.875, 0.34375, 0],
+				"rotationAxis" : [0, 0, 90],
+				"rotationVariable" : "door"
+			},
+			{
+				"partName" : "$Door_Front_Lower_Struts",
+				"rotationPoint" : [0.875, 0.96875, 0],
+				"rotationAxis" : [0, 0, 90],
+				"rotationVariable" : "door"
+			},
+			{
+				"partName" : "$Door_Front_Railings",
+				"rotationPoint" : [0.875, 0.34375, 0],
+				"rotationAxis" : [0, 0, 90],
+				"rotationVariable" : "door"
+			},
+			{
+				"partName" : "$Door_Front_Railings",
+				"rotationPoint" : [0.875, 0.78125, 0],
+				"rotationAxis" : [0, 0, -90],
+				"rotationVariable" : "door"
+			},
+			{
+				"partName" : "$Door_Rear",
+				"rotationPoint" : [0.75, 1.8125, 0],
+				"rotationAxis" : [0, 0, 120],
+				"rotationVariable" : "door"
+			},
+			{
+				"partName" : "$Door_Rear_Window",
+				"rotationPoint" : [0.75, 1.8125, 0],
+				"rotationAxis" : [0, 0, 120],
+				"rotationVariable" : "door"
+			},
+			{
+				"partName" : "$BatterySwitch",
+				"rotationPoint" : [0, 1.796875, 2.484375],
+				"rotationAxis" : [40, 0, 0],
+				"rotationVariable" : "engine_magneto_1"
+			},
+			{
+				"partName" : "$GeneratorSwitch",
+				"rotationPoint" : [0, 1.796875, 2.484375],
+				"rotationAxis" : [1, 0, 0],
+				"rotationVariable" : "engine_rpm_1",
+				"rotationClampMax" : 400,
+				"rotationClampMin" : 360
+			},
+			{
+                "partName" : "$PropPitchLever",
+                "rotationPoint" : [1, 0.375, 2.84375],
+                "rotationAxis" : [-4000, 0, 0],
+                "rotationVariable" : "reverser"
+            },
+			{
+                "partName" : "$PropPitchLever",
+                "rotationPoint" : [1, 0.375, 2.84375],
+                "rotationAxis" : [1, 0, 0],
+                "rotationVariable" : "engine_rpm_1",
+				"rotationClampMax" : 1820,
+				"rotationClampMin" : 1800
+            },
+			{
+                "partName" : "$PropPitchLever",
+                "rotationPoint" : [0, 0.375, 2.84375],
+                "rotationAxis" : [1, 0, 0],
+                "rotationVariable" : "engine_rpm_1",
+				"rotationClampMax": 375,
+				"rotationClampMin": 360
+            },
+			{
+				"partName" : "$ThrottleLever",
+				"rotationPoint" : [0, 0.375, 2.84375],
+				"rotationAxis" : [-50, 0, 0],
+				"rotationVariable" : "reverser"
+			},
+			{
+				"partName" : "$ThrottleLever",
+				"rotationPoint" : [0, 0.375, 2.84375],
+				"rotationAxis" : [35, 0, 0],
+				"rotationVariable" : "throttle",
+				"rotationClampMin" : -15.0
+			},
+			{
+				"partName" : "$FlapsTab",
+				"rotationPoint" : [0, 0.375, 2.88281],
+				"rotationAxis" : [-1, 0, 0],
+				"rotationVariable" : "flaps_setpoint"
+			},
+			{
+				"partName" : "$%ParkingBrake",
+				"rotationPoint" : [0.75, 0.718747, 0],
+				"rotationAxis" : [0, 0, 90],
+				"rotationVariable" : "p_brake"
+			},
+			{
+				"partName" : "$%LeftYoke",
+				"rotationPoint" : [0.4375, 0.75, 0],
+				"rotationAxis" : [0, 0, 3.6],
+				"rotationVariable" : "aileron"
+			},
+			{
+				"partName" : "$%RightYoke",
+				"rotationPoint" : [-0.4375, 0.75, 0],
+				"rotationAxis" : [0, 0, 3.6],
+				"rotationVariable" : "aileron"
+			},
+			{
+				"partName" : "$%LeftRudderPedals",
+				"rotationPoint" : [0, 0.3125, 3.22656],
+				"rotationAxis" : [10, 0, 0],
+				"rotationVariable" : "brake"
+			},
+			{
+				"partName" : "$%RightRudderPedals",
+				"rotationPoint" : [0, 0.3125, 3.22656],
+				"rotationAxis" : [10, 0, 0],
+				"rotationVariable" : "brake"
+			}
+		],
+		"translatableModelObjects" : [
+		{
+				"partName" : "$%Flap_L",
+				"translationAxis" : [0, 0, -0.00892857143],
+				"translationVariable" : "flaps_actual"
+			},
+			{
+				"partName" : "$%Flap_R",
+				"translationAxis" : [0, 0, -0.00892857143],
+				"translationVariable" : "flaps_actual"
+			},
+			{
+				"partName" : "%FlapPistons",
+				"translationAxis" : [0, 0, -0.00446428571],
+				"translationVariable" : "flaps_actual"
+			},
+			{
+				"partName" : "$%ParkingBrake",
+				"translationAxis" : [0, 0, -0.125],
+				"translationVariable" : "p_brake"
+			},
+			{
+				"partName" : "$%LeftYoke",
+				"translationAxis" : [0, 0, -0.00375],
+				"translationVariable" : "elevator"
+			},
+			{
+				"partName" : "$%RightYoke",
+				"translationAxis" : [0, 0, -0.00375],
+				"translationVariable" : "elevator"
+			},
+			{
+				"partName" : "%LeftRudderPedalMounts",
+				"translationAxis" : [0, 0, 0.00208333334],
+				"translationVariable" : "rudder"
+			},
+			{
+				"partName" : "%RightRudderPedalMounts",
+				"translationAxis" : [0, 0, -0.00208333334],
+				"translationVariable" : "rudder"
+			},
+			{
+				"partName" : "$%LeftRudderPedals",
+				"translationAxis" : [0, 0, 0.00208333334],
+				"translationVariable" : "rudder"
+			},
+			{
+				"partName" : "$%RightRudderPedals",
+				"translationAxis" : [0, 0, -0.00208333334],
+				"translationVariable" : "rudder"
+			},
+			{
+				"partName" : "%IgnitionSwitches",
+				"translationAxis" : [0, 0, 0.00390625],
+				"translationVariable" : "engine_magneto_1"
+			},
+			{
+				"partName" : "%Starter",
+				"translationAxis" : [0, 0, 0.00390625],
+				"translationVariable" : "engine_starter_1"
+			},
+			{
+				"partName" : "%NavLightSwitches",
+				"translationAxis" : [0, 0, 0.00390625],
+				"translationVariable" : "NavigationLight"
+			},
+			{
+				"partName" : "%StrobeLightSwitches",
+				"translationAxis" : [0, 0, 0.00390625],
+				"translationVariable" : "StrobeLight"
+			},
+			{
+				"partName" : "%TaxiLightSwitch",
+				"translationAxis" : [0, 0, 0.00390625],
+				"translationVariable" : "TaxiLight"
+			},
+			{
+				"partName" : "%LandingLightSwitch",
+				"translationAxis" : [0, 0, 0.00390625],
+				"translationVariable" : "LandingLight"
+			},
+		]
+  }
+}

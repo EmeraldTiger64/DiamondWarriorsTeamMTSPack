@@ -1,17 +1,17 @@
 {
   "definitions" : [
 		{
-		"name" : "VT-20 Leone (Factory Primer)",
+		"name" : "§bVoltere §fVT-20 §7Leone (§fFactory Primer§7)",
 		"subName" : "",
     	"extraMaterials" : [ "minecraft:dye:0:3","minecraft:dye:15:20"]
 		},
 		{
-		"name" : "VT-20 Leone (Voltere Colors)",
+		"name" : "§bVoltere §fVT-20 §7Leone (§bVoltere §fColors§7)",
 		"subName" : "_voltere",
     	"extraMaterials" : ["minecraft:dye:15:4", "minecraft:dye:14:3", "minecraft:dye:12:20", "minecraft:dye:4:8", "minecraft:dye:6:3"]
 		},
 		{
-		"name" : "VT-20 Leone (Camouflage)",
+		"name" : "§bVoltere §fVT-20 §7Leone (§2Cam§aou§2fla§age§7)",
 		"subName" : "_camo",
     	"extraMaterials" : [ "minecraft:dye:2:25", "minecraft:dye:0:10", "minecraft:dye:10:10"]
 		},
@@ -231,8 +231,8 @@
     "wingSpan" : 11.77,
     "wingArea" : 17.5,
     "tailDistance" : 5.3125,
-    "rudderArea" : 1.2,
-    "elevatorArea" : 1.2,
+    "rudderArea" : 1.1,
+    "elevatorArea" : 2.0,
 	"aileronArea" : 2.25
   },
 	
@@ -275,6 +275,7 @@
 	   0.3333, -0.3333, -1.3333,
 	   0.3333, -0.3333, -1.3333
 	   ],
+	   "customTypes" : ["opposed"],
 			"minValue" : 0.0,
 			"maxValue" : 0.6
     },
@@ -315,9 +316,9 @@
     },
 	//tail fuselage
 	{
-      "pos" : [0, 0.75, -1.75],
-      "width" : 1,
-      "height" : 1
+      "pos" : [0, 0.75, -1.6875],
+      "width" : 1.125,
+      "height" : 1.125
     },
     {
       "pos" : [0, 0.75, -2.75],
@@ -354,6 +355,17 @@
       "pos" : [1.25, 1.75, -4.875],
       "width" : 0.75,
       "height" : 0.75
+    },
+	//floor
+	{
+      "pos" : [0, 0, 1.0],
+      "width" : 1.5,
+      "height" : 0.125
+    },
+	{
+      "pos" : [0, 0, -0.375],
+      "width" : 1.25,
+      "height" : 0.125
     },
 	//wings
     {
@@ -404,8 +416,7 @@
   ],
 
   "rendering": {
-		"numberWindows" : 6,
-		"defaultDisplayText" : "MC-172",
+		"defaultDisplayText" : "",
 		"displayTextMaxLength" : 7,
 		"hudBackplaneTexturePercentages" : [0.0, 6.0, 0.0, 0.5],
 		"hudMouldingTexturePercentages" : [0.0, 8.0, 0.5, 1.0],

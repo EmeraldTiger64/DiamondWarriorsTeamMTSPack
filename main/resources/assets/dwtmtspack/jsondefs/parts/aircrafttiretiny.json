@@ -7,7 +7,7 @@
 	
 	"wheel" : {
     "diameter" : 0.1725,
-		"motiveFriction" : 0.4,
+		"motiveFriction" : 0.45,
 		"lateralFriction" : 0.65
 	}
 }

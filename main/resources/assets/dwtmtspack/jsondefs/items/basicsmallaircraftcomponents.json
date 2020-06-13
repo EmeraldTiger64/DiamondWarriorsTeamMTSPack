@@ -1,6 +1,6 @@
 {
   "general": {
 	"name" : "Basic Small Aircraft Components",
-	"materials" : ["dwtmtspack:lamp:0:4", "dwtmtspack:flightcomputer:0:2", "dwtmtspack:positionlights:0:1", "dwtmtspack:controlsurfacecable:0:1", "minecraft:glass_pane:0:6"]
+	"materials" : ["mtsofficialpack:lamp:0:4", "mtsofficialpack:flightcomputer:0:2", "mtsofficialpack:positionlights:0:1", "mtsofficialpack:controlsurfacecable:0:1", "minecraft:glass_pane:0:6"]
   }
 }

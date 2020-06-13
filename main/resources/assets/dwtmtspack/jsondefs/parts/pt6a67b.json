@@ -1,28 +1,44 @@
 {
   "general": {
-	"name" : "§cLycoming §eAE§fIO-540 §7Aircraft Engine",
+	"name" : "§1Pratt & Whitney §fPT6A-67B §7Aircraft Engine",
     "type" : "engine_aircraft",
-	"customType" : "opposed",
-	"modelName" : "lycomingo540",
+	"customType" : "turboprop",
 		"materials" : ["mtsofficialpack:smallaircraftcylinder:0:6", "mtsofficialpack:mediumflatengineblock:0:1", "mtsofficialpack:mediumcrankshaft:0:1", "mtsofficialpack:mediumcamshaft:0:1", "minecraft:iron_block:0:1"]
   },
 	
 	"engine" : {
     "isAutomatic" : true,
-    "starterPower" : 20,
-    "starterDuration" : 4,
-    "maxRPM" : 2800,
-    "fuelConsumption" : 0.675,
+	"isCrankingNotPitched" : true,
+	"customSoundset" : [
+	{
+		"soundName" : "dwtmtspack:pt6a67b_turbine", 
+		"pitchIdle" : 1.0,
+		"pitchMax" : 1.1,
+		"volumeIdle" : 1.0, 
+		"volumeMax" : 1.05
+    },
+	{
+		"soundName" : "dwtmtspack:pt6a67b_propeller", 
+		"pitchIdle" : 0,
+		"pitchMax" : 1.05,
+		"volumeIdle" : -0.9, 
+		"volumeMax" : 1.5
+    }
+	],
+    "starterPower" : 29,
+    "maxRPM" : 43000,
+    "fuelConsumption" : 1.4,
+	"jetForceFactor" : 0.06,
 	"fuelType" : "avgas",
-    "gearRatios" : [1.0]
+    "gearRatios" : [0.0436]
 	},
 	
 	"subParts" : [
 		{
-      "pos" : [0, 0, 0.75],
+      "pos" : [0, 0, 1.3125],
       "types" : ["propeller"],
 			"minValue" : 0,
-			"maxValue" : 95
+			"maxValue" : 110
     }
 	],
 	"rendering": {

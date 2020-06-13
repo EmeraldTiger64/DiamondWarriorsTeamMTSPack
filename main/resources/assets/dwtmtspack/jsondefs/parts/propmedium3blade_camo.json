@@ -1,9 +1,9 @@
 {
   "general": {
-	"name" : "Camouflage 3-Bladed Constant-Speed Propeller",
+	"name" : "§cMcCauley §2Cam§aou§2fla§age §73-Blade Constant-Speed Propeller",
     "type" : "propeller",
 	"modelName" : "propmedium3blade",
-	"materials" : ["minecraft:dye:2:1", "dwtmtspack:smallpropblade:0:3", "dwtmtspack:smallpropspinner:0:1"]
+	"materials" : ["minecraft:dye:2:1", "mtsofficialpack:smallpropblade:0:3", "mtsofficialpack:smallpropspinner:0:1"]
   },
 	
 	"propeller" : {

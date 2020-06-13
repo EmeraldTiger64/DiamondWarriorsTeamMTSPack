@@ -1,0 +1,50 @@
+{
+  "general": {
+	"name" : "§6Hartzell §9Scimitar 5-Blade §7Constant-Speed Propeller",
+    "type" : "propeller",
+	"materials" : ["minecraft:dye:0:1", "mtsofficialpack:smallpropblade:0:3", "mtsofficialpack:smallpropspinner:0:1"]
+  },
+	
+	"propeller" : {
+		"isDynamicPitch" : true,
+		"numberBlades" : 5,
+		"pitch" : 300,
+		"diameter" : 105,
+		"startingHealth" : 300
+	},
+	
+	"rendering": {
+		"rotatableModelObjects" : [
+			{
+				"partName" : "$Blade_1",
+				"rotationPoint" : [0, 0, 0.15625],
+				"rotationAxis" : [0, 1, 0],
+				"rotationVariable" : "propeller_pitch_deg"
+			},
+			{
+				"partName" : "$Blade_2",
+				"rotationPoint" : [0, 0, 0.15625],
+				"rotationAxis" : [-0.951, 0.309, 0],
+				"rotationVariable" : "propeller_pitch_deg"
+			},
+			{
+				"partName" : "$Blade_3",
+				"rotationPoint" : [0, 0, 0.15625],
+				"rotationAxis" : [-0.588, -0.809, 0],
+				"rotationVariable" : "propeller_pitch_deg"
+			},
+			{
+				"partName" : "$Blade_4",
+				"rotationPoint" : [0, 0, 0.15625],
+				"rotationAxis" : [0.588, -0.809, 0],
+				"rotationVariable" : "propeller_pitch_deg"
+			},
+			{
+				"partName" : "$Blade_5",
+				"rotationPoint" : [0, 0, 0.15625],
+				"rotationAxis" : [0.951, 0.309, 0],
+				"rotationVariable" : "propeller_pitch_deg"
+			}
+		]
+	}
+}

@@ -1,9 +1,9 @@
 {
   "general": {
-	"name" : "Black 3-Bladed Constant-Speed Propeller (Performance)",
+	"name" : "§6Hartzell §8Black §e'Claw' 3-Blade §7Constant-Speed Propeller §7(§ePerformance§7)",
     "type" : "propeller",
 	"modelName" : "propmedium3blade",
-	"materials" : ["minecraft:dye:0:1", "dwtmtspack:smallpropblade:0:3", "dwtmtspack:smallpropspinner:0:1"]
+	"materials" : ["minecraft:dye:0:1", "mtsofficialpack:smallpropblade:0:3", "mtsofficialpack:smallpropspinner:0:1"]
   },
 	
 	"propeller" : {
