@@ -1,0 +1,13 @@
+{
+  "general": {
+	"name" : "DVC 13x4 Factory Tire",
+    "type" : "wheel",
+		"materials" : ["minecraft:slime_ball:0:6", "minecraft:iron_ingot:0:3"]
+  },
+	
+	"wheel" : {
+    "diameter" : 0.8125,
+		"motiveFriction" : 0.65,
+		"lateralFriction" : 0.65
+	}
+}

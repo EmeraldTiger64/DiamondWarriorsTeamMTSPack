@@ -1,0 +1,6 @@
+{
+  "general": {
+	"name" : "Control Surface Cable",
+	"materials" : ["minecraft:string:0:20", "minecraft:iron_ingot:0:4"]
+  }
+}

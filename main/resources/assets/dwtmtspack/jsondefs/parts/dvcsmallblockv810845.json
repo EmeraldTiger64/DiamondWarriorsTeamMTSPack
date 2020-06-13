@@ -1,0 +1,120 @@
+{
+	"general": {
+		"name" : "DVC Small Block V8 4.5L",
+		"type" : "engine_car",
+		"modelName" : "dvcsmallblockv8stock",
+		"materials" : ["minecraft:iron_ingot:0:21", "minecraft:redstone:0:3", "minecraft:gold_nugget:0:8", "minecraft:quartz_block:0:1"]
+	},
+	
+	"engine" : {
+		"isAutomatic" : true,
+		"starterPower" : 45,
+		"maxRPM" : 9490,
+		"customSoundset" :[
+			{
+			"soundName" : "dwtmtspack:smallblockv8_859",
+			"pitchIdle" : 1,
+			"pitchMax" : 9.52,
+			"volumeIdle" : 1.25,
+			"volumeMax" : -10
+			},
+			{
+			"soundName" : "dwtmtspack:smallblockv8_1205",
+			"pitchIdle" : -0.2,
+			"pitchMax" : 12.2,
+			"volumeIdle" :	2,
+			"volumeMax" : -10
+			},
+			{
+			"soundName" : "dwtmtspack:smallblockv8_1579",
+			"pitchIdle" : -0.5,
+			"pitchMax" : 8,
+			"volumeIdle" :	4,
+			"volumeMax" : -10
+			},
+			{
+			"soundName" : "dwtmtspack:smallblockv8_2070",
+			"pitchIdle" : -0.4,
+			"pitchMax" : 4.3,
+			"volumeIdle" :	6.25,
+			"volumeMax" : -10
+			},
+			{
+			"soundName" : "dwtmtspack:smallblockv8_3107",
+			"pitchIdle" : -0.8,
+			"pitchMax" : 3.52,
+			"volumeIdle" :	-1.6,
+			"volumeMax" : 10
+			},
+			{
+			"soundName" : "dwtmtspack:smallblockv8_5712",
+			"pitchIdle" : 0,
+			"pitchMax" : 1.6,
+			"volumeIdle" :	-7,
+			"volumeMax" : 7.5
+			}
+		],
+		"fuelConsumption" : 0.5,
+		"fuelType" : "gasoline",
+		"gearRatios" : [-2.0, 0.0, 5.0, 2.88, 1.91, 1.36, 1.0, 0.75]
+	},
+	
+	"rendering": {
+		"rotatableModelObjects" : [
+			{
+				"partName" : "$ACCompressorPulley",
+				"rotationPoint" : [0.09375, 0.30469, 0.83594],
+				"rotationAxis" : [0, 0, 1],
+				"rotationVariable" : "engine_rotation"
+			},
+			{
+				"partName" : "$AlternatorPulley",
+				"rotationPoint" : [-0.21875, 0.01562, 0.82031],
+				"rotationAxis" : [0, 0, 1],
+				"rotationVariable" : "engine_rotation"
+			},
+			{
+				"partName" : "$BeltTensionerPulley",
+				"rotationPoint" : [0.14063, 0.13281, 0.85156],
+				"rotationAxis" : [0, 0, 1],
+				"rotationVariable" : "engine_rotation"
+			},
+			{
+				"partName" : "$Crankshaft",
+				"rotationPoint" : [0, 0, 0.47786],
+				"rotationAxis" : [0, 0, 1],
+				"rotationVariable" : "engine_rotation"
+			},
+			{
+				"partName" : "$IdlerRoller01",
+				"rotationPoint" : [0.125, 0.00781, 0.83984],
+				"rotationAxis" : [0, 0, 1],
+				"rotationVariable" : "engine_rotation"
+			},
+			{
+				"partName" : "$LeftCamshaft",
+				"rotationPoint" : [-0.27344, 0.28125, 0.58008],
+				"rotationAxis" : [0, 0, 0.5],
+				"rotationVariable" : "engine_rotation"
+			},
+			{
+				"partName" : "$PowerSteeringPumpPulley",
+				"rotationPoint" : [0.26563, 0.07031, 0.83594],
+				"rotationAxis" : [0, 0, 1],
+				"rotationVariable" : "engine_rotation"
+			},
+			{
+				"partName" : "$RightCamshaft",
+				"rotationPoint" : [0.27344, 0.28125, 0.58008],
+				"rotationAxis" : [0, 0, 0.5],
+				"rotationVariable" : "engine_rotation"
+			},
+			{
+				"partName" : "$TimingIdler",
+				"rotationPoint" : [0, 0.16406, 0.77734],
+				"rotationAxis" : [0, 0, 1],
+				"rotationVariable" : "engine_rotation"
+			}
+		]
+	}
+}

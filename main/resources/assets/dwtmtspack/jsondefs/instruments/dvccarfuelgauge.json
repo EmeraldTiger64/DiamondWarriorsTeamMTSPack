@@ -1,0 +1,43 @@
+{
+  "general": {
+	"name" : "Fuel Gauge",
+	"description" : "Indicates fuel.",
+    "validVehicles" : ["car"],
+		"materials" : ["minecraft:iron_ingot:0:1", "minecraft:dye:0:1", "minecraft:dye:8:2", "minecraft:dye:15:3", "minecraft:dye:1:1", "minecraft:dye:4:1"]
+  },
+	
+	"components" : [
+		{
+			"textureXCenter" : 704,
+			"textureYCenter" : 64,
+			"textureWidth" : 128,
+			"textureHeight" : 128
+		},
+		{
+			"textureXCenter" : 832,
+			"textureYCenter" : 64,
+			"textureWidth" : 128,
+			"textureHeight" : 128,
+			"rotationVariable" : "fuel",
+			"rotationOffset" : -90,
+			"rotationFactor" : 180
+		},
+		{
+			"textureXCenter" : 704,
+			"textureYCenter" : 192,
+			"textureWidth" : 128,
+			"textureHeight" : 128,
+			"lightOverlay" : true
+		},
+		{
+			"textureXCenter" : 832,
+			"textureYCenter" : 192,
+			"textureWidth" : 128,
+			"textureHeight" : 128,
+			"rotationVariable" : "fuel",
+			"rotationOffset" : -90,
+			"rotationFactor" : 180,
+			"lightOverlay" : true
+		}
+	]
+}

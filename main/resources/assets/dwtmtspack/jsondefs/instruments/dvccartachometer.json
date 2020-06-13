@@ -1,0 +1,58 @@
+{
+  "general": {
+	"name" : "Tachometer",
+	"description" : "Indicates engine speeds.",
+    "validVehicles" : ["car"],
+		"materials" : ["minecraft:iron_ingot:0:1", "minecraft:dye:0:3", "minecraft:dye:15:3", "minecraft:dye:1:1"]
+  },
+	
+	"components" : [
+		{
+			"textureXCenter" : 192,
+			"textureYCenter" : 192,
+			"textureWidth" : 128,
+			"textureHeight" : 128
+		},
+		{
+			"textureXCenter" : 192,
+			"textureYCenter" : 320,
+			"textureWidth" : 128,
+			"textureHeight" : 128,
+			"rotationOffset" : -315,
+			"rotationVariable" : "engine_rpm_safe",
+			"rotationFactor" : 0.03375
+		},
+		{
+			"textureXCenter" : 192,
+			"textureYCenter" : 64,
+			"textureWidth" : 128,
+			"textureHeight" : 128
+		},
+		{
+			"textureXCenter" : 832,
+			"textureYCenter" : 64,
+			"textureWidth" : 128,
+			"textureHeight" : 128,
+			"rotationVariable" : "engine_rpm",
+			"rotationOffset" : -135,
+			"rotationFactor" : 0.03375
+		},
+		{
+			"textureXCenter" : 960,
+			"textureYCenter" : 320,
+			"textureWidth" : 128,
+			"textureHeight" : 128,
+			"lightOverlay" : true
+		},
+		{
+			"textureXCenter" : 832,
+			"textureYCenter" : 192,
+			"textureWidth" : 128,
+			"textureHeight" : 128,
+			"rotationVariable" : "engine_rpm",
+			"rotationOffset" : -135,
+			"rotationFactor" : 0.03375,
+			"lightOverlay" : true
+		}
+	]
+}

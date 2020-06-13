@@ -1,0 +1,6 @@
+{
+  "general": {
+	"name" : "Position Lights",
+	"materials" : ["minecraft:redstone_lamp:0:1", "minecraft:dye:1:1", "minecraft:dye:2:1", "minecraft:dye:15:2"]
+  }
+}

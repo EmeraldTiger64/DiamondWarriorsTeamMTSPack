@@ -1,0 +1,62 @@
+{
+  "general": {
+	"name" : "Combined Fuel/Temperature Gauge",
+	"description" : "Indicates fuel level (left) and engine temperature (right).",
+    "validVehicles" : ["car"],
+		"materials" : ["minecraft:iron_ingot:0:1", "minecraft:dye:0:1", "minecraft:dye:8:2", "minecraft:dye:15:3", "minecraft:dye:1:1", "minecraft:dye:4:1"]
+  },
+	
+	"components" : [
+		{
+			"textureXCenter" : 64,
+			"textureYCenter" : 576,
+			"textureWidth" : 128,
+			"textureHeight" : 128
+		},
+		{
+			"textureXCenter" : 832,
+			"textureYCenter" : 64,
+			"textureWidth" : 128,
+			"textureHeight" : 128,
+			"rotationVariable" : "fuel",
+			"rotationOffset" : -135,
+			"rotationFactor" : 90
+		},
+		{
+			"textureXCenter" : 832,
+			"textureYCenter" : 64,
+			"textureWidth" : 128,
+			"textureHeight" : 128,
+			"rotationVariable" : "engine_temp",
+			"rotationOffset" : 135,
+			"rotationFactor" : -0.68181818
+		},
+		{
+			"textureXCenter" : 64,
+			"textureYCenter" : 704,
+			"textureWidth" : 128,
+			"textureHeight" : 128,
+			"lightOverlay" : true
+		},
+		{
+			"textureXCenter" : 832,
+			"textureYCenter" : 192,
+			"textureWidth" : 128,
+			"textureHeight" : 128,
+			"rotationVariable" : "fuel",
+			"rotationOffset" : -135,
+			"rotationFactor" : 90,
+			"lightOverlay" : true
+		},
+		{
+			"textureXCenter" : 832,
+			"textureYCenter" : 192,
+			"textureWidth" : 128,
+			"textureHeight" : 128,
+			"rotationVariable" : "engine_temp",
+			"rotationOffset" : 135,
+			"rotationFactor" : -0.68181818,
+			"lightOverlay" : true
+		}
+	]
+}

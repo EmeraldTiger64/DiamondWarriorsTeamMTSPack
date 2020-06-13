@@ -1,0 +1,6 @@
+{
+  "general": {
+	"name" : "Small Propeller Blade",
+	"materials" : ["minecraft:iron_ingot:0:4", "minecraft:dye:0:2", "minecraft:dye:11:1"]
+  }
+}

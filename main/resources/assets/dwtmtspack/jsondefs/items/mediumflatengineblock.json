@@ -1,0 +1,6 @@
+{
+  "general": {
+	"name" : "Medium Aircraft Engine Block (Flat)",
+	"materials" : ["minecraft:iron_block:0:1", "minecraft:iron_ingot:0:3", "minecraft:coal:0:6"]
+  }
+}

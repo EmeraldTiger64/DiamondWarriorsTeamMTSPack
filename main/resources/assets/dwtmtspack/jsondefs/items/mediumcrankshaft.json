@@ -1,0 +1,6 @@
+{
+  "general": {
+	"name" : "Medium Crankshaft",
+	"materials" : ["minecraft:iron_ingot:0:9"]
+  }
+}

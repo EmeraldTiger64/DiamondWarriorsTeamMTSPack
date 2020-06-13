@@ -1,0 +1,43 @@
+{
+  "general": {
+	"name" : "Speedometer (MPH/KPH)",
+	"description" : "Indicates speed in miles per hour (outside) and kilometers per hour (inside).",
+    "validVehicles" : ["car"],
+		"materials" : ["minecraft:iron_ingot:0:1", "minecraft:dye:0:1", "minecraft:dye:8:2", "minecraft:dye:15:3", "minecraft:dye:1:1"]
+  },
+	
+	"components" : [
+		{
+			"textureXCenter" : 64,
+			"textureYCenter" : 64,
+			"textureWidth" : 128,
+			"textureHeight" : 128
+		},
+		{
+			"textureXCenter" : 832,
+			"textureYCenter" : 64,
+			"textureWidth" : 128,
+			"textureHeight" : 128,
+			"rotationVariable" : "speed",
+			"rotationOffset" : -135,
+			"rotationFactor" : 4.0268448
+		},
+		{
+			"textureXCenter" : 64,
+			"textureYCenter" : 192,
+			"textureWidth" : 128,
+			"textureHeight" : 128,
+			"lightOverlay" : true
+		},
+		{
+			"textureXCenter" : 832,
+			"textureYCenter" : 192,
+			"textureWidth" : 128,
+			"textureHeight" : 128,
+			"rotationVariable" : "speed",
+			"rotationOffset" : -135,
+			"rotationFactor" : 4.0268448,
+			"lightOverlay" : true
+		}
+	]
+}

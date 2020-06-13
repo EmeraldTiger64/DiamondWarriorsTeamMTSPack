@@ -1,0 +1,6 @@
+{
+  "general": {
+	"name" : "Medium Camshaft",
+	"materials" : ["minecraft:iron_ingot:0:6"]
+  }
+}

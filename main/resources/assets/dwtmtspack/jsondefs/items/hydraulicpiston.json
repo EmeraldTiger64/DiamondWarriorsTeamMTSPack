@@ -1,0 +1,6 @@
+{
+  "general": {
+	"name" : "Hydraulic Piston",
+	"materials" : ["minecraft:piston:0:1", "minecraft:dye:0:3", "minecraft:iron_ingot:0:1"]
+  }
+}

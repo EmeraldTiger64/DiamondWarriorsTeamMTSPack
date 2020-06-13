@@ -1,0 +1,6 @@
+{
+  "general": {
+	"name" : "Carbon Fiber Spar",
+	"materials" : ["minecraft:stick:0:3", "minecraft:coal:0:6", "minecraft:fire_charge:0:2"]
+  }
+}

@@ -1,0 +1,64 @@
+{
+	"general": {
+		"name" : "DVC Small Block I6 4.2L",
+		"type" : "engine_car",
+		"modelName" : "dvcinline6stock",
+		"materials" : ["minecraft:iron_ingot:0:18", "minecraft:redstone:0:3", "minecraft:gold_nugget:0:6", "minecraft:quartz_block:0:1"]
+	},
+	
+	"engine" : {
+		"isAutomatic" : true,
+		"starterPower" : 45,
+		"maxRPM" : 7000,
+		"fuelConsumption" : 0.5,
+		"fuelType" : "gasoline",
+		"gearRatios" : [-2.0, 0.0, 5.0, 2.88, 1.91, 1.36, 1.0, 0.75]
+	},
+	
+	"rendering": {
+		"rotatableModelObjects" : [
+			{
+				"partName" : "$ACCompressorPulley",
+				"rotationPoint" : [-0.17187, 0.24219, 1.05469],
+				"rotationAxis" : [0, 0, 1],
+				"rotationVariable" : "engine_rotation"
+			},
+			{
+				"partName" : "$AlternatorPulley",
+				"rotationPoint" : [-0.21875, 0.01562, 1.03906],
+				"rotationAxis" : [0, 0, 1],
+				"rotationVariable" : "engine_rotation"
+			},
+			{
+				"partName" : "$BeltTensionerPulley",
+				"rotationPoint" : [-0.10156, 0.13281, 1.07031],
+				"rotationAxis" : [0, 0, 1],
+				"rotationVariable" : "engine_rotation"
+			},
+			{
+				"partName" : "$Camshaft",
+				"rotationPoint" : [0, 0.39062, 0.74609],
+				"rotationAxis" : [0, 0, 0.5],
+				"rotationVariable" : "engine_rotation"
+			},
+			{
+				"partName" : "$Crankshaft",
+				"rotationPoint" : [0, 0, 0.60547],
+				"rotationAxis" : [0, 0, 1],
+				"rotationVariable" : "engine_rotation"
+			},
+			{
+				"partName" : "$IdlerRoller1",
+				"rotationPoint" : [0.07031, 0.10156, 1.05859],
+				"rotationAxis" : [0, 0, 1],
+				"rotationVariable" : "engine_rotation"
+			},
+			{
+				"partName" : "$PowerSteeringPulley",
+				"rotationPoint" : [0.17188, 0.17969, 1.05469],
+				"rotationAxis" : [0, 0, 1],
+				"rotationVariable" : "engine_rotation"
+			}
+		]
+	}
+}

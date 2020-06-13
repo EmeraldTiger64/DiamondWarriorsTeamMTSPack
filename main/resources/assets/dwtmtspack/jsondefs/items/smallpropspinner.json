@@ -1,0 +1,6 @@
+{
+  "general": {
+	"name" : "Small Propeller Spinner",
+	"materials" : ["minecraft:iron_ingot:0:2", "minecraft:redstone:0:2"]
+  }
+}

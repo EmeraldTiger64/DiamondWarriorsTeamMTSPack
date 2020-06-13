@@ -1,0 +1,6 @@
+{
+  "general": {
+	"name" : "Flight Computer",
+	"materials" : ["minecraft:redstone:0:12", "minecraft:gold_ingot:0:3", "minecraft:dye:2:2"]
+  }
+}

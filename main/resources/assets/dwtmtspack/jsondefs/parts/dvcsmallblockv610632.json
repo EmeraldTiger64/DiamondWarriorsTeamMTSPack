@@ -1,0 +1,76 @@
+{
+	"general": {
+		"name" : "DVC Small Block V6 3.2L",
+		"type" : "engine_car",
+		"modelName" : "dvcsmallblockv6stock",
+		"materials" : ["minecraft:iron_ingot:0:18", "minecraft:redstone:0:3", "minecraft:gold_nugget:0:6", "minecraft:quartz_block:0:1"]
+	},
+	
+	"engine" : {
+		"isAutomatic" : true,
+		"starterPower" : 45,
+		"maxRPM" : 7000,
+		"fuelConsumption" : 0.5,
+		"fuelType" : "gasoline",
+		"gearRatios" : [-2.0, 0.0, 5.0, 2.88, 1.91, 1.36, 1.0, 0.75]
+	},
+	
+	"rendering": {
+		"rotatableModelObjects" : [
+			{
+				"partName" : "$ACCompressorPulley",
+				"rotationPoint" : [0.09375, 0.30469, 0.64844],
+				"rotationAxis" : [0, 0, 1],
+				"rotationVariable" : "engine_rotation"
+			},
+			{
+				"partName" : "$AlternatorPulley",
+				"rotationPoint" : [-0.21875, 0.01562, 0.63281],
+				"rotationAxis" : [0, 0, 1],
+				"rotationVariable" : "engine_rotation"
+			},
+			{
+				"partName" : "$BeltTensionerPulley",
+				"rotationPoint" : [0.14063, 0.13281, 0.66406],
+				"rotationAxis" : [0, 0, 1],
+				"rotationVariable" : "engine_rotation"
+			},
+			{
+				"partName" : "$Crankshaft",
+				"rotationPoint" : [0, 0, 0.36849],
+				"rotationAxis" : [0, 0, 1],
+				"rotationVariable" : "engine_rotation"
+			},
+			{
+				"partName" : "$IdlerRoller01",
+				"rotationPoint" : [0.125, 0.00781, 0.65234],
+				"rotationAxis" : [0, 0, 1],
+				"rotationVariable" : "engine_rotation"
+			},
+			{
+				"partName" : "$LeftCamshaft",
+				"rotationPoint" : [-0.27344, 0.28125, 0.43945],
+				"rotationAxis" : [0, 0, 0.5],
+				"rotationVariable" : "engine_rotation"
+			},
+			{
+				"partName" : "$PowerSteeringPumpPulley",
+				"rotationPoint" : [0.26563, 0.07031, 0.64844],
+				"rotationAxis" : [0, 0, 1],
+				"rotationVariable" : "engine_rotation"
+			},
+			{
+				"partName" : "$RightCamshaft",
+				"rotationPoint" : [0.27344, 0.28125, 0.43945],
+				"rotationAxis" : [0, 0, 0.5],
+				"rotationVariable" : "engine_rotation"
+			},
+			{
+				"partName" : "$TimingIdler",
+				"rotationPoint" : [0, 0.16406, 0.58984],
+				"rotationAxis" : [0, 0, 1],
+				"rotationVariable" : "engine_rotation"
+			}
+		]
+	}
+}

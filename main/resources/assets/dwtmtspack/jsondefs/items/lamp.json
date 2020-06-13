@@ -1,0 +1,6 @@
+{
+  "general": {
+	"name" : "Lamp",
+	"materials" : ["minecraft:redstone:0:2", "minecraft:iron_ingot:0:1"]
+  }
+}

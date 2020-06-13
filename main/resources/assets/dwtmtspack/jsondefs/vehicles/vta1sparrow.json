@@ -1,0 +1,403 @@
+{
+  "definitions" : [
+		{
+		"name" : "VTA-1 Sparrow (Unpainted)",
+		"subName" : "",
+    	"extraMaterials" : []
+		},
+		{
+		"name" : "VTA-1 Sparrow (Grey/Red)",
+		"subName" : "_pokeball",
+    	"extraMaterials" : [ "minecraft:dye:8:15", "minecraft:dye:1:8"]
+		},
+		{
+		"name" : "VTA-1 Sparrow (Racing Colors)",
+		"subName" : "_voodoo",
+    	"extraMaterials" : [ "minecraft:dye:5:15", "minecraft:dye:10:5", "minecraft:dye:0:4", "minecraft:dye:15:4"]
+		}
+	],
+
+  "general": {
+	"description" : "The VTA-1 Sparrow is a high-performance aerobatic aircraft, capable of Unlimited-class competition. Weighing a feather-light 1100 pounds due to its entirely-carbon fiber construction, its long-span wings increase aileron area as well as helping it stand out from its counterparts from other manufacturers.",
+    "type" : "plane",
+		"openTop" : false,
+		"emptyMass" : 500,
+		"materials" : ["dwtmtspack:carbonfiberspar:0:15", "dwtmtspack:carbonfiberpanel:0:10", "dwtmtspack:controlsurfacecable:0:1"]
+  },
+
+	"motorized" : {
+    "fuelCapacity" : 6800,
+    "instruments" : [
+	//main gauges
+	  {
+        "pos": [0.3125, 0.726563, -0.6255],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.015625,
+        "hudX": 88,
+        "hudY": 49,
+        "hudScale": 0.390625,
+        "optionalPartNumber": 0
+      },
+	  {
+        "pos": [0.15625, 0.789063, -0.6255],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.015625,
+        "hudX": 144,
+        "hudY": 34,
+        "hudScale": 0.390625,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [0, 0.789063, -0.6255],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.015625,
+        "hudX": 200,
+        "hudY": 34,
+        "hudScale": 0.390625,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [-0.15625, 0.789063, -0.6255],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.015625,
+        "hudX": 256,
+        "hudY": 34,
+        "hudScale": 0.390625,
+        "optionalPartNumber": 0
+      },
+	  {
+        "pos": [-0.3125, 0.726563, -0.6255],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.015625,
+        "hudX": 312,
+        "hudY": 49,
+        "hudScale": 0.390625,
+        "optionalPartNumber": 0
+      },
+	  {
+        "pos": [0.3125, 0.570313, -0.6255],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.015625,
+        "hudX": 88,
+        "hudY": 105,
+        "hudScale": 0.390625,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [0.15625, 0.632812, -0.6255],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.015625,
+        "hudX": 144,
+        "hudY": 90,
+        "hudScale": 0.390625,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [0, 0.632812, -0.6255],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.015625,
+        "hudX": 200,
+        "hudY": 90,
+        "hudScale": 0.390625,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [-0.15625, 0.632812, -0.6255],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.015625,
+        "hudX": 256,
+        "hudY": 90,
+        "hudScale": 0.390625,
+        "optionalPartNumber": 0
+      },
+	  {
+        "pos": [-0.3125, 0.570313, -0.6255],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.015625,
+        "hudX": 312,
+        "hudY": 105,
+        "hudScale": 0.390625,
+        "optionalPartNumber": 0
+      },
+	  //secondary gauges
+	  {
+        "pos": [0.453125, 0.710938, -0.6255],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.01171875,
+        "hudX": 40,
+        "hudY": 57,
+        "hudScale": 0.2734375,
+        "optionalPartNumber": 0
+      },
+	  {
+        "pos": [0.453125, 0.601563, -0.6255],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.01171875,
+        "hudX": 40,
+        "hudY": 97,
+        "hudScale": 0.2734375,
+        "optionalPartNumber": 0
+      },
+	  {
+        "pos": [-0.453125, 0.710938, -0.6255],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.01171875,
+        "hudX": 362,
+        "hudY": 57,
+        "hudScale": 0.2734375,
+        "optionalPartNumber": 0
+      },
+	  {
+        "pos": [-0.453125, 0.601563, -0.6255],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.01171875,
+        "hudX": 362,
+        "hudY": 97,
+        "hudScale": 0.2734375,
+        "optionalPartNumber": 0
+      }
+    ],
+		"controls" : []
+  },
+
+  "plane" : {
+    "hasFlaps" : true,
+    "wingSpan" : 8.5,
+    "wingArea" : 9.5,
+    "tailDistance" : 4.6875,
+    "rudderArea" : 0.675,
+    "elevatorArea" : 0.875,
+	"aileronArea" : 2.0
+  },
+	
+	"parts": [
+    {
+      "pos" : [0, 0.148438, -4.8125],
+      "types" : ["wheel"],
+			"minValue" : 0.15,
+			"maxValue" : 0.2,
+			"turnsWithSteer" : true
+    },
+    {
+      "pos" : [-0.90625, -0.492187, 0.59375],
+      "types" : ["wheel"],
+			"minValue" : 0.3,
+			"maxValue" : 0.3125
+    },
+    {
+      "pos" : [0.90625, -0.492187, 0.59375],
+      "types" : ["wheel"],
+			"minValue" : 0.3,
+			"maxValue" : 0.3125
+    },
+    {
+      "pos" : [0, 0.515625, 1.40625],
+      "types" : ["engine_aircraft"],
+	   "exhaustPos" : [
+	   -0.4375, -0.125, 1.1875, 
+	   0.4375, -0.125, 1.1875
+	   ],
+	   "exhaustVelocity" : [
+	   -0, -1.6, -0.4,
+	   -0, -1.6, -0.4
+	   ],
+			"minValue" : 0.0,
+			"maxValue" : 0.75
+
+    },
+    {
+      "pos" : [0, 0.164063, -1.34375],
+      "types" : ["seat"],
+			"isController" : true,
+			"customTypes" : ["aerobatic"],
+			"dismountPos" : [-2.0, 0, -2.0]
+    }
+  ],
+
+  "collision": [
+    //nose
+    {
+      "pos" : [0, 0.4375, 1.5],
+      "width" : 1.25,
+      "height" : 0.75
+    },
+	{
+      "pos" : [0, 0.4375, 0.25],
+      "width" : 1.25,
+      "height" : 0.75
+    },
+	//tail fuselage
+	{
+      "pos" : [0, 0.5625, -2.25],
+      "width" : 1,
+      "height" : 1.125
+    },
+    {
+      "pos" : [0, 0.5625, -3.25],
+      "width" : 0.825,
+      "height" : 0.875
+    },
+	{
+      "pos" : [0, 0.5625, -4.125],
+      "width" : 0.625,
+      "height" : 0.625
+    },
+	{
+      "pos" : [0, 1, -4.5],
+      "width" : 0.25,
+      "height" : 1
+    },
+	//elevators
+    {
+      "pos" : [-0.875, 0.625, -4.5],
+      "width" : 1,
+      "height" : 0.125
+    },
+    {
+      "pos" : [0.875, 0.625, -4.5],
+      "width" : 1,
+      "height" : 0.125
+    },
+	//wings
+    {
+      "pos" : [-1.25, 0, -0.25],
+      "width" : 1.25,
+      "height" : 0.125
+    },
+    {
+      "pos" : [1.25, 0, -0.25],
+      "width" : 1.25,
+      "height" : 0.125
+    },
+    {
+      "pos" : [-2.5, 0, -0.25],
+      "width" : 1.25,
+      "height" : 0.125
+    },
+    {
+      "pos" : [2.5, 0, -0.25],
+      "width" : 1.25,
+      "height" : 0.125
+    },
+    {
+      "pos" : [-3.75, 0, -0.25],
+      "width" : 1,
+      "height" : 0.125
+    },
+    {
+      "pos" : [3.75, 0, -0.25],
+      "width" : 1,
+      "height" : 0.125
+    }
+  ],
+
+  "rendering": {
+		"numberWindows" : 6,
+		"defaultDisplayText" : "MC-172",
+		"displayTextMaxLength" : 7,
+		"textMarkings" : [],
+		"rotatableModelObjects" : [
+			{
+				"partName" : "$Aileron_L",
+				"rotationPoint" : [2.65625, 0.039063, -0.53125],
+				"rotationAxis" : [-0.98639, 0, -0.1644],
+				"rotationVariable" : "aileron"
+			},
+			{
+				"partName" : "$Aileron_R",
+				"rotationPoint" : [-2.65625, 0.039063, -0.53125],
+				"rotationAxis" : [0.98639, 0, -0.1644],
+				"rotationVariable" : "aileron"
+			},
+			{
+				"partName" : "$Elevator_L",
+				"rotationPoint" : [0.71875, 0.570314, -4.4375],
+				"rotationAxis" : [0.98776, 0, 0.15596],
+				"rotationVariable" : "elevator"
+			},
+			{
+				"partName" : "$Elevator_R",
+				"rotationPoint" : [-0.71875, 0.570314, -4.4375],
+				"rotationAxis" : [0.98776, 0, -0.15596],
+				"rotationVariable" : "elevator"
+			},
+			{
+				"partName" : "$Rudder",
+				"rotationPoint" : [0, 0, -4.59375],
+				"rotationAxis" : [0, 1, 0],
+				"rotationVariable" : "rudder"
+			},
+			{
+				"partName" : "$MagnetoSwitches",
+				"rotationPoint" : [0, 0.507813, -0.59375],
+				"rotationAxis" : [30, 0, 0],
+				"rotationVariable" : "engine_magneto_1"
+			},
+			{
+				"partName" : "$RudderPedals",
+				"rotationPoint" : [0, 0, -0.369],
+				"rotationAxis" : [0, -0.5, 0],
+				"rotationVariable" : "rudder"
+			},
+			{
+				"partName" : "$RudderPedals",
+				"rotationPoint" : [0, 0.099938, -0.39975],
+				"rotationAxis" : [30, 0, 0],
+				"rotationVariable" : "brake"
+			},
+			{
+				"partName" : "$Stick",
+				"rotationPoint" : [0, -0.099938, -0.814875],
+				"rotationAxis" : [-0.6, 0, 0],
+				"rotationVariable" : "elevator"
+			},
+			{
+				"partName" : "$Stick",
+				"rotationPoint" : [0, -0.099938, 0],
+				"rotationAxis" : [0, 0, 0.6],
+				"rotationVariable" : "aileron"
+			},
+			{
+				"partName" : "$RudderPedalMount",
+				"rotationPoint" : [0, 0, -0.369],
+				"rotationAxis" : [0, -0.5, 0],
+				"rotationVariable" : "rudder"
+			},
+			{
+				"partName" : "$TailWheelStrut",
+				"rotationPoint" : [0, 0, -4.8125],
+				"rotationAxis" : [0, 1, 0],
+				"rotationVariable" : "rudder"
+			}
+		],
+		"translatableModelObjects" : [
+			{
+				"partName" : "%ThrottleKnob",
+				"translationAxis" : [0, 0, 0.09375],
+				"translationVariable" : "throttle"
+			},
+			{
+				"partName" : "%MixtureKnob",
+				"translationAxis" : [0, 0, 0.12],
+				"translationVariable" : "engine_fuel_flow_1",
+				"translationClampMax" : 0.09375
+			},
+			{
+				"partName" : "%PropPitchKnob",
+				"translationAxis" : [0, 0, 0.09375],
+				"translationVariable" : "propeller_pitch_percent_1",
+				"translationClampMin" : -0.03125
+			},
+			{
+				"partName" : "%StarterButton",
+				"translationAxis" : [0, 0, 0.0078125],
+				"translationVariable" : "engine_starter_1"
+			},
+			{
+				"partName" : "%Window_Canopy",
+				"translationAxis" : [0, 0, -0.625],
+				"translationVariable" : "door"
+			}
+		]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "general": {
+	"name" : "Pushrod Valve",
+	"materials" : ["minecraft:iron_ingot:0:1"]
+  }
+}

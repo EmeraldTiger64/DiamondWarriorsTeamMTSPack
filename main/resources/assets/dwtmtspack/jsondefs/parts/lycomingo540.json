@@ -1,0 +1,36 @@
+{
+  "general": {
+	"name" : "Lycoming IO-540 Aircraft Engine",
+    "type" : "engine_aircraft",
+		"materials" : ["dwtmtspack:smallaircraftcylinder:0:6", "dwtmtspack:mediumflatengineblock:0:1", "dwtmtspack:mediumcrankshaft:0:1", "dwtmtspack:mediumcamshaft:0:1", "minecraft:iron_ingot:0:4"]
+  },
+	
+	"engine" : {
+    "isAutomatic" : true,
+    "starterPower" : 20,
+    "starterDuration" : 4,
+    "maxRPM" : 2700,
+    "fuelConsumption" : 0.575,
+	"fuelType" : "avgas",
+    "gearRatios" : [1.0]
+	},
+	
+	"subParts" : [
+		{
+      "pos" : [0, 0, 0.75],
+      "types" : ["propeller"],
+			"minValue" : 0,
+			"maxValue" : 95
+    }
+	],
+	"rendering": {
+		"rotatableModelObjects" : [
+			{
+				"partName" : "$PropShaft",
+				"rotationPoint" : [0, 0, 0],
+				"rotationAxis" : [0, 0, 1],
+				"rotationVariable" : "engine_driveshaft_rotation"
+			}		
+		]
+	}
+}
