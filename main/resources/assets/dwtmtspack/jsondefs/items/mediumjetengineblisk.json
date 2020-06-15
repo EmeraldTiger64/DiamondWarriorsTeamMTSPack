@@ -1,0 +1,6 @@
+{
+  "general": {
+	"name" : "Medium Jet Engine Blisk",
+	"materials" : ["minecraft:heavy_weighted_pressure_plate:0:1", "minecraft:iron_ingot:0:1", "minecraft:iron_nugget:0:8"]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "general": {
+	"name" : "PT6 Engine Housing",
+	"materials" : ["minecraft:iron_ingot:0:14", "minecraft:iron_nugget:0:12"]
+  }
+}

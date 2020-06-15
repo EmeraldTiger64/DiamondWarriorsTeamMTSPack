@@ -1,0 +1,6 @@
+{
+  "general": {
+	"name" : "Jet Engine Spool",
+	"materials" : ["minecraft:iron_ingot:0:3", "minecraft:iron_nugget:0:8"]
+  }
+}

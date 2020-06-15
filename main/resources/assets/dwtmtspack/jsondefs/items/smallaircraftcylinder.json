@@ -1,6 +1,6 @@
 {
   "general": {
 	"name" : "Small Aircraft Engine Cylinder",
-	"materials" : ["mtsofficialpack:smallaircraftpiston:0:1", "mtsofficialpack:pushrodvalve:0:2", "minecraft:iron_ingot:0:4", "minecraft:coal:0:2"]
+	"materials" : ["dwtmtspack:smallaircraftpiston:0:1", "dwtmtspack:pushrodvalve:0:2", "minecraft:iron_ingot:0:4", "minecraft:coal:0:2"]
   }
 }
