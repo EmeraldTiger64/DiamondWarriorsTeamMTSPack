@@ -4,7 +4,7 @@
     "type" : "engine_aircraft",
 	"customType" : "opposed",
 	"modelName" : "lycomingo540",
-		"materials" : ["mtsofficialpack:smallaircraftcylinder:0:6", "mtsofficialpack:mediumflatengineblock:0:1", "mtsofficialpack:mediumcrankshaft:0:1", "mtsofficialpack:mediumcamshaft:0:1", "minecraft:iron_block:0:1"]
+		"materials" : ["dwtmtspack:smallaircraftcylinder:0:6", "dwtmtspack:mediumflatengineblock:0:1", "dwtmtspack:mediumcrankshaft:0:1", "dwtmtspack:mediumcamshaft:0:1", "minecraft:iron_block:0:1"]
   },
 	
 	"engine" : {

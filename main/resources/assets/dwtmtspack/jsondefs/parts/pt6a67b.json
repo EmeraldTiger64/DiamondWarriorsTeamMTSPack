@@ -3,7 +3,7 @@
 	"name" : "§1Pratt & Whitney §fPT6A-67B §7Aircraft Engine",
     "type" : "engine_aircraft",
 	"customType" : "turboprop",
-		"materials" : ["mtsofficialpack:smallaircraftcylinder:0:6", "mtsofficialpack:mediumflatengineblock:0:1", "mtsofficialpack:mediumcrankshaft:0:1", "mtsofficialpack:mediumcamshaft:0:1", "minecraft:iron_block:0:1"]
+		"materials" : ["dwtmtspack:pt6housing:0:1", "dwtmtspack:smalljetengineblisk:0:5", "dwtmtspack:mediumjetengineblisk:0:3", "dwtmtspack:jetenginespool:0:2", "minecraft:iron_nugget:0:8"]
   },
 	
 	"engine" : {
@@ -37,7 +37,7 @@
 		{
       "pos" : [0, 0, 1.3125],
       "types" : ["propeller"],
-			"minValue" : 0,
+			"minValue" : 100,
 			"maxValue" : 110
     }
 	],
