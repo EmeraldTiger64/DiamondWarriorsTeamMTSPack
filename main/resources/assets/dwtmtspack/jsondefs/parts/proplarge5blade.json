@@ -2,7 +2,7 @@
   "general": {
 	"name" : "§6Hartzell §9Scimitar 5-Blade §7Constant-Speed Propeller",
     "type" : "propeller",
-	"materials" : ["minecraft:dye:0:1", "mtsofficialpack:smallpropblade:0:3", "mtsofficialpack:smallpropspinner:0:1"]
+	"materials" : ["dwtmtspack:largepropblade:0:5", "dwtmtspack:largepropspinner:0:1"]
   },
 	
 	"propeller" : {
