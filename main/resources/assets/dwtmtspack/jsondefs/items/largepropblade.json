@@ -1,0 +1,6 @@
+{
+  "general": {
+	"name" : "Large Scimitar Propeller Blade",
+	"materials" : ["minecraft:iron_ingot:0:6", "minecraft:dye:0:4", "minecraft:dye:15:1"]
+  }
+}
