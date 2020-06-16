@@ -3,27 +3,27 @@
 		{
 		"name" : "§bVoltere §fVT-60 §9Blacktip §7(§fFactory White§7)",
 		"subName" : "",
-    	"extraMaterials" : [ "minecraft:dye:0:3","minecraft:dye:15:20"]
+    	"extraMaterials" : ["minecraft:dye:15:35"]
 		},
 		{
 		"name" : "§bVoltere §fVT-60 §9Blacktip §7(§fWhite §7w/ §cRed/§6Gold §fStripes§7)",
 		"subName" : "_pinstripes",
-    	"extraMaterials" : [ "minecraft:dye:0:3","minecraft:dye:15:20"]
+    	"extraMaterials" : ["minecraft:dye:15:35", "minecraft:dye:1:5", "minecraft:dye:11:5"]
 		},
 		{
 		"name" : "§bVoltere §fVT-60 §9Blacktip §7(§fWhite §7w/ §8Black §fUnderside§7)",
 		"subName" : "_colorunderside1_black",
-    	"extraMaterials" : [ "minecraft:dye:0:3","minecraft:dye:15:20"]
+    	"extraMaterials" : ["minecraft:dye:15:20", "minecraft:dye:0:15"]
 		},
 		{
 		"name" : "§bVoltere §fVT-60 §9Blacktip §7(§cRed §7w/ §7Light Gray §fUnderside§7)",
 		"subName" : "_colorunderside2_red",
-    	"extraMaterials" : [ "minecraft:dye:0:3","minecraft:dye:15:20"]
+    	"extraMaterials" : ["minecraft:dye:1:10", "minecraft:dye:8:10", "minecraft:dye:15:15"]
 		},
 		{
 		"name" : "§bVoltere §fVT-60 §9Blacktip §7(§fWhite §7w/ §3Cyan §fNose§7)",
 		"subName" : "_colornose2_cyan",
-    	"extraMaterials" : [ "minecraft:dye:0:3","minecraft:dye:15:20"]
+    	"extraMaterials" : ["minecraft:dye:15:25","minecraft:dye:6:10"]
 		}
 	],
 
@@ -32,7 +32,7 @@
     "type" : "plane",
 		"openTop" : false,
 		"emptyMass" : 2650,
-		"materials" : [ "minecraft:leather:0:10", "minecraft:iron_bars:0:30", "dwtmtspack:carbonfiberpanel:0:10", "dwtmtspack:motor:0:3", "dwtmtspack:basicsmallaircraftcomponents:0:1"]
+		"materials" : [ "minecraft:leather:0:15", "minecraft:iron_bars:0:45", "dwtmtspack:carbonfiberpanel:0:25", "dwtmtspack:hydraulicpiston:0:3", "dwtmtspack:lamp:0:5", "dwtmtspack:positionlights:0:2", "dwtmtspack:beacon:0:1", "dwtmtspack:flightcomputer:0:3", "minecraft:glass_pane:0:9", "minecraft:dye:0:15", "minecraft:dye:7:8"]
   },
 
 	"motorized" : {
@@ -691,7 +691,7 @@
   ],
 
   "rendering": {
-		"defaultDisplayText" : "N663KQ",
+		"defaultDisplayText" : "NX642B",
 		"displayTextMaxLength" : 6,
 		"textMarkings" : [
 				{

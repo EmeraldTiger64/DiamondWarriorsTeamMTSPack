@@ -22,7 +22,7 @@
     "type" : "plane",
 		"openTop" : false,
 		"emptyMass" : 775,
-		"materials" : [ "minecraft:leather:0:10", "minecraft:iron_bars:0:30", "dwtmtspack:carbonfiberpanel:0:10", "dwtmtspack:motor:0:3", "dwtmtspack:basicsmallaircraftcomponents:0:1"]
+		"materials" : [ "minecraft:leather:0:10", "minecraft:iron_bars:0:30", "dwtmtspack:carbonfiberpanel:0:10", "dwtmtspack:motor:0:3", "dwtmtspack:basicsmallaircraftcomponents:0:1", "dwtmtspack:beacon:0:1"]
   },
 
 	"motorized" : {
