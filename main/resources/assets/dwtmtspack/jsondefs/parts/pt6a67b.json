@@ -25,10 +25,10 @@
 		"volumeMax" : 1.5
     }
 	],
-    "starterPower" : 29,
+    "starterPower" : 22,
     "maxRPM" : 43000,
     "fuelConsumption" : 1.4,
-	"jetForceFactor" : 0.06,
+	"jetPowerFactor" : 0.06,
 	"fuelType" : "avgas",
     "gearRatios" : [0.0436]
 	},

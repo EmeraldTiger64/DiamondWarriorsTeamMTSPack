@@ -11,7 +11,7 @@
     "isAutomatic" : true,
     "starterPower" : 20,
     "starterDuration" : 4,
-    "maxRPM" : 2800,
+    "maxRPM" : 2700,
     "fuelConsumption" : 0.675,
 	"fuelType" : "avgas",
     "gearRatios" : [1.0]

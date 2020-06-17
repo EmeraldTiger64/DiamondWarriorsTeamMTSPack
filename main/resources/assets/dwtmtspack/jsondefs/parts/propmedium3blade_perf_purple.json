@@ -9,7 +9,7 @@
 	"propeller" : {
 		"isDynamicPitch" : true,
 		"numberBlades" : 3,
-		"pitch" : 100,
+		"pitch" : 105,
 		"diameter" : 86,
 		"startingHealth" : 175
 	},
