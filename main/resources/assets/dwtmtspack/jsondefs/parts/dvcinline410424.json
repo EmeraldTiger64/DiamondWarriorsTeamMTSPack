@@ -9,10 +9,10 @@
 	"engine" : {
 		"isAutomatic" : true,
 		"starterPower" : 45,
-		"maxRPM" : 7000,
-		"fuelConsumption" : 0.5,
+		"maxRPM" : 9490,
+		"fuelConsumption" : 0.25,
 		"fuelType" : "gasoline",
-		"gearRatios" : [-2.0, 0.0, 5.0, 2.88, 1.91, 1.36, 1.0, 0.75]
+		"gearRatios" : [-3.5, 0.0, 3.0, 1.78, 1.14, 0.75]
 	},
 	
 	"rendering": {

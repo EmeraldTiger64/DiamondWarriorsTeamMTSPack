@@ -1,6 +1,6 @@
 {
 	"general": {
-		"name" : "DVC Small Block I6 4.2L",
+		"name" : "DVC Small Block I6 3.2L",
 		"type" : "engine_car",
 		"modelName" : "dvcinline6stock",
 		"materials" : ["minecraft:iron_ingot:0:18", "minecraft:redstone:0:3", "minecraft:gold_nugget:0:6", "minecraft:quartz_block:0:1"]
@@ -9,10 +9,10 @@
 	"engine" : {
 		"isAutomatic" : true,
 		"starterPower" : 45,
-		"maxRPM" : 7000,
-		"fuelConsumption" : 0.5,
+		"maxRPM" : 8000,
+		"fuelConsumption" : 0.275,
 		"fuelType" : "gasoline",
-		"gearRatios" : [-2.0, 0.0, 5.0, 2.88, 1.91, 1.36, 1.0, 0.75]
+		"gearRatios" : [-3.5, 0.0, 3.47, 2.19, 1.49, 1.0, 0.75]
 	},
 	
 	"rendering": {

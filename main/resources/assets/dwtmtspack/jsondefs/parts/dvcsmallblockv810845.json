@@ -9,54 +9,10 @@
 	"engine" : {
 		"isAutomatic" : true,
 		"starterPower" : 45,
-		"maxRPM" : 9490,
-		"customSoundset" :[
-			{
-			"soundName" : "dwtmtspack:smallblockv8_859",
-			"pitchIdle" : 1,
-			"pitchMax" : 9.52,
-			"volumeIdle" : 1.25,
-			"volumeMax" : -10
-			},
-			{
-			"soundName" : "dwtmtspack:smallblockv8_1205",
-			"pitchIdle" : -0.2,
-			"pitchMax" : 12.2,
-			"volumeIdle" :	2,
-			"volumeMax" : -10
-			},
-			{
-			"soundName" : "dwtmtspack:smallblockv8_1579",
-			"pitchIdle" : -0.5,
-			"pitchMax" : 8,
-			"volumeIdle" :	4,
-			"volumeMax" : -10
-			},
-			{
-			"soundName" : "dwtmtspack:smallblockv8_2070",
-			"pitchIdle" : -0.4,
-			"pitchMax" : 4.3,
-			"volumeIdle" :	6.25,
-			"volumeMax" : -10
-			},
-			{
-			"soundName" : "dwtmtspack:smallblockv8_3107",
-			"pitchIdle" : -0.8,
-			"pitchMax" : 3.52,
-			"volumeIdle" :	-1.6,
-			"volumeMax" : 10
-			},
-			{
-			"soundName" : "dwtmtspack:smallblockv8_5712",
-			"pitchIdle" : 0,
-			"pitchMax" : 1.6,
-			"volumeIdle" :	-7,
-			"volumeMax" : 7.5
-			}
-		],
-		"fuelConsumption" : 0.5,
+		"maxRPM" : 7600,
+		"fuelConsumption" : 0.35,
 		"fuelType" : "gasoline",
-		"gearRatios" : [-2.0, 0.0, 5.0, 2.88, 1.91, 1.36, 1.0, 0.75]
+		"gearRatios" : [-3.5, 0.0, 3.47, 2.19, 1.49, 1.0, 0.75]
 	},
 	
 	"rendering": {
