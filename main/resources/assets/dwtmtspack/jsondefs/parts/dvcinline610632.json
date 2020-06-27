@@ -48,7 +48,7 @@
 				"rotationVariable" : "engine_rotation"
 			},
 			{
-				"partName" : "$IdlerRoller1",
+				"partName" : "$Idler",
 				"rotationPoint" : [0.07031, 0.10156, 1.05859],
 				"rotationAxis" : [0, 0, 1],
 				"rotationVariable" : "engine_rotation"
