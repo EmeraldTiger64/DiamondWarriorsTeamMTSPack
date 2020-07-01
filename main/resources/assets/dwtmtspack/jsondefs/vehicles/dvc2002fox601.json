@@ -141,36 +141,36 @@
 			"types" : ["engine_car"],
 			"exhaustPos" : [0.38281, -0.05469, -0.99219],
 			"exhaustVelocity" : [0.0, 0.0, -1.0],
-			"minValue" : 0.0,
-			"maxValue" : 1.25
+			"minValue" : 0.15,
+			"maxValue" : 0.325
 		},
 		{
 			"pos" : [0.985, 0, 0],
 			"types" : ["wheel"],
-			"minValue" : 0.45,
-			"maxValue" : 0.875
+			"minValue" : 0.5,
+			"maxValue" : 0.8125
 		},
 		{
 			"pos" : [-0.985, 0, 0],
 			"types" : ["wheel"],
-			"minValue" : 0.45,
-			"maxValue" : 0.875
+			"minValue" : 0.5,
+			"maxValue" : 0.8125
 		},
 		{
 			"pos" : [0.985, 0, 3],
 			"steeringOffset" : [0.90625, 0, 3],
 			"turnsWithSteer" : true,
 			"types" : ["wheel"],
-			"minValue" : 0.45,
-			"maxValue" : 0.875
+			"minValue" : 0.5,
+			"maxValue" : 0.8125
 		},
 		{
 			"pos" : [-0.985, 0, 3],
 			"turnsWithSteer" : true,
 			"steeringOffset" : [-0.90625, 0, 3],
 			"types" : ["wheel"],
-			"minValue" : 0.45,
-			"maxValue" : 0.875
+			"minValue" : 0.5,
+			"maxValue" : 0.8125
 		},
 		{
       "pos" : [0, 0.34375, -0.4915],
