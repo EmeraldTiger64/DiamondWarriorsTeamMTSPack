@@ -30,12 +30,14 @@
   "general": {
 	"description" : "Created to compete directly with the Swiss-built Pilatus PC-12, the VT-60 Blacktip is a truly versatile aircraft. Capable of carrying large payloads over long distances and landing on dirt runways, it's good for almost any job from luxury business craft to flying ambulance. \n §cTO GET INSIDE THE CABIN: §7Walk up to the front left side where the small door is or rear left side where the large door is, and jump towards the opening while sneaking and moving forward. It may take a few tries, so reposition yourself if it doesn't work. You'll need to stay sneaking while you walk around the cabin, otherwise you're too tall and will get stuck. \n §7(Some exceptions apply when using a small custom player model.)",
     "type" : "plane",
+	"isAircraft" : true,
 		"openTop" : false,
 		"emptyMass" : 2650,
 		"materials" : [ "minecraft:leather:0:15", "minecraft:iron_bars:0:45", "dwtmtspack:carbonfiberpanel:0:25", "dwtmtspack:hydraulicpiston:0:3", "dwtmtspack:lamp:0:5", "dwtmtspack:positionlights:0:2", "dwtmtspack:beacon:0:1", "dwtmtspack:flightcomputer:0:3", "minecraft:glass_pane:0:9", "minecraft:dye:0:15", "minecraft:dye:7:8"]
   },
 
 	"motorized" : {
+	"gearSequenceDuration" : 200,
     "fuelCapacity" : 62000,
     "instruments" : [
 	//left gauges
@@ -249,6 +251,9 @@
     {
       "pos" : [0, -0.65625, 4.25],
       "types" : ["wheel"],
+	  "rotationVariable" : "gear_actual",
+			"rotationPosition" : [0, 0.843742, 0],
+			"rotationAngles" : [90, 0, 0],
 			"minValue" : 0.3,
 			"maxValue" : 0.3125,
 			"turnsWithSteer" : true
@@ -256,18 +261,24 @@
     {
       "pos" : [-2.17594, -0.589375, -0.1875],
       "types" : ["wheel"],
+	  "rotationVariable" : "gear_actual",
+			"rotationPosition" : [0.02344, 0.71875, 0],
+			"rotationAngles" : [0, 0, 86],
 			"minValue" : 0.45,
 			"maxValue" : 0.5
     },
     {
       "pos" : [2.17594, -0.589375, -0.1875],
       "types" : ["wheel"],
+			"rotationVariable" : "gear_actual",
+			"rotationPosition" : [-0.02344, 0.71875, 0],
+			"rotationAngles" : [0, 0, -86],
 			"minValue" : 0.45,
 			"maxValue" : 0.5
     },
     {
       "pos" : [0, 0.859375, 4.3125],
-      "types" : ["engine_aircraft"],
+      "types" : ["engine_aircraft_pt6"],
 	  "exhaustPos" : [
 	   -0.566407, 0.859375, 4.63281, 
 	   0.566407, 0.859375, 4.63281
@@ -277,8 +288,7 @@
 		2.0, 0.75, -5.0
 	   ],
 		"minValue" : 1.0,
-		"maxValue" : 1.4,
-		"customTypes" : ["turboprop"]
+		"maxValue" : 1.4
     },
     {
       "pos" : [-0.375, 0.4375, 2.28125],
@@ -707,7 +717,165 @@
 				"color" : "#000000"
 			}
 			],
+			"translatableModelObjects" : [
+		{
+				"partName" : "$%Flap_L",
+				"translationAxis" : [0, 0, -0.00892857143],
+				"translationVariable" : "flaps_actual"
+			},
+			{
+				"partName" : "$%Flap_R",
+				"translationAxis" : [0, 0, -0.00892857143],
+				"translationVariable" : "flaps_actual"
+			},
+			{
+				"partName" : "%FlapPistons",
+				"translationAxis" : [0, 0, -0.00446428571],
+				"translationVariable" : "flaps_actual"
+			},
+			{
+				"partName" : "$%ParkingBrake",
+				"translationAxis" : [0, 0, -0.125],
+				"translationVariable" : "p_brake"
+			},
+			{
+				"partName" : "$%LeftYoke",
+				"translationAxis" : [0, 0, -0.00375],
+				"translationVariable" : "elevator"
+			},
+			{
+				"partName" : "$%RightYoke",
+				"translationAxis" : [0, 0, -0.00375],
+				"translationVariable" : "elevator"
+			},
+			{
+				"partName" : "%LeftRudderPedalMounts",
+				"translationAxis" : [0, 0, 0.00208333334],
+				"translationVariable" : "rudder"
+			},
+			{
+				"partName" : "%RightRudderPedalMounts",
+				"translationAxis" : [0, 0, -0.00208333334],
+				"translationVariable" : "rudder"
+			},
+			{
+				"partName" : "$%LeftRudderPedals",
+				"translationAxis" : [0, 0, 0.00208333334],
+				"translationVariable" : "rudder"
+			},
+			{
+				"partName" : "$%RightRudderPedals",
+				"translationAxis" : [0, 0, -0.00208333334],
+				"translationVariable" : "rudder"
+			},
+			{
+				"partName" : "%IgnitionSwitches",
+				"translationAxis" : [0, 0, 0.00390625],
+				"translationVariable" : "engine_magneto_1"
+			},
+			{
+				"partName" : "%Starter",
+				"translationAxis" : [0, 0, 0.00390625],
+				"translationVariable" : "engine_starter_1"
+			},
+			{
+				"partName" : "%NavLightSwitches",
+				"translationAxis" : [0, 0, 0.00390625],
+				"translationVariable" : "NavigationLight"
+			},
+			{
+				"partName" : "%StrobeLightSwitches",
+				"translationAxis" : [0, 0, 0.00390625],
+				"translationVariable" : "StrobeLight"
+			},
+			{
+				"partName" : "%TaxiLightSwitch",
+				"translationAxis" : [0, 0, 0.00390625],
+				"translationVariable" : "TaxiLight"
+			},
+			{
+				"partName" : "%LandingLightSwitch",
+				"translationAxis" : [0, 0, 0.00390625],
+				"translationVariable" : "LandingLight"
+			},
+		],
 		"rotatableModelObjects" : [
+		{
+				"partName" : "$GearLever",
+				"rotationPoint" : [0, 0.687491, 3.15625],
+				"rotationAxis" : [60, 0, 0],
+				"rotationVariable" : "gear_setpoint"
+			},
+			{
+				"partName" : "$Nose_Gear",
+				"rotationPoint" : [0, 0.187492, 4.25],
+				"rotationAxis" : [90, 0, 0],
+				"rotationVariable" : "gear_actual"
+			},
+			{
+				"partName" : "$Nose_Gear_Yoke",
+				"rotationPoint" : [0, 0.187492, 4.25],
+				"rotationAxis" : [90, 0, 0],
+				"rotationVariable" : "gear_actual"
+			},
+			{
+				"partName" : "$&TaxiLight_FFFFFF_FFFFF_111",
+				"rotationPoint" : [0, 0.187492, 4.25],
+				"rotationAxis" : [90, 0, 0],
+				"rotationVariable" : "gear_actual"
+			},
+			{
+				"partName" : "$Main_Gear_L",
+				"rotationPoint" : [2.1525, 0.129375, 0],
+				"rotationAxis" : [0, 0, -86],
+				"rotationVariable" : "gear_actual"
+			},
+			{
+				"partName" : "$Main_Gear_R",
+				"rotationPoint" : [-2.1525, 0.129375, 0],
+				"rotationAxis" : [0, 0, 86],
+				"rotationVariable" : "gear_actual"
+			},
+			{
+				"partName" : "$&LandingLight_FFFFFF_FFFFF_111",
+				"rotationPoint" : [2.1525, 0.129375, 0],
+				"rotationAxis" : [0, 0, -86],
+				"rotationVariable" : "gear_actual"
+			},
+			{
+				"partName" : "$&LandingLight_FEFEFE_FFFFF_111",
+				"rotationPoint" : [-2.1525, 0.129375, 0],
+				"rotationAxis" : [0, 0, 86],
+				"rotationVariable" : "gear_actual"
+			},
+			{
+				"partName" : "$Main_Gear_Door_L",
+				"rotationPoint" : [2.24959, 0.074193, 0],
+				"rotationAxis" : [0, 0, -90],
+				"rotationVariable" : "gear_actual"
+			},
+			{
+				"partName" : "$Main_Gear_Door_R",
+				"rotationPoint" : [-2.24959, 0.074193, 0],
+				"rotationAxis" : [0, 0, 90],
+				"rotationVariable" : "gear_actual"
+			},
+			{
+				"partName" : "$Nose_Gear_Door_L",
+				"rotationPoint" : [0.171875, -0.000008, 0],
+				"rotationAxis" : [0, 0, -810],
+				"rotationVariable" : "gear_actual",
+				"rotationClampMax" : 810,
+				"rotationClampMin" : 720
+			},
+			{
+				"partName" : "$Nose_Gear_Door_R",
+				"rotationPoint" : [-0.171875, -0.000008, 0],
+				"rotationAxis" : [0, 0, 810],
+				"rotationVariable" : "gear_actual",
+				"rotationClampMax" : 810,
+				"rotationClampMin" : 720
+			},
 			{
 				"partName" : "$Aileron_L",
 				"rotationPoint" : [7.29703, 0.466301, -0.546875],
@@ -943,88 +1111,6 @@
 				"rotationAxis" : [10, 0, 0],
 				"rotationVariable" : "brake"
 			}
-		],
-		"translatableModelObjects" : [
-		{
-				"partName" : "$%Flap_L",
-				"translationAxis" : [0, 0, -0.00892857143],
-				"translationVariable" : "flaps_actual"
-			},
-			{
-				"partName" : "$%Flap_R",
-				"translationAxis" : [0, 0, -0.00892857143],
-				"translationVariable" : "flaps_actual"
-			},
-			{
-				"partName" : "%FlapPistons",
-				"translationAxis" : [0, 0, -0.00446428571],
-				"translationVariable" : "flaps_actual"
-			},
-			{
-				"partName" : "$%ParkingBrake",
-				"translationAxis" : [0, 0, -0.125],
-				"translationVariable" : "p_brake"
-			},
-			{
-				"partName" : "$%LeftYoke",
-				"translationAxis" : [0, 0, -0.00375],
-				"translationVariable" : "elevator"
-			},
-			{
-				"partName" : "$%RightYoke",
-				"translationAxis" : [0, 0, -0.00375],
-				"translationVariable" : "elevator"
-			},
-			{
-				"partName" : "%LeftRudderPedalMounts",
-				"translationAxis" : [0, 0, 0.00208333334],
-				"translationVariable" : "rudder"
-			},
-			{
-				"partName" : "%RightRudderPedalMounts",
-				"translationAxis" : [0, 0, -0.00208333334],
-				"translationVariable" : "rudder"
-			},
-			{
-				"partName" : "$%LeftRudderPedals",
-				"translationAxis" : [0, 0, 0.00208333334],
-				"translationVariable" : "rudder"
-			},
-			{
-				"partName" : "$%RightRudderPedals",
-				"translationAxis" : [0, 0, -0.00208333334],
-				"translationVariable" : "rudder"
-			},
-			{
-				"partName" : "%IgnitionSwitches",
-				"translationAxis" : [0, 0, 0.00390625],
-				"translationVariable" : "engine_magneto_1"
-			},
-			{
-				"partName" : "%Starter",
-				"translationAxis" : [0, 0, 0.00390625],
-				"translationVariable" : "engine_starter_1"
-			},
-			{
-				"partName" : "%NavLightSwitches",
-				"translationAxis" : [0, 0, 0.00390625],
-				"translationVariable" : "NavigationLight"
-			},
-			{
-				"partName" : "%StrobeLightSwitches",
-				"translationAxis" : [0, 0, 0.00390625],
-				"translationVariable" : "StrobeLight"
-			},
-			{
-				"partName" : "%TaxiLightSwitch",
-				"translationAxis" : [0, 0, 0.00390625],
-				"translationVariable" : "TaxiLight"
-			},
-			{
-				"partName" : "%LandingLightSwitch",
-				"translationAxis" : [0, 0, 0.00390625],
-				"translationVariable" : "LandingLight"
-			},
 		]
   }
 }
