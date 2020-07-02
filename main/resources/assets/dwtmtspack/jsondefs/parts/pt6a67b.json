@@ -1,8 +1,7 @@
 {
   "general": {
 	"name" : "§1Pratt & Whitney §fPT6A-67B §7Aircraft Engine",
-    "type" : "engine_aircraft",
-	"customType" : "turboprop",
+    "type" : "engine_aircraft_pt6",
 		"materials" : ["dwtmtspack:pt6housing:0:1", "dwtmtspack:smalljetengineblisk:0:5", "dwtmtspack:mediumjetengineblisk:0:3", "dwtmtspack:jetenginespool:0:2", "minecraft:iron_nugget:0:8"]
   },
 	
@@ -30,7 +29,7 @@
     "fuelConsumption" : 1.4,
 	"jetPowerFactor" : 0.06,
 	"fuelType" : "avgas",
-    "gearRatios" : [0.0436]
+    "gearRatios" : [-1, 0, 22.9357798]
 	},
 	
 	"subParts" : [
