@@ -1,0 +1,8 @@
+{
+  "general": {
+	"name" : "Stock DVC Seat 01 (Grey/Grey)",
+    "type" : "seat", 
+	"modelName" : "dvcseat1",
+		"materials" : ["minecraft:stick:0:4", "minecraft:iron_ingot:0:1", "minecraft:leather:0:2", "minecraft:dye:7:2", "minecraft:dye:8:1"]
+  }
+}
