@@ -1,0 +1,644 @@
+{
+  "definitions" : [
+		{
+		"name" : "§bVoltere §fVT-20 §7Lynx (§fFactory Primer§7)",
+		"subName" : "",
+    	"extraMaterials" : [ "minecraft:dye:0:3","minecraft:dye:15:20"]
+		},
+		{
+		"name" : "§bVoltere §fVT-20 §7Lynx (§bVoltere §fColors§7)",
+		"subName" : "_voltere",
+    	"extraMaterials" : ["minecraft:dye:15:4", "minecraft:dye:14:3", "minecraft:dye:12:20", "minecraft:dye:4:8"]
+		},
+		{
+		"name" : "§bVoltere §fVT-20 §7Lynx (§2Cam§aou§2fla§age§7)",
+		"subName" : "_camo",
+    	"extraMaterials" : [ "minecraft:dye:2:25", "minecraft:dye:0:10", "minecraft:dye:10:10"]
+		},
+	],
+
+  "general": {
+	"description" : "The VT-20 Lynx is a high-wing cantilever monoplane notable for its carbon-fiber composite panels and V-tail design. Large wings and a high power-to-weight ratio make it easy to fly. It carries a large payload of fuel for long-range flights, and its unique 6-muffler sound dampening system makes it quieter than most in its class as well as giving it a unique fighter-like aesthetic.",
+    "type" : "plane",
+		"isAircraft" : true,
+		"openTop" : false,
+		"emptyMass" : 775,
+		"materials" : [ "minecraft:leather:0:10", "minecraft:iron_bars:0:30", "dwtmtspack:carbonfiberpanel:0:10", "dwtmtspack:motor:0:3", "dwtmtspack:lamp:0:4", "dwtmtspack:flightcomputer:0:2", "dwtmtspack:positionlights:0:1", "dwtmtspack:controlsurfacecable:0:1", "minecraft:glass_pane:0:6", "dwtmtspack:beacon:0:1"]
+  },
+
+	"motorized" : {
+	//"gearSequenceDuration" : 120,
+    "fuelCapacity" : 12000,
+    "instruments" : [
+	//left side main gauges
+	{
+        "pos": [0.34375, 1.01562, 1.9685],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.01171875,
+        "hudX": 138,
+        "hudY": 29,
+        "hudScale": 0.25,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [0.46875, 1.01562, 1.9685],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.01171875,
+        "hudX": 98,
+        "hudY": 29,
+        "hudScale": 0.25,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [0.59375, 1.01562, 1.9685],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.01171875,
+        "hudX": 58,
+        "hudY": 29,
+        "hudScale": 0.25,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [0.34375, 0.890625, 1.9685],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.01171875,
+        "hudX": 138,
+        "hudY": 66,
+        "hudScale": 0.25,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [0.46875, 0.890625, 1.9685],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.01171875,
+        "hudX": 98,
+        "hudY": 66,
+        "hudScale": 0.25,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [0.59375, 0.890625, 1.9685],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.01171875,
+        "hudX": 58,
+        "hudY": 66,
+        "hudScale": 0.25,
+        "optionalPartNumber": 0
+      },
+	  {
+        "pos": [0.34375, 0.765625, 1.9685],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.01171875,
+        "hudX": 138,
+        "hudY": 103,
+        "hudScale": 0.25,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [0.59375, 0.765625, 1.9685],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.01171875,
+        "hudX": 58,
+        "hudY": 103,
+        "hudScale": 0.25,
+        "optionalPartNumber": 0
+      },
+	  //right side main gauges
+		{
+        "pos": [-0.34375, 1.01562, 1.9685],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.01171875,
+        "hudX": 262,
+        "hudY": 29,
+        "hudScale": 0.25,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [-0.46875, 1.01562, 1.9685],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.01171875,
+        "hudX": 302,
+        "hudY": 29,
+        "hudScale": 0.25,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [-0.59375, 1.01562, 1.9685],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.01171875,
+        "hudX": 342,
+        "hudY": 29,
+        "hudScale": 0.25,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [-0.34375, 0.890625, 1.9685],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.01171875,
+        "hudX": 262,
+        "hudY": 66,
+        "hudScale": 0.25,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [-0.46875, 0.890625, 1.9685],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.01171875,
+        "hudX": 302,
+        "hudY": 66,
+        "hudScale": 0.25,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [-0.59375, 0.890625, 1.9685],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.01171875,
+        "hudX": 342,
+        "hudY": 66,
+        "hudScale": 0.25,
+        "optionalPartNumber": 0
+      },
+	  //left side secondary gauges
+	  {
+        "pos": [0.703125, 0.984375, 1.9685],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.0078125,
+        "hudX": 25,
+        "hudY": 36,
+        "hudScale": 0.1875,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [0.703125, 0.875, 1.9685],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.0078125,
+        "hudX": 25,
+        "hudY": 70,
+        "hudScale": 0.1875,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [0.703125, 0.765625, 1.9685],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.0078125,
+        "hudX": 25,
+        "hudY": 104,
+        "hudScale": 0.1875,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [0.234375, 0.984375, 1.9685],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.0078125,
+        "hudX": 172,
+        "hudY": 36,
+        "hudScale": 0.1875,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [0.234375, 0.875, 1.9685],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.0078125,
+        "hudX": 172,
+        "hudY": 70,
+        "hudScale": 0.1875,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [0.234375, 0.765625, 1.9685],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.0078125,
+        "hudX": 172,
+        "hudY": 104,
+        "hudScale": 0.1875,
+        "optionalPartNumber": 0
+      },
+	  //compass
+	  {
+        "pos": [-0.046875, 0.90625, 1.9685],
+        "rot": [0.0, 0.0, 0.0],
+        "scale": 0.01953125,
+        "hudX": 250,
+        "hudY": 70,
+        "hudScale": 0.75,
+        "optionalPartNumber": 1
+      }
+    ],
+		"controls" : []
+  },
+
+  "plane" : {
+    "hasFlaps" : true,
+	"hasAutopilot" : true,
+    "wingSpan" : 11.77,
+    "wingArea" : 17.5,
+    "tailDistance" : 5.3125,
+    "rudderArea" : 1.1,
+    "elevatorArea" : 2.0,
+	"aileronArea" : 2.25
+  },
+	
+	"parts": [
+    {
+      "pos" : [0, -0.46875, 3.15625],
+      "types" : ["wheel"],
+			"minValue" : 0.3,
+			"maxValue" : 0.3125,
+			"turnsWithSteer" : true
+    },
+    {
+      "pos" : [-1.3125, -0.46875, 0],
+      "types" : ["wheel"],
+	  /*
+	  "rotationVariable" : "gear_actual",
+			"rotationPosition" : [1, 0.4375, 0],
+			"rotationAngles" : [180, 90, -13.5],
+			*/
+			"minValue" : 0.3,
+			"maxValue" : 0.3125
+    },
+    {
+      "pos" : [1.3125, -0.46875, 0],
+      "types" : ["wheel"],
+	  /*
+			"rotationVariable" : "gear_actual",
+			"rotationPosition" : [-1, 0.4375, 0],
+			"rotationAngles" : [180, -90, 13.5],
+			*/
+			"minValue" : 0.3,
+			"maxValue" : 0.3125
+    },
+    {
+      "pos" : [0, 0.78125, 2.9375],
+      "types" : ["engine_aircraft_opposed"],
+	   "exhaustPos" : [
+	   -0.84375, 0.71875, 2.90625, 
+	   -0.890625, 0.71875, 2.59375, 
+	   -0.90625, 0.71875, 2.28125,
+	   0.84375, 0.71875, 2.90625, 
+	   0.890625, 0.71875, 2.59375, 
+	   0.90625, 0.71875, 2.28125
+	   ],
+	   "exhaustVelocity" : [
+	   -0.3333, -0.3333, -1.3333,
+	   -0.3333, -0.3333, -1.3333,
+	   -0.3333, -0.3333, -1.3333,
+	   0.3333, -0.3333, -1.3333,
+	   0.3333, -0.3333, -1.3333,
+	   0.3333, -0.3333, -1.3333
+	   ],
+			"minValue" : 0.0,
+			"maxValue" : 0.6
+    },
+    {
+      "pos" : [-0.3125, 0.4375, 1],
+      "types" : ["seat"],
+	  "customTypes" : ["civil"],
+			"isController" : true,
+			"dismountPos" : [-2.0, 0, -2.0]
+    },
+		{
+      "pos" : [0.3125, 0.4375, 1],
+      "types" : ["seat"],
+	  "customTypes" : ["civil"],
+			"isController" : true,
+			"dismountPos" : [2.0, 0, -2.0]
+    },
+	 {
+      "pos" : [-0.3125, 0.4375, -0.1875],
+      "types" : ["seat"],
+	  "customTypes" : ["civil"],
+			"dismountPos" : [-2.0, 0, -2.0]
+    },
+	{
+      "pos" : [0.3125, 0.4375, -0.1875],
+      "types" : ["seat"],
+	  "customTypes" : ["civil"],
+			"dismountPos" : [2.0, 0, -2.0]
+    }
+  ],
+
+  "collision": [
+    //nose
+    {
+      "pos" : [0, 0.575, 2.5],
+      "width" : 1.25,
+      "height" : 1
+    },
+	//tail fuselage
+	{
+      "pos" : [0, 0.75, -1.6875],
+      "width" : 1.125,
+      "height" : 1.125
+    },
+    {
+      "pos" : [0, 0.75, -2.75],
+      "width" : 1,
+      "height" : 1
+    },
+	{
+      "pos" : [0, 0.825, -3.625],
+      "width" : 0.75,
+      "height" : 0.75
+    },
+	{
+      "pos" : [0, 0.825, -4.25],
+      "width" : 0.5,
+      "height" : 0.5
+    },
+	//ruddervators
+    {
+      "pos" : [-0.5, 1, -4.625],
+      "width" : 0.75,
+      "height" : 0.75
+    },
+    {
+      "pos" : [0.5, 1, -4.625],
+      "width" : 0.75,
+      "height" : 0.75
+    },
+	{
+      "pos" : [-1.25, 1.75, -4.875],
+      "width" : 0.75,
+      "height" : 0.75
+    },
+    {
+      "pos" : [1.25, 1.75, -4.875],
+      "width" : 0.75,
+      "height" : 0.75
+    },
+	//floor
+	{
+      "pos" : [0, 0, 1.0],
+      "width" : 1.5,
+      "height" : 0.125
+    },
+	{
+      "pos" : [0, 0, -0.375],
+      "width" : 1.25,
+      "height" : 0.125
+    },
+	//wings
+    {
+      "pos" : [0, 1.75, 0.25],
+      "width" : 1.25,
+      "height" : 0.125
+    },
+    {
+      "pos" : [-1.25, 1.75, 0.25],
+      "width" : 1.25,
+      "height" : 0.125
+    },
+    {
+      "pos" : [1.25, 1.75, 0.25],
+      "width" : 1.25,
+      "height" : 0.125
+    },
+    {
+      "pos" : [-2.5, 1.8125, 0.25],
+      "width" : 1.25,
+      "height" : 0.125
+    },
+    {
+      "pos" : [2.5, 1.8125, 0.25],
+      "width" : 1.25,
+      "height" : 0.125
+    },
+    {
+      "pos" : [-3.75, 1.875, 0.25],
+      "width" : 1.25,
+      "height" : 0.125
+    },
+    {
+      "pos" : [3.75, 1.875, 0.25],
+      "width" : 1.25,
+      "height" : 0.125
+    },
+	{
+      "pos" : [-5, 1.9375, 0.25],
+      "width" : 1.25,
+      "height" : 0.125
+    },
+    {
+      "pos" : [5, 1.9375, 0.25],
+      "width" : 1.25,
+      "height" : 0.125
+    }
+  ],
+
+  "rendering": {
+		"defaultDisplayText" : "N4R1AQ",
+		"displayTextMaxLength" : 6,
+		"hudBackplaneTexturePercentages" : [0.0, 6.0, 0.0, 0.5],
+		"hudMouldingTexturePercentages" : [0.0, 8.0, 0.5, 1.0],
+		"textMarkings" : [
+		{
+				"pos" : [0.63, 0.95, -1.5],
+				"rot" : [0, 99.25, 0],
+				"scale" : 1,
+				"color" : "#444444"
+			},
+			{
+				"pos" : [-0.63, 0.95, -1.5],
+				"rot" : [0, -99.25, 0],
+				"scale" : 1,
+				"color" : "#444444"
+			}
+			],
+		"rotatableModelObjects" : [
+		/*
+			{
+                "partName" : "$LeftGearStrut",
+                "rotationPoint" : [9, -0.03125, 0],
+                "rotationAxis" : [180, 0, 0],
+                "rotationVariable" : "gear_actual"
+            },
+			{
+                "partName" : "$LeftGearStrut",
+                "rotationPoint" : [0.3125, 0, 0],
+                "rotationAxis" : [0, -90, 0],
+                "rotationVariable" : "gear_actual"
+            },
+            {
+                "partName" : "$LeftGearStrut",
+                "rotationPoint" : [0.3125, -0.03125, 0],
+                "rotationAxis" : [0, 0, 13.5],
+                "rotationVariable" : "gear_actual"
+            },
+			{
+                "partName" : "$RightGearStrut",
+                "rotationPoint" : [0, -0.03125, 0],
+                "rotationAxis" : [180, 0, 0],
+                "rotationVariable" : "gear_actual"
+            },
+			{
+                "partName" : "$RightGearStrut",
+                "rotationPoint" : [-0.3125, 0, 0],
+                "rotationAxis" : [0, 90, 0],
+                "rotationVariable" : "gear_actual"
+			},
+            {
+                "partName" : "$RightGearStrut",
+                "rotationPoint" : [-0.3125, -0.03125, 0],
+                "rotationAxis" : [0, 0, -13.5],
+                "rotationVariable" : "gear_actual"
+            },
+			*/
+			{
+				"partName" : "$Aileron_L",
+				"rotationPoint" : [4.93364, 1.87112, -0.025],
+				"rotationAxis" : [-0.99939, -0.034899, 0],
+				"rotationVariable" : "aileron"
+			},
+			{
+				"partName" : "$Aileron_R",
+				"rotationPoint" : [-4.93364, 1.87112, -0.025],
+				"rotationAxis" : [0.99939, -0.034899, 0],
+				"rotationVariable" : "aileron"
+			},
+			{
+				"partName" : "%$Flap_L",
+				"rotationPoint" : [2.37401, 1.74421, -0.125],
+				"rotationAxis" : [-0.99939, -0.034899, 0],
+				"rotationVariable" : "flaps_actual"
+			},
+			{
+				"partName" : "%$Flap_R",
+				"rotationPoint" : [-2.37401, 1.74421, -0.125],
+				"rotationAxis" : [-0.99939, 0.034899, 0],
+				"rotationVariable" : "flaps_actual"
+			},
+			{
+				"partName" : "$Ruddervator_L",
+				"rotationPoint" : [0.261374, 0.993071, -4.5],
+				"rotationAxis" : [0.707, 0.707, 0],
+				"rotationVariable" : "elevator",
+				"rotationClampMin": -25.0,
+				"rotationClampMax": 25.0
+			},
+			{
+				"partName" : "$Ruddervator_R",
+				"rotationPoint" : [-0.261374, 0.993071, -4.5],
+				"rotationAxis" : [0.707, -0.707, 0],
+				"rotationVariable" : "elevator",
+				"rotationClampMin": -25.0,
+				"rotationClampMax": 25.0
+			},
+			{
+				"partName" : "$Ruddervator_L",
+				"rotationPoint" : [0.261374, 0.993071, -4.5],
+				"rotationAxis" : [0.393, 0.393, 0],
+				"rotationVariable" : "rudder",
+				"rotationClampMin": -25.0,
+				"rotationClampMax": 25.0
+			},
+			{
+				"partName" : "$Ruddervator_R",
+				"rotationPoint" : [-0.261374, 0.993071, -4.5],
+				"rotationAxis" : [-0.393, 0.393, 0],
+				"rotationVariable" : "rudder",
+				"rotationClampMin": -25.0,
+				"rotationClampMax": 25.0
+			},
+			{
+				"partName" : "$Door_Left",
+				"rotationPoint" : [0.875, 0, 1.75],
+				"rotationAxis" : [0, -60, 0],
+				"rotationVariable" : "door"
+			},
+			{
+				"partName" : "$Door_Window_Left",
+				"rotationPoint" : [0.875, 0, 1.75],
+				"rotationAxis" : [0, -60, 0],
+				"rotationVariable" : "door"
+			},
+			{
+				"partName" : "$Door_Right",
+				"rotationPoint" : [-0.875, 0, 1.75],
+				"rotationAxis" : [0, 60, 0],
+				"rotationVariable" : "door"
+			},
+			{
+				"partName" : "$Door_Window_Right",
+				"rotationPoint" : [-0.875, 0, 1.75],
+				"rotationAxis" : [0, 60, 0],
+				"rotationVariable" : "door"
+			},
+			{
+				"partName" : "$MagnetoSwitches",
+				"rotationPoint" : [0, 0.703125, 2],
+				"rotationAxis" : [30, 0, 0],
+				"rotationVariable" : "engine_magneto_1"
+			},
+			{
+				"partName" : "$%Yoke_Left",
+				"rotationPoint" : [0.46875, 0.734375, 0],
+				"rotationAxis" : [0, 0, 7.2],
+				"rotationVariable" : "aileron"
+			},
+			{
+				"partName" : "$%Yoke_Right",
+				"rotationPoint" : [-0.46875, 0.734375, 0],
+				"rotationAxis" : [0, 0, 7.2],
+				"rotationVariable" : "aileron"
+			},
+			{
+				"partName" : "$LeftRudderPedals",
+				"rotationPoint" : [0, 0.0625, 2.04688],
+				"rotationAxis" : [0.333, 0, 0],
+				"rotationVariable" : "rudder"
+			},
+			{
+				"partName" : "$RightRudderPedals",
+				"rotationPoint" : [0, 0.0625, 2.04688],
+				"rotationAxis" : [-0.333, 0, 0],
+				"rotationVariable" : "rudder"
+			},
+			{
+				"partName" : "$NoseGearYoke",
+				"rotationPoint" : [0, 0, 3.15625],
+				"rotationAxis" : [0, -1, 0],
+				"rotationVariable" : "rudder"
+			}
+		],
+		"translatableModelObjects" : [
+			{
+				"partName" : "%ThrottleKnob",
+				"translationAxis" : [0, 0, 0.09375],
+				"translationVariable" : "throttle"
+			},
+			{
+				"partName" : "%MixtureKnob",
+				"translationAxis" : [0, 0, 0.15625],
+				"translationVariable" : "engine_fuel_flow_1",
+				"translationClampMax" : 0.09375
+			},
+			{
+				"partName" : "%PropPitchKnob",
+				"translationAxis" : [0, 0, 0.09375],
+				"translationVariable" : "propeller_pitch_percent_1",
+				"translationClampMin" : -0.03125
+			},
+			{
+				"partName" : "%StarterButton",
+				"translationAxis" : [0, 0, 0.0078125],
+				"translationVariable" : "engine_starter_1"
+			},
+			{
+				"partName" : "%FlapsTab",
+				"translationAxis" : [0, -0.00267857143, 0],
+				"translationVariable" : "flaps_setpoint"
+			},
+			{
+				"partName" : "$%Yoke_Left",
+				"translationAxis" : [0, 0, -0.003],
+				"translationVariable" : "elevator"
+			},
+			{
+				"partName" : "$%Yoke_Right",
+				"translationAxis" : [0, 0, -0.003],
+				"translationVariable" : "elevator"
+			}
+		]
+  }
+}
