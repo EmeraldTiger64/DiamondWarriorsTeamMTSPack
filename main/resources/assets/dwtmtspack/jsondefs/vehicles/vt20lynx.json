@@ -1,31 +1,33 @@
 {
   "definitions" : [
 		{
-		"name" : "§bVoltere §fVT-20 §7Leone (§fFactory Primer§7)",
+		"name" : "§bVoltere §fVT-20 §7Lynx (§fFactory Primer§7)",
 		"subName" : "",
     	"extraMaterials" : [ "minecraft:dye:0:3","minecraft:dye:15:20"]
 		},
 		{
-		"name" : "§bVoltere §fVT-20 §7Leone (§bVoltere §fColors§7)",
+		"name" : "§bVoltere §fVT-20 §7Lynx (§bVoltere §fColors§7)",
 		"subName" : "_voltere",
-    	"extraMaterials" : ["minecraft:dye:15:4", "minecraft:dye:14:3", "minecraft:dye:12:20", "minecraft:dye:4:8", "minecraft:dye:6:3"]
+    	"extraMaterials" : ["minecraft:dye:15:4", "minecraft:dye:14:3", "minecraft:dye:12:20", "minecraft:dye:4:8"]
 		},
 		{
-		"name" : "§bVoltere §fVT-20 §7Leone (§2Cam§aou§2fla§age§7)",
+		"name" : "§bVoltere §fVT-20 §7Lynx (§2Cam§aou§2fla§age§7)",
 		"subName" : "_camo",
     	"extraMaterials" : [ "minecraft:dye:2:25", "minecraft:dye:0:10", "minecraft:dye:10:10"]
 		},
 	],
 
   "general": {
-	"description" : "The VT-20 Leone is a high-wing cantilever monoplane notable for its carbon-fiber composite panels and V-tail design. Large wings and a high power-to-weight ratio make it easy to fly. It carries a large payload of fuel for long-range flights, and its unique 6-muffler sound dampening system makes it quieter than most in its class as well as giving it a unique fighter-like aesthetic.",
+	"description" : "The VT-20 Lynx is a high-wing cantilever monoplane notable for its carbon-fiber composite panels and V-tail design. Large wings and a high power-to-weight ratio make it easy to fly. It carries a large payload of fuel for long-range flights, and its unique 6-muffler sound dampening system makes it quieter than most in its class as well as giving it a unique fighter-like aesthetic.",
     "type" : "plane",
+		"isAircraft" : true,
 		"openTop" : false,
 		"emptyMass" : 775,
-		"materials" : [ "minecraft:leather:0:10", "minecraft:iron_bars:0:30", "dwtmtspack:carbonfiberpanel:0:10", "dwtmtspack:motor:0:3", "dwtmtspack:basicsmallaircraftcomponents:0:1", "dwtmtspack:beacon:0:1"]
+		"materials" : [ "minecraft:leather:0:10", "minecraft:iron_bars:0:30", "dwtmtspack:carbonfiberpanel:0:10", "dwtmtspack:motor:0:3", "dwtmtspack:lamp:0:4", "dwtmtspack:flightcomputer:0:2", "dwtmtspack:positionlights:0:1", "dwtmtspack:controlsurfacecable:0:1", "minecraft:glass_pane:0:6", "dwtmtspack:beacon:0:1"]
   },
 
 	"motorized" : {
+	//"gearSequenceDuration" : 120,
     "fuelCapacity" : 12000,
     "instruments" : [
 	//left side main gauges
@@ -247,18 +249,28 @@
     {
       "pos" : [-1.3125, -0.46875, 0],
       "types" : ["wheel"],
+	  /*
+	  "rotationVariable" : "gear_actual",
+			"rotationPosition" : [1, 0.4375, 0],
+			"rotationAngles" : [180, 90, -13.5],
+			*/
 			"minValue" : 0.3,
 			"maxValue" : 0.3125
     },
     {
       "pos" : [1.3125, -0.46875, 0],
       "types" : ["wheel"],
+	  /*
+			"rotationVariable" : "gear_actual",
+			"rotationPosition" : [-1, 0.4375, 0],
+			"rotationAngles" : [180, -90, 13.5],
+			*/
 			"minValue" : 0.3,
 			"maxValue" : 0.3125
     },
     {
       "pos" : [0, 0.78125, 2.9375],
-      "types" : ["engine_aircraft"],
+      "types" : ["engine_aircraft_opposed"],
 	   "exhaustPos" : [
 	   -0.84375, 0.71875, 2.90625, 
 	   -0.890625, 0.71875, 2.59375, 
@@ -275,7 +287,6 @@
 	   0.3333, -0.3333, -1.3333,
 	   0.3333, -0.3333, -1.3333
 	   ],
-	   "customTypes" : ["opposed"],
 			"minValue" : 0.0,
 			"maxValue" : 0.6
     },
@@ -416,55 +427,61 @@
   ],
 
   "rendering": {
-		"defaultDisplayText" : "",
-		"displayTextMaxLength" : 7,
+		"defaultDisplayText" : "N4R1AQ",
+		"displayTextMaxLength" : 6,
 		"hudBackplaneTexturePercentages" : [0.0, 6.0, 0.0, 0.5],
 		"hudMouldingTexturePercentages" : [0.0, 8.0, 0.5, 1.0],
-		"textMarkings" : [],
+		"textMarkings" : [
+		{
+				"pos" : [0.63, 0.95, -1.5],
+				"rot" : [0, 99.25, 0],
+				"scale" : 1,
+				"color" : "#444444"
+			},
+			{
+				"pos" : [-0.63, 0.95, -1.5],
+				"rot" : [0, -99.25, 0],
+				"scale" : 1,
+				"color" : "#444444"
+			}
+			],
 		"rotatableModelObjects" : [
-		//rear landing gear struts, for when retractable gear is added
 		/*
 			{
                 "partName" : "$LeftGearStrut",
-                "rotationPoint" : [0.3125, -0.03125, 0],
-                "rotationAxis" : [3, 0, 0],
-                "rotationVariable" : "p_brake",
-				"rotationFactor" : 60
+                "rotationPoint" : [9, -0.03125, 0],
+                "rotationAxis" : [180, 0, 0],
+                "rotationVariable" : "gear_actual"
+            },
+			{
+                "partName" : "$LeftGearStrut",
+                "rotationPoint" : [0.3125, 0, 0],
+                "rotationAxis" : [0, -90, 0],
+                "rotationVariable" : "gear_actual"
             },
             {
                 "partName" : "$LeftGearStrut",
                 "rotationPoint" : [0.3125, -0.03125, 0],
-                "rotationAxis" : [0, -1.5, 0],
-                "rotationVariable" : "p_brake",
-				"rotationFactor" : 60
+                "rotationAxis" : [0, 0, 13.5],
+                "rotationVariable" : "gear_actual"
             },
-            {
-                "partName" : "$LeftGearStrut",
-                "rotationPoint" : [0.3125, -0.03125, 0],
-                "rotationAxis" : [0, 0, 0.225],
-                "rotationVariable" : "p_brake",
-				"rotationFactor" : 60
-            },
-					{
+			{
                 "partName" : "$RightGearStrut",
-                "rotationPoint" : [-0.3125, -0.03125, 0],
-                "rotationAxis" : [3, 0, 0],
-                "rotationVariable" : "p_brake",
-				"rotationFactor" : 60
+                "rotationPoint" : [0, -0.03125, 0],
+                "rotationAxis" : [180, 0, 0],
+                "rotationVariable" : "gear_actual"
             },
+			{
+                "partName" : "$RightGearStrut",
+                "rotationPoint" : [-0.3125, 0, 0],
+                "rotationAxis" : [0, 90, 0],
+                "rotationVariable" : "gear_actual"
+			},
             {
                 "partName" : "$RightGearStrut",
                 "rotationPoint" : [-0.3125, -0.03125, 0],
-                "rotationAxis" : [0, 1.5, 0],
-                "rotationVariable" : "p_brake",
-				"rotationFactor" : 60
-            },
-            {
-                "partName" : "$RightGearStrut",
-                "rotationPoint" : [-0.3125, -0.03125, 0],
-                "rotationAxis" : [0, 0, -0.225],
-                "rotationVariable" : "p_brake",
-				"rotationFactor" : 60
+                "rotationAxis" : [0, 0, -13.5],
+                "rotationVariable" : "gear_actual"
             },
 			*/
 			{

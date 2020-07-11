@@ -20,6 +20,7 @@
   "general": {
 	"description" : "The VTA-1 Sparrow is a high-performance aerobatic aircraft, capable of Unlimited-class competition. Weighing a feather-light 1150 pounds due to its entirely-carbon fiber construction, its long-span wings increase aileron area as well as helping it stand out from its counterparts from other manufacturers.",
     "type" : "plane",
+		"isAircraft" : true,
 		"openTop" : false,
 		"emptyMass" : 500,
 		"materials" : ["dwtmtspack:carbonfiberspar:0:15", "dwtmtspack:carbonfiberpanel:0:10", "dwtmtspack:controlsurfacecable:0:1"]
@@ -192,7 +193,7 @@
     },
     {
       "pos" : [0, 0.515625, 1.40625],
-      "types" : ["engine_aircraft"],
+      "types" : ["engine_aircraft_opposed"],
 	   "exhaustPos" : [
 	   -0.4375, -0.125, 1.1875, 
 	   0.4375, -0.125, 1.1875
@@ -201,7 +202,6 @@
 	   -0, -1.6, -0.4,
 	   -0, -1.6, -0.4
 	   ],
-	   	   "customTypes" : ["opposed"],
 			"minValue" : 0.0,
 			"maxValue" : 0.75
 
@@ -298,9 +298,22 @@
   ],
 
   "rendering": {
-		"defaultDisplayText" : "",
-		"displayTextMaxLength" : 7,
-		"textMarkings" : [],
+		"defaultDisplayText" : "N2X7CS",
+		"displayTextMaxLength" : 6,
+		"textMarkings" : [
+			{
+				"pos" : [0.42, 0.7, -2.5],
+				"rot" : [0, 99.65, 0],
+				"scale" : 0.45,
+				"color" : "#DDDDDD"
+			},
+			{
+				"pos" : [-0.42, 0.7, -2.5],
+				"rot" : [0, -99.65, 0],
+				"scale" : 0.45,
+				"color" : "#DDDDDD"
+			}
+			],
 		"rotatableModelObjects" : [
 			{
 				"partName" : "$Aileron_L",
