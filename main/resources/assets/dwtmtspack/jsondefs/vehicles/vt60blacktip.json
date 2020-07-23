@@ -18,17 +18,22 @@
 		{
 		"name" : "§bVoltere §fVT-60 §9Blacktip §7(§cRed §7w/ §7Light Gray §fUnderside§7)",
 		"subName" : "_colorunderside2_red",
-    	"extraMaterials" : ["minecraft:dye:1:10", "minecraft:dye:8:10", "minecraft:dye:15:15"]
+    	"extraMaterials" : ["minecraft:dye:1:10", "minecraft:dye:7:10", "minecraft:dye:15:15"]
+		},
+		{
+		"name" : "§bVoltere §fVT-60 §9Blacktip §7(§8Dark Gray §7w/ §2Green §fNose§7)",
+		"subName" : "_colornose1_green",
+    	"extraMaterials" : ["minecraft:dye:8:15", "minecraft:dye:2:10", "minecraft:dye:7:10"]
 		},
 		{
 		"name" : "§bVoltere §fVT-60 §9Blacktip §7(§fWhite §7w/ §3Cyan §fNose§7)",
 		"subName" : "_colornose2_cyan",
-    	"extraMaterials" : ["minecraft:dye:15:25","minecraft:dye:6:10"]
+    	"extraMaterials" : ["minecraft:dye:15:25", "minecraft:dye:6:10"]
 		}
 	],
 
   "general": {
-	"description" : "Created to compete directly with the Swiss-built Pilatus PC-12, the VT-60 Blacktip is a truly versatile aircraft. Capable of carrying large payloads over long distances and landing on dirt runways, it's good for almost any job from luxury business craft to flying ambulance. \n §cTO GET INSIDE THE CABIN: §7Walk up to the front left side where the small door is or rear left side where the large door is, and jump towards the opening while sneaking and moving forward. It may take a few tries, so reposition yourself if it doesn't work. You'll need to stay sneaking while you walk around the cabin, otherwise you're too tall and will get stuck. \n §7(Some exceptions apply when using a small custom player model.)",
+	"description" : "Created to compete directly with the likes of the Pilatus PC-12 and Daher TBM 940, the VT-60 Blacktip is a truly versatile aircraft. Capable of carrying large payloads over long distances and landing on dirt runways, it's good for almost any job from luxury business craft to flying ambulance. This one is configured as the former. \n §cTO GET INSIDE THE CABIN: Walk up to the front left side where the small door is or rear left side where the large door is, and jump towards the opening while sneaking and moving forward. It may take a few tries, so reposition yourself if it doesn't work. You'll need to stay sneaking while you walk around the cabin, otherwise you're too tall and will get stuck. \n §7(Some exceptions apply when using a small custom player model.)",
     "type" : "plane",
 	"isAircraft" : true,
 		"openTop" : false,
