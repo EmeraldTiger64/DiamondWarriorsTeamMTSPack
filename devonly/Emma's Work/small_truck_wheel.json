@@ -1,0 +1,20 @@
+{
+	"general": {
+	"name" : "DKZ Small Truck Wheel",
+		"type" : "wheel",
+		"customType" : "budd",
+		"materials" : ["minecraft:iron_ingot:0:2", "minecraft:leather:0:3"]
+	},
+	
+	"wheel" : {
+		"canBeFlat" : true,
+		"canFloat" : false,
+		"rotatesOnShaft" : true,
+		"isLongPart" : false,
+		"diameter" : 0.875,
+		"thickness" : 0.1875,
+		"motiveFriction" : 0.5,
+		"lateralFriction" : 0.5,
+		"flatDiameter" : 0.5
+	}
+}
