@@ -1,0 +1,19 @@
+{
+	"general": {
+	"name" : "Pelican Wheel",
+		"type" : "wheel",
+		"materials" : ["minecraft:iron_ingot:0:6", "minecraft:leather:0:10"]
+	},
+	
+	"wheel" : {
+		"canBeFlat" : true,
+		"canFloat" : false,
+		"rotatesOnShaft" : true,
+		"isLongPart" : false,
+		"diameter" : 1.75,
+		"thickness" : 0.640625,
+		"motiveFriction" : 1.5,
+		"lateralFriction" : 0.75,
+		"flatDiameter" : 1.0
+	}
+}
