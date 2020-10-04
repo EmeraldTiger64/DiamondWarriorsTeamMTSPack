@@ -84599,10 +84599,6 @@ vt 0.9375 0.76953125
 f 36953/36953 36954/36954 36955/36955 36956/36956
 
 # Group Name
-g markers
-usemtl fmt_material
-
-# Group Name
 g $rightwindow
 usemtl fmt_material
 
