@@ -1,0 +1,923 @@
+{
+  "genericName": "fortier",
+  "definitions": [
+    {
+      "subName": "_emma",
+      "name": "DKZ Model 850 Fortier Tow Truck",
+      "extraMaterials": [
+        "minecraft:dye:0:3"
+      ]
+    }
+  ],
+  "motorized": {
+    "fuelCapacity": 45000,
+    "defaultFuelQty": 0,
+    "hornSound": "dkzcivilianpack:horn_car",
+    "hookupPos": [
+      0.0,
+      0.03125,
+      5.15625
+    ],
+    "hookupType": "Tow",
+    "isTrailer": false,
+	"instruments": [
+      {
+        "pos": [
+          0.72,
+          1.09375,
+          3.06
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": 0.02,
+        "hudX": 135,
+        "hudY": 37,
+        "hudScale": 0.425,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [
+          0.5625,
+          1.125,
+          3.06
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": 0.015625,
+        "hudX": 200,
+        "hudY": 37,
+        "hudScale": 0.425,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [
+          0.4,
+          1.09375,
+          3.06
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": 0.02,
+        "hudX": 265,
+        "hudY": 37,
+        "hudScale": 0.425,
+        "optionalPartNumber": 0
+      }
+    ]
+  },
+  "car": {
+    "isBigTruck": false,
+    "isFrontWheelDrive": false,
+    "isRearWheelDrive": true,
+    "axleRatio": 3.55,
+    "dragCoefficient": 0.6
+  },
+  "parts": [
+    {
+      "pos": [
+        -0.875,
+        0.0,
+        0.0
+      ],
+      "turnsWithSteer": false,
+      "isController": false,
+      "inverseMirroring": false,
+      "types": ["ground_wheel"],
+	  "customTypes": ["budd"],
+	  "additionalParts": [
+		{
+			"pos": [-0.25,0,0],
+			"rot": [0,0,0],
+			"inverseMirroring": true,
+			"types": ["ground_wheel"],
+			"customTypes": ["budd"],
+			"minValue": 0.8,
+			"maxValue": 0.875,
+			"intakeOffset": 0.0
+		}
+		],
+      "minValue": 0.8,
+      "maxValue": 0.875,
+      "intakeOffset": 0.0
+    },
+    {
+      "pos": [
+        1.125,
+        0.0,
+        0.0
+      ],
+      "turnsWithSteer": false,
+      "isController": false,
+      "inverseMirroring": false,
+      "types": [
+        "wheel"
+      ],
+      "minValue": 0.8,
+      "maxValue": 0.875,
+      "intakeOffset": 0.0
+    },
+    {
+      "pos": [
+        -1.125,
+        0.0,
+        4.125
+      ],
+      "turnsWithSteer": true,
+      "isController": false,
+      "inverseMirroring": false,
+      "types": [
+        "wheel"
+      ],
+      "minValue": 0.8,
+      "maxValue": 0.875,
+      "intakeOffset": 0.0
+    },
+    {
+      "pos": [
+        1.125,
+        0.0,
+        4.125
+      ],
+      "turnsWithSteer": true,
+      "isController": false,
+      "inverseMirroring": false,
+      "types": [
+        "wheel"
+      ],
+      "minValue": 0.8,
+      "maxValue": 0.875,
+      "intakeOffset": 0.0
+    },
+    {
+      "pos": [
+        0.5625,
+        0.625,
+        2.4375
+      ],
+      "turnsWithSteer": false,
+      "isController": true,
+      "inverseMirroring": false,
+      "types": [
+        "seat"
+      ],
+      "minValue": 0.0,
+      "maxValue": 0.0,
+      "dismountPos": [
+        3.5,
+        0.625,
+        2.5
+      ],
+      "intakeOffset": 0.0
+    },
+    {
+      "pos": [
+        -0.5625,
+        0.625,
+        2.4375
+      ],
+      "turnsWithSteer": false,
+      "isController": false,
+      "inverseMirroring": false,
+      "types": [
+        "seat"
+      ],
+      "minValue": 0.0,
+      "maxValue": 0.0,
+      "dismountPos": [
+        -3.5,
+        0.625,
+        2.5
+      ],
+      "intakeOffset": 0.0,
+      "additionalPart": {
+        "pos": [
+          -0.5625,
+          0.6875,
+          2.5
+        ],
+        "rot": [
+          0.0,
+          90.0,
+          0.0
+        ],
+        "turnsWithSteer": false,
+        "isController": false,
+        "inverseMirroring": false,
+        "types": [
+          "crate"
+        ],
+        "customTypes": [
+          "luggage"
+        ],
+        "minValue": 0.0,
+        "maxValue": 2.0,
+        "intakeOffset": 0.0
+      }
+    },
+    {
+      "pos": [
+        0.0,
+        0.28125,
+        3.5625
+      ],
+      "turnsWithSteer": false,
+      "isController": false,
+      "inverseMirroring": false,
+      "types": [
+        "engine_car"
+      ],
+      "minValue": 0.4,
+      "maxValue": 1.0,
+      "exhaustPos": [
+        0.6875,
+        -0.03125,
+        -1.4375
+      ],
+      "exhaustVelocity": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "intakeOffset": 0.0
+    }
+  ],
+  "collision": [
+    {
+      "pos": [
+        0.0,
+        0.34375,
+        -0.625
+      ],
+      "width": 1.875,
+      "height": 0.0625,
+      "isInterior": true,
+      "collidesWithLiquids": false
+    },
+    {
+      "pos": [
+        0.0,
+        0.34375,
+        0.875
+      ],
+      "width": 1.875,
+      "height": 0.0625,
+      "isInterior": true,
+      "collidesWithLiquids": false
+    },
+    {
+      "pos": [
+        -0.46875,
+        1.96875,
+        2.34125
+      ],
+      "width": 0.9375,
+      "height": 0.0625,
+      "isInterior": false,
+      "collidesWithLiquids": false
+    },
+    {
+      "pos": [
+        0.46875,
+        1.96875,
+        2.34125
+      ],
+      "width": 0.9375,
+      "height": 0.0625,
+      "isInterior": false,
+      "collidesWithLiquids": false
+    },
+    {
+      "pos": [
+        0.0,
+        1.1875,
+        4.0
+      ],
+      "width": 1.5,
+      "height": 0.0625,
+      "isInterior": false,
+      "collidesWithLiquids": false
+    },
+    {
+      "pos": [
+        -1.125,
+        0.75,
+        0.0
+      ],
+      "width": 0.125,
+      "height": 0.125,
+      "isInterior": false,
+      "collidesWithLiquids": false
+    },
+    {
+      "pos": [
+        1.125,
+        0.75,
+        0.0
+      ],
+      "width": 0.125,
+      "height": 0.125,
+      "isInterior": false,
+      "collidesWithLiquids": false
+    },
+    {
+      "pos": [
+        -1.125,
+        0.75,
+        4.125
+      ],
+      "width": 0.125,
+      "height": 0.125,
+      "isInterior": false,
+      "collidesWithLiquids": false
+    },
+    {
+      "pos": [
+        1.125,
+        0.75,
+        4.125
+      ],
+      "width": 0.125,
+      "height": 0.125,
+      "isInterior": false,
+      "collidesWithLiquids": false
+    }
+  ],
+  "rendering": {
+    "textObjects": [
+      {
+        "pos": [
+          0.0,
+          0.15625,
+          5.16
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": 0.1428,
+        "fieldName": "Text",
+        "defaultText": "DKZ-850",
+        "maxLength": 7,
+        "wrapWidth": 0,
+        "color": "#000000",
+        "lightsUp": false,
+        "renderPosition": 0,
+        "autoScale": false,
+        "colorInheritied": false
+      },
+      {
+        "pos": [
+          0.0,
+          0.1875,
+         -1.719
+        ],
+        "rot": [
+          0.0,
+          180.0,
+          0.0
+        ],
+        "scale": 0.1428,
+        "fieldName": "Text",
+        "defaultText": "DKZ-850",
+        "maxLength": 7,
+        "wrapWidth": 0,
+        "color": "#000000",
+        "lightsUp": false,
+        "renderPosition": 0,
+        "autoScale": false,
+        "colorInheritied": false
+      }
+    ],
+    "animatedObjects": [
+      {
+        "objectName": "$throttle",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "throttle",
+            "centerPoint": [
+              0.21875,
+              0.3125,
+              3.11472
+            ],
+            "axis": [
+              15.0,
+              0.0,
+              0.0
+            ],
+            "offset": 0.0,
+            "addPriorOffset": false,
+            "clampMin": 0.0,
+            "clampMax": 0.0,
+            "absolute": false,
+            "duration": 0,
+            "forwardsDelay": 0,
+            "reverseDelay": 0
+          }
+        ]
+      },
+      {
+        "objectName": "$parkingbrake",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "p_brake",
+            "centerPoint": [
+              0.4375,
+              0.58203125,
+              2.1875
+            ],
+            "axis": [
+              -15.0,
+              0.0,
+              0.0
+            ],
+            "offset": 0.0,
+            "addPriorOffset": false,
+            "clampMin": 0.0,
+            "clampMax": 0.0,
+            "absolute": false,
+            "duration": 0,
+            "forwardsDelay": 0,
+            "reverseDelay": 0
+          }
+        ]
+      },
+      {
+        "objectName": "$brake",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "brake",
+            "centerPoint": [
+              0.4375,
+              0.375,
+              3.19531
+            ],
+            "axis": [
+              13.0,
+              0.0,
+              0.0
+            ],
+            "offset": 0.0,
+            "addPriorOffset": false,
+            "clampMin": 0.0,
+            "clampMax": 0.0,
+            "absolute": false,
+            "duration": 0,
+            "forwardsDelay": 0,
+            "reverseDelay": 0
+          }
+        ]
+      },
+      {
+        "objectName": "$shifter",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_gearshift_1",
+            "centerPoint": [
+              0.0,
+              0.4375,
+              3.0625
+            ],
+            "axis": [
+              -0.5,
+              0.0,
+              0.0
+            ],
+            "offset": 0.0,
+            "addPriorOffset": false,
+            "clampMin": 0.0,
+            "clampMax": 0.0,
+            "absolute": false,
+            "duration": 0,
+            "forwardsDelay": 0,
+            "reverseDelay": 0
+          }
+        ]
+      },
+      {
+        "objectName": "$steeringwheel",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [
+              0.5625,
+              0.09375,
+              4.13281
+            ],
+            "axis": [
+              -0.0,
+              -0.60181,
+              0.79863
+            ],
+            "offset": 0.0,
+            "addPriorOffset": false,
+            "clampMin": 0.0,
+            "clampMax": 0.0,
+            "absolute": false,
+            "duration": 0,
+            "forwardsDelay": 0,
+            "reverseDelay": 0
+          }
+        ]
+      },
+      {
+        "objectName": "$rearaxle",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_driveshaft_rotation_1",
+            "centerPoint": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "offset": 0.0,
+            "addPriorOffset": false,
+            "clampMin": 0.0,
+            "clampMax": 0.0,
+            "absolute": false,
+            "duration": 0,
+            "forwardsDelay": 0,
+            "reverseDelay": 0
+          }
+        ]
+      },
+      {
+        "objectName": "$driveshaft",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_driveshaft_rotation_1",
+            "centerPoint": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "axis": [
+              0.0,
+              -0.05234,
+              -0.99863
+            ],
+            "offset": 0.0,
+            "addPriorOffset": false,
+            "clampMin": 0.0,
+            "clampMax": 0.0,
+            "absolute": false,
+            "duration": 0,
+            "forwardsDelay": 0,
+            "reverseDelay": 0
+          }
+        ]
+      },
+      {
+        "objectName": "$righthub",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [
+              -1.125,
+              0.1,
+              4.125
+            ],
+            "axis": [
+              -0.0,
+              -1.0,
+              -0.0
+            ],
+            "offset": 0.0,
+            "addPriorOffset": false,
+            "clampMin": 0.0,
+            "clampMax": 0.0,
+            "absolute": false,
+            "duration": 0,
+            "forwardsDelay": 0,
+            "reverseDelay": 0
+          },
+          {
+            "animationType": "rotation",
+            "variable": "engine_driveshaft_rotation_1",
+            "centerPoint": [
+              -1.125,
+              0.0,
+              4.125
+            ],
+            "axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "offset": 0.0,
+            "addPriorOffset": false,
+            "clampMin": 0.0,
+            "clampMax": 0.0,
+            "absolute": false,
+            "duration": 0,
+            "forwardsDelay": 0,
+            "reverseDelay": 0
+          }
+        ]
+      },
+      {
+        "objectName": "$lefthub",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [
+              1.125,
+              0.1,
+              4.125
+            ],
+            "axis": [
+              -0.0,
+              -1.0,
+              -0.0
+            ],
+            "offset": 0.0,
+            "addPriorOffset": false,
+            "clampMin": 0.0,
+            "clampMax": 0.0,
+            "absolute": false,
+            "duration": 0,
+            "forwardsDelay": 0,
+            "reverseDelay": 0
+          },
+          {
+            "animationType": "rotation",
+            "variable": "engine_driveshaft_rotation_1",
+            "centerPoint": [
+              1.125,
+              0.0,
+              4.125
+            ],
+            "axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "offset": 0.0,
+            "addPriorOffset": false,
+            "clampMin": 0.0,
+            "clampMax": 0.0,
+            "absolute": false,
+            "duration": 0,
+            "forwardsDelay": 0,
+            "reverseDelay": 0
+          }
+        ]
+      },
+      {
+        "objectName": "$hood",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "hood",
+            "centerPoint": [
+              0.0,
+              1.16797,
+              3.375
+            ],
+            "axis": [
+              -45.0,
+              0.0,
+              0.0
+            ],
+            "offset": 0.0,
+            "addPriorOffset": false,
+            "clampMin": 0.0,
+            "clampMax": 0.0,
+            "absolute": false,
+            "duration": 0,
+            "forwardsDelay": 0,
+            "reverseDelay": 0
+          }
+        ]
+      },
+      {
+        "objectName": "$leftdoor",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "door",
+            "centerPoint": [
+              1.0625,
+              1.0,
+              3.0625
+            ],
+            "axis": [
+              0.0,
+              -70.0,
+              0.0
+            ],
+            "offset": 0.0,
+            "addPriorOffset": false,
+            "clampMin": 0.0,
+            "clampMax": 0.0,
+            "absolute": false,
+            "duration": 30,
+            "forwardsDelay": 0,
+            "reverseDelay": 0
+          }
+        ]
+      },
+      {
+        "objectName": "$leftwindow",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "door",
+            "centerPoint": [
+              1.0625,
+              1.0,
+              3.0625
+            ],
+            "axis": [
+              0.0,
+              -70.0,
+              0.0
+            ],
+            "offset": 0.0,
+            "addPriorOffset": false,
+            "clampMin": 0.0,
+            "clampMax": 0.0,
+            "absolute": false,
+            "duration": 30,
+            "forwardsDelay": 0,
+            "reverseDelay": 0
+          }
+        ]
+      },
+      {
+        "objectName": "$RightDoor",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "door",
+            "centerPoint": [
+              -1.0625,
+              1.0,
+              3.0625
+            ],
+            "axis": [
+              0.0,
+              70.0,
+              0.0
+            ],
+            "offset": 0.0,
+            "addPriorOffset": false,
+            "clampMin": 0.0,
+            "clampMax": 0.0,
+            "absolute": false,
+            "duration": 30,
+            "forwardsDelay": 0,
+            "reverseDelay": 0
+          }
+        ]
+      },
+      {
+        "objectName": "$rightwindow",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "door",
+            "centerPoint": [
+              -1.0625,
+              1.0,
+              3.0625
+            ],
+            "axis": [
+              0.0,
+              70.0,
+              0.0
+            ],
+            "offset": 0.0,
+            "addPriorOffset": false,
+            "clampMin": 0.0,
+            "clampMax": 0.0,
+            "absolute": false,
+            "duration": 30,
+            "forwardsDelay": 0,
+            "reverseDelay": 0
+          }
+        ]
+      },
+      {
+        "objectName": "$tailgate",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "door",
+            "centerPoint": [
+              0.0,
+              0.34375,
+              -1.53125
+            ],
+            "axis": [
+              -90.0,
+              0.0,
+              0.0
+            ],
+            "offset": 0.0,
+            "addPriorOffset": false,
+            "clampMin": 0.0,
+            "clampMax": 0.0,
+            "absolute": false,
+            "duration": 30,
+            "forwardsDelay": 0,
+            "reverseDelay": 0
+          }
+        ]
+      },
+      {
+        "objectName": "$Wiper_L",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "rain",
+            "centerPoint": [
+              0.210969,
+              1.191515,
+              3.09591
+            ],
+            "axis": [
+              0.0,
+              38.076,
+              113.7984
+            ],
+            "offset": 0.0,
+            "addPriorOffset": false,
+            "clampMin": 0.0,
+            "clampMax": 120.0,
+            "absolute": false,
+            "duration": 0,
+            "forwardsDelay": 0,
+            "reverseDelay": 0
+          }
+        ]
+      },
+      {
+        "objectName": "$Wiper_R",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "rain",
+            "centerPoint": [
+              -0.787681,
+              1.191515,
+              3.09591
+            ],
+            "axis": [
+              0.0,
+              38.076,
+              113.7984
+            ],
+            "offset": 0.0,
+            "addPriorOffset": false,
+            "clampMin": 0.0,
+            "clampMax": 120.0,
+            "absolute": false,
+            "duration": 0,
+            "forwardsDelay": 0,
+            "reverseDelay": 0
+          }
+        ]
+      }
+    ],
+    "displayTextMaxLength": 7,
+    "textLighted": false,
+    "defaultDisplayText": "DKZ-800"
+  },
+  "packID": "dkzcivilianpack",
+  "classification": "VEHICLE",
+  "systemName": "",
+  "general": {
+    "openTop": false,
+    "emptyMass": 1500,
+    "type": "car",
+    "materials": [
+      "unuparts:unuparts_vehicle_unu_frame_c:0:1", "unuparts:unuparts_decor_unu_fender_steel:0:4", "unuparts:unuparts_decor_unu_door:0:2", "unuparts:unuparts_decor_unu_panel_steel:0:7", "minecraft:glass_pane:0:4"
+    ],
+    "name": "DKZ Model 800 Fortina",
+    "description": "Throwback to the 1950's, with the new DKZ Industries Model 800 T-Series Fortina pickup truck! This truck was built for hauling"
+  }
+}
