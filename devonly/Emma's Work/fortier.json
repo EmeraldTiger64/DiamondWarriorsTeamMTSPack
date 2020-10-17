@@ -111,48 +111,57 @@
     },
     {
       "pos": [
-        1.125,
+        0.875,
         0.0,
         0.0
       ],
       "turnsWithSteer": false,
       "isController": false,
       "inverseMirroring": false,
-      "types": [
-        "wheel"
-      ],
+      "types": ["ground_wheel"],
+	  "customTypes": ["budd"],
+	  "additionalParts": [
+		{
+			"pos": [1.125,0,0],
+			"rot": [0,0,0],
+			"inverseMirroring": true,
+			"types": ["ground_wheel"],
+			"customTypes": ["budd"],
+			"minValue": 0.8,
+			"maxValue": 0.875,
+			"intakeOffset": 0.0
+		}
+		],
       "minValue": 0.8,
       "maxValue": 0.875,
       "intakeOffset": 0.0
     },
     {
       "pos": [
-        -1.125,
+        -1.1875,
         0.0,
         4.125
       ],
       "turnsWithSteer": true,
       "isController": false,
       "inverseMirroring": false,
-      "types": [
-        "wheel"
-      ],
+      "types": ["ground_wheel"],
+	  "customTypes": ["budd"],
       "minValue": 0.8,
       "maxValue": 0.875,
       "intakeOffset": 0.0
     },
     {
       "pos": [
-        1.125,
+        1.1875,
         0.0,
         4.125
       ],
       "turnsWithSteer": true,
       "isController": false,
       "inverseMirroring": false,
-      "types": [
-        "wheel"
-      ],
+      "types": ["ground_wheel"],
+	  "customTypes": ["budd"],
       "minValue": 0.8,
       "maxValue": 0.875,
       "intakeOffset": 0.0
