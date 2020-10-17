@@ -583,8 +583,8 @@
             ],
             "axis": [
               0.0,
-              -0.05234,
-              -0.99863
+              -0.06256,
+              0.99804
             ],
             "offset": 0.0,
             "addPriorOffset": false,
@@ -611,7 +611,7 @@
             "axis": [
               0,
 			  0,
-              1
+              -1
             ],
             "offset": 0.0,
             "addPriorOffset": false,
@@ -638,7 +638,7 @@
             "axis": [
               0,
 			  0,
-              1
+              -1
             ],
             "offset": 0.0,
             "addPriorOffset": false,
