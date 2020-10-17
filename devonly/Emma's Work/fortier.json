@@ -571,20 +571,74 @@
         ]
       },
       {
-        "objectName": "$driveshaft",
+        "objectName": "driveshaft",
         "animations": [
           {
             "animationType": "rotation",
             "variable": "engine_driveshaft_rotation_1",
             "centerPoint": [
               0.0,
-              0.0,
-              0.0
+              0.1875,
+              2.84375
             ],
             "axis": [
               0.0,
               -0.05234,
               -0.99863
+            ],
+            "offset": 0.0,
+            "addPriorOffset": false,
+            "clampMin": 0.0,
+            "clampMax": 0.0,
+            "absolute": false,
+            "duration": 0,
+            "forwardsDelay": 0,
+            "reverseDelay": 0
+          }
+        ]
+      },
+	  {
+        "objectName": "shaftcoupler",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_driveshaft_rotation_1",
+            "centerPoint": [
+              0.0,
+              0.1875,
+              2.84375
+            ],
+            "axis": [
+              0,
+			  0,
+              1
+            ],
+            "offset": 0.0,
+            "addPriorOffset": false,
+            "clampMin": 0.0,
+            "clampMax": 0.0,
+            "absolute": false,
+            "duration": 0,
+            "forwardsDelay": 0,
+            "reverseDelay": 0
+          }
+        ]
+      },
+	  {
+        "objectName": "rearshaftcoupler",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_driveshaft_rotation_1",
+            "centerPoint": [
+              0.0,
+              0.023437,
+              0.226563
+            ],
+            "axis": [
+              0,
+			  0,
+              1
             ],
             "offset": 0.0,
             "addPriorOffset": false,
