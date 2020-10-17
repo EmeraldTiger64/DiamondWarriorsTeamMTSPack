@@ -95,7 +95,7 @@
 	  "customTypes": ["budd"],
 	  "additionalParts": [
 		{
-			"pos": [-0.25,0,0],
+			"pos": [-1.125,0,0],
 			"rot": [0,0,0],
 			"inverseMirroring": true,
 			"types": ["ground_wheel"],
