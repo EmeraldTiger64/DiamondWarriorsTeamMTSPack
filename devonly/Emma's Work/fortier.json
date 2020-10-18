@@ -142,7 +142,7 @@
         0.0,
         4.125
       ],
-      "turnsWithSteer": true,
+      "turnsWithSteer": false,
       "isController": false,
       "inverseMirroring": false,
       "types": ["ground_wheel"],
@@ -164,7 +164,36 @@
 	  "customTypes": ["budd"],
       "minValue": 0.8,
       "maxValue": 0.875,
-      "intakeOffset": 0.0
+      "intakeOffset": 0.0,
+	  "animations": [
+		  {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [0,0,0],
+            "axis": [-0.0,1.0,-0.0],
+            "offset": 0.0,
+            "addPriorOffset": false,
+            "clampMin": 0.0,
+            "clampMax": 0.0,
+            "absolute": false,
+            "duration": 0,
+            "forwardsDelay": 0,
+            "reverseDelay": 0
+          },
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [-0.125,0,0],
+            "axis": [-0.0,-1.0,-0.0],
+            "offset": 0.0,
+            "addPriorOffset": false,
+            "clampMin": 0.0,
+            "clampMax": 0.0,
+            "absolute": false,
+            "duration": 0,
+            "forwardsDelay": 0,
+            "reverseDelay": 0
+          }
     },
     {
       "pos": [
