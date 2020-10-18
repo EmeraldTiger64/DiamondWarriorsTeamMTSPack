@@ -576,16 +576,8 @@
           {
             "animationType": "rotation",
             "variable": "engine_driveshaft_rotation_1",
-            "centerPoint": [
-              0.0,
-              0.1875,
-              2.84375
-            ],
-            "axis": [
-              0.0,
-              0.06256,
-              -0.99804
-            ],
+            "centerPoint": [0.0,0.1875,2.84375],
+            "axis": [0.0,-0.06256,-0.99804],
             "offset": 0.0,
             "addPriorOffset": false,
             "clampMin": 0.0,
@@ -597,22 +589,14 @@
           }
         ]
       },
-	  {
+      {
         "objectName": "shaftcoupler",
         "animations": [
           {
             "animationType": "rotation",
             "variable": "engine_driveshaft_rotation_1",
-            "centerPoint": [
-              0.0,
-              0.1875,
-              2.84375
-            ],
-            "axis": [
-              0,
-			  0,
-              -1
-            ],
+            "centerPoint": [0.0,0.1875,2.84375],
+            "axis": [0.0,0.0,-1.0],
             "offset": 0.0,
             "addPriorOffset": false,
             "clampMin": 0.0,
@@ -624,22 +608,14 @@
           }
         ]
       },
-	  {
+      {
         "objectName": "rearshaftcoupler",
         "animations": [
           {
             "animationType": "rotation",
             "variable": "engine_driveshaft_rotation_1",
-            "centerPoint": [
-              0.0,
-              0.023437,
-              0.226563
-            ],
-            "axis": [
-              0,
-			  0,
-              -1
-            ],
+            "centerPoint": [0.0,0.023437,0.226563],
+            "axis": [0.0,0.0,-1.0],
             "offset": 0.0,
             "addPriorOffset": false,
             "clampMin": 0.0,
@@ -657,16 +633,8 @@
           {
             "animationType": "rotation",
             "variable": "rudder",
-            "centerPoint": [
-              -1.125,
-              0.1,
-              4.125
-            ],
-            "axis": [
-              -0.0,
-              -1.0,
-              -0.0
-            ],
+            "centerPoint": [-1.0625,0.1,4.125],
+            "axis": [-0.0,-1.0,-0.0],
             "offset": 0.0,
             "addPriorOffset": false,
             "clampMin": 0.0,
@@ -679,16 +647,8 @@
           {
             "animationType": "rotation",
             "variable": "engine_driveshaft_rotation_1",
-            "centerPoint": [
-              -1.125,
-              0.0,
-              4.125
-            ],
-            "axis": [
-              1.0,
-              0.0,
-              0.0
-            ],
+            "centerPoint": [-1.125,0.0,4.125],
+            "axis": [1.0,0.0,0.0],
             "offset": 0.0,
             "addPriorOffset": false,
             "clampMin": 0.0,
@@ -706,16 +666,8 @@
           {
             "animationType": "rotation",
             "variable": "rudder",
-            "centerPoint": [
-              1.125,
-              0.1,
-              4.125
-            ],
-            "axis": [
-              -0.0,
-              -1.0,
-              -0.0
-            ],
+            "centerPoint": [1.0625,0.1,4.125],
+            "axis": [-0.0,-1.0,-0.0],
             "offset": 0.0,
             "addPriorOffset": false,
             "clampMin": 0.0,
@@ -728,16 +680,8 @@
           {
             "animationType": "rotation",
             "variable": "engine_driveshaft_rotation_1",
-            "centerPoint": [
-              1.125,
-              0.0,
-              4.125
-            ],
-            "axis": [
-              1.0,
-              0.0,
-              0.0
-            ],
+            "centerPoint": [1.125,0.0,4.125],
+            "axis": [1.0,0.0,0.0],
             "offset": 0.0,
             "addPriorOffset": false,
             "clampMin": 0.0,
@@ -749,6 +693,96 @@
           }
         ]
       },
+	  {
+        "objectName": "$leftbrake",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [1.0625,0.1,4.125],
+            "axis": [-0.0,-1.0,-0.0],
+            "offset": 0.0,
+            "addPriorOffset": false,
+            "clampMin": 0.0,
+            "clampMax": 0.0,
+            "absolute": false,
+            "duration": 0,
+            "forwardsDelay": 0,
+            "reverseDelay": 0
+          }
+		]
+	  },
+	  {
+        "objectName": "$rightbrake",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [-1.0625,0.1,4.125],
+            "axis": [-0.0,-1.0,-0.0],
+            "offset": 0.0,
+            "addPriorOffset": false,
+            "clampMin": 0.0,
+            "clampMax": 0.0,
+            "absolute": false,
+            "duration": 0,
+            "forwardsDelay": 0,
+            "reverseDelay": 0
+          }
+		]
+	  },
+	  {
+		"objectName": "$frontaxle",
+		"animations": [
+			{
+            "animationType": "rotation",
+            "variable": "engine_driveshaft_rotation_1",
+            "centerPoint": [1.125,0.0,4.125],
+            "axis": [1.0,0.0,0.0],
+            "offset": 0.0,
+            "addPriorOffset": false,
+            "clampMin": 0.0,
+            "clampMax": 0.0,
+            "absolute": false,
+            "duration": 0,
+            "forwardsDelay": 0,
+            "reverseDelay": 0
+          }
+		  ]
+	   },
+	   {
+		"objectName": "swaybar",
+		"animations": [
+			{
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [1.0625,0.1,4.125],
+            "axis": [0.0,-1.0,0.0],
+            "offset": 0.0,
+            "addPriorOffset": false,
+            "clampMin": 0.0,
+            "clampMax": 0.0,
+            "absolute": false,
+            "duration": 0,
+            "forwardsDelay": 0,
+            "reverseDelay": 0
+          },
+		  {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [1.0625,0.1,4.23047],
+            "axis": [0.0,1.0,0.0],
+            "offset": 0.0,
+            "addPriorOffset": false,
+            "clampMin": 0.0,
+            "clampMax": 0.0,
+            "absolute": false,
+            "duration": 0,
+            "forwardsDelay": 0,
+            "reverseDelay": 0
+          }
+		  ]
+	   },
       {
         "objectName": "$hood",
         "animations": [
