@@ -142,14 +142,44 @@
         0.0,
         4.125
       ],
-      "turnsWithSteer": false,
+      "turnsWithSteer": true,
       "isController": false,
       "inverseMirroring": false,
       "types": ["ground_wheel"],
 	  "customTypes": ["budd"],
       "minValue": 0.8,
       "maxValue": 0.875,
-      "intakeOffset": 0.0
+      "intakeOffset": 0.0,
+	  "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [0.125,0,0],
+            "axis": [-0.0,-1.0,-0.0],
+            "offset": 0.0,
+            "addPriorOffset": false,
+            "clampMin": 0.0,
+            "clampMax": 0.0,
+            "absolute": false,
+            "duration": 0,
+            "forwardsDelay": 0,
+            "reverseDelay": 0
+          },
+		  {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [0,0,0],
+            "axis": [-0.0,1.0,-0.0],
+            "offset": 0.0,
+            "addPriorOffset": false,
+            "clampMin": 0.0,
+            "clampMax": 0.0,
+            "absolute": false,
+            "duration": 0,
+            "forwardsDelay": 0,
+            "reverseDelay": 0
+          }
+		]
     },
     {
       "pos": [
@@ -263,11 +293,8 @@
       }
     },
     {
-      "pos": [
-        0.0,
-        0.28125,
-        3.5625
-      ],
+      "isSubPart": false,
+      "pos": [0.0,0.28125,3.5625],
       "turnsWithSteer": false,
       "isController": false,
       "inverseMirroring": false,
@@ -276,15 +303,25 @@
       ],
       "minValue": 0.4,
       "maxValue": 1.0,
-      "exhaustPos": [
-        0.6875,
-        -0.03125,
-        -1.4375
-      ],
+      "translationClampMin": 0.0,
+      "translationClampMax": 0.0,
+      "translationAbsolute": false,
+      "rotationClampMin": 0.0,
+      "rotationClampMax": 0.0,
+      "rotationAbsolute": false,
+      "extraCollisionBoxOffset": 0.0,
+      "treadDroopConstant": 0.0,
       "exhaustVelocity": [
         0.0,
         0.0,
         -1.0
+      ],
+      "exhaustObjects": [
+        {
+          "pos": [0.6875,-0.03125,-1.4375],
+          "velocity": [0.0,0.0,-1.0],
+          "scale": 0.50
+        }
       ],
       "intakeOffset": 0.0
     }
