@@ -1,0 +1,79 @@
+﻿//---Standard Vehicle Config for Flans Mod--------
+//Created by Minecraft-SMP Toolbox 2.1.3.0
+
+
+//---Standard-------------------------------------
+// Naming
+ItemID Your ID
+
+
+// Visuals
+Model YourPackage.YourClassName
+ModelScale 1
+Icon Icon_Vehicle_YourClassName
+
+
+// Recipe
+
+
+//Misc
+
+//------------------------------------------------
+
+//---Driveables-----------------------------------
+//Visuals
+Texture Skin_Vehicle_YourClassName
+
+
+//Movement
+
+
+//Wheels
+NumWheels 0
+
+
+//Floating
+
+
+//Ammo
+
+
+//Weapons
+
+
+//Driver and Passengers
+Driver -13 23 10
+Passengers 2
+Passenger 1 3 5 14 turret
+Passenger 2 -6 2 -16 turret
+
+
+//Inventory Slots
+
+
+//Recipe
+
+
+//Health and Collision
+
+
+//Misc
+
+
+//Sounds
+
+//------------------------------------------------
+
+//---Vehicle--------------------------------------
+//Visuals
+
+
+//Movement
+
+
+//Misc
+
+
+//Sound
+
+//------------------------------------------------
