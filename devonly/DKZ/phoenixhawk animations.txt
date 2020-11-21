@@ -1,0 +1,129 @@
+,
+	  {
+        "partName" : "$RearSteer",
+        "rotationPoint" : [0, -3.78126 , -8.50949],
+        "rotationAxis" : [0, -0.5, 0.86603],
+        "rotationVariable" : "steering_wheel"
+      },
+	  {
+        "partName" : "$Elevator",
+        "rotationPoint" : [0, -2.29688, -10.1875],
+        "rotationAxis" : [1, 0, 0],
+        "rotationVariable" : "elevator"
+      },
+	  {
+        "partName" : "$rudderpedalsL",
+        "rotationPoint" : [1, -3.21875, 4.35938],
+        "rotationAxis" : [-0.5, 0, 0],
+        "rotationVariable" : "rudder"
+      },
+	  {
+        "partName" : "$rudderpedalsR",
+        "rotationPoint" : [-1, -3.21875, 4.35938],
+        "rotationAxis" : [0.5, 0, 0],
+        "rotationVariable" : "rudder"
+      },
+	  {
+        "partName" : "$RightDoor",
+        "rotationPoint" : [-1.25, -2, 4.125],
+        "rotationAxis" : [0, 60, 0],
+        "rotationVariable" : "door"
+      },
+	  {
+        "partName" : "$RightDoorwindow",
+        "rotationPoint" : [-1.25, -2, 4.125],
+        "rotationAxis" : [0, 60, 0],
+        "rotationVariable" : "door"
+      },
+	  {
+        "partName" : "$LeftDoorwindow",
+        "rotationPoint" : [1.25, -2, 4.125],
+        "rotationAxis" : [0, -60, 0],
+        "rotationVariable" : "door"
+      },
+	  {
+        "partName" : "$RightHood",
+        "rotationPoint" : [-1.09375, -0.718755, 4.125],
+        "rotationAxis" : [0, 0, -80],
+        "rotationVariable" : "hood"
+      },
+	  {
+        "partName" : "$LeftHood",
+        "rotationPoint" : [1.09375, -0.718755, 4.125],
+        "rotationAxis" : [0, 0, 80],
+        "rotationVariable" : "hood"
+      },
+	  {
+		"partName" : "$joycontrol_L",
+		"rotationPoint" : [0.75, -3.17188, 3.87109],
+		"rotationAxis" : [0, 0, 0.75],
+		"rotationVariable" : "aileron"
+	  },
+	  {
+		"partName" : "$joycontrol_L",
+		"rotationPoint" : [0.7, -3.17188, 3.87109],
+		"rotationAxis" : [0.375, 0, 0],
+		"rotationVariable" : "elevator"
+	  },
+	  {
+		"partName" : "$joycontrol_R",
+		"rotationPoint" : [-0.75, -3.17188, 3.87109],
+		"rotationAxis" : [0, 0, 0.75],
+		"rotationVariable" : "aileron"
+	  },
+	  {
+		"partName" : "$joycontrol_R",
+		"rotationPoint" : [-0.7, -3.17188, 3.87109],
+		"rotationAxis" : [0.375, 0, 0],
+		"rotationVariable" : "elevator"
+	  }
+	  
+	  {
+        "pos": [
+          0.0,
+          0.174677,
+         -0.659119
+        ],
+        "rot": [
+          45.0,
+          180.0,
+          0.0
+        ],
+        "scale": 0.14,
+        "fieldName": "Text",
+        "defaultText": "DKZ-130",
+        "maxLength": 7,
+        "wrapWidth": 0,
+        "color": "#000000",
+        "lightsUp": false,
+        "renderPosition": 0,
+        "autoScale": false,
+        "colorInheritied": false
+		}
+		
+		
+		
+		
+		
+		
+		,
+	  {
+        "objectName": "smallbombtrigger",
+        "animations": [
+          {
+            "animationType": "translation",
+            "variable": "gun_firing_2",
+            "centerPoint": [0.44375,0.1343,-1.4],
+            "axis": [0.0,0.0,0.007813],
+			"duration": 2
+          }
+        ]
+      }
+		,
+		  {
+            "animationType": "translation",
+            "variable": "gun_firing_8",
+            "centerPoint": [0.075,-0.078349,-1.65751],
+            "axis": [0.0,0.0,0.007813],
+			"duration": 2
+          }
