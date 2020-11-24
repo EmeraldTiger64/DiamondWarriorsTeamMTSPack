@@ -1,0 +1,8 @@
+{
+  "general": {
+	"name" : "Aerobatic Aircraft Seat",
+    "type" : "seat",
+	"customType" : "aerobatic", 
+		"materials" : ["minecraft:wool:7:1", "minecraft:wool:8:1", "minecraft:iron_ingot:0:1", "minecraft:string:-1:2"]
+  }
+}
