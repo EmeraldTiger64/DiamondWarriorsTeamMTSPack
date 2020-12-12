@@ -1,326 +1,307 @@
-"collisions": [
+"collision": [
     {
         "pos":[0.0, -0.5, -6.1875],
         "width": 0.5, 
-        "height": 0.875, 
-        "armorThickness": 0.0
+        "height": 0.875
     },
     {
         "pos":[0.0, -0.5, -6.625],
         "width": 0.375, 
-        "height": 0.875, 
-        "armorThickness": 0.0
+        "height": 0.875
     },
     {
         "pos":[0.0, -0.5, -6.96875],
         "width": 0.3125, 
-        "height": 0.875, 
-        "armorThickness": 0.0
-    },
-    {
-        "pos":[-6.09375, -1.09375, -0.15625],
-        "width": 2.1875, 
-        "height": 0.1875, 
-        "armorThickness": 0.0
-    },
-    {
-        "pos":[-2.46875, -1.09375, -0.15625],
-        "width": 2.1875, 
-        "height": 0.1875, 
-        "armorThickness": 0.0
-    },
-    {
-        "pos":[-4.28125, -1.09375, -0.15625],
-        "width": 2.1875, 
-        "height": 0.1875, 
-        "armorThickness": 0.0
-    },
-    {
-        "pos":[-4.5625, 1.17338, -0.15625],
-        "width": 2.375, 
-        "height": 0.1875, 
-        "armorThickness": 0.0
-    },
-    {
-        "pos":[-3.1875, 1.125, -0.08691],
-        "width": 2.5, 
-        "height": 0.1875, 
-        "armorThickness": 0.0
-    },
-    {
-        "pos":[-6.09375, 1.22175, -0.15625],
-        "width": 2.1875, 
-        "height": 0.1875, 
-        "armorThickness": 0.0
+        "height": 0.875
     },
     {
         "pos":[-1.0625, 1.09375, 0.28125],
         "width": 2.125, 
-        "height": 0.1875, 
-        "armorThickness": 0.0
+        "height": 0.1875
     },
     {
         "pos":[-0.5, -1.09375, 0.0625],
         "width": 1.75, 
-        "height": 0.1875, 
-        "armorThickness": 0.0
-    },
-    {
-        "pos":[-6.75, 1.22175, 0.0625],
-        "width": 1.75, 
-        "height": 0.1875, 
-        "armorThickness": 0.0
-    },
-    {
-        "pos":[-6.875, -1.09375, 0.1875],
-        "width": 1.5, 
-        "height": 0.1875, 
-        "armorThickness": 0.0
-    },
-    {
-        "pos":[6.875, -1.09375, 0.1875],
-        "width": 1.5, 
-        "height": 0.1875, 
-        "armorThickness": 0.0
-    },
-    {
-        "pos":[6.75, 1.22175, 0.0625],
-        "width": 1.75, 
-        "height": 0.1875, 
-        "armorThickness": 0.0
+        "height": 0.1875
     },
     {
         "pos":[0.5, -1.09375, 0.0625],
         "width": 1.75, 
-        "height": 0.1875, 
-        "armorThickness": 0.0
+        "height": 0.1875
     },
     {
         "pos":[1.0625, 1.09375, 0.28125],
         "width": 2.125, 
-        "height": 0.1875, 
-        "armorThickness": 0.0
-    },
-    {
-        "pos":[6.09375, 1.22175, -0.15625],
-        "width": 2.1875, 
-        "height": 0.1875, 
-        "armorThickness": 0.0
-    },
-    {
-        "pos":[3.1875, 1.125, -0.08691],
-        "width": 2.5, 
-        "height": 0.1875, 
-        "armorThickness": 0.0
-    },
-    {
-        "pos":[4.5625, 1.17338, -0.15625],
-        "width": 2.375, 
-        "height": 0.1875, 
-        "armorThickness": 0.0
-    },
-    {
-        "pos":[4.28125, -1.09375, -0.15625],
-        "width": 2.1875, 
-        "height": 0.1875, 
-        "armorThickness": 0.0
-    },
-    {
-        "pos":[2.46875, -1.09375, -0.15625],
-        "width": 2.1875, 
-        "height": 0.1875, 
-        "armorThickness": 0.0
-    },
-    {
-        "pos":[6.09375, -1.09375, -0.15625],
-        "width": 2.1875, 
-        "height": 0.1875, 
-        "armorThickness": 0.0
+        "height": 0.1875
     },
     {
         "pos":[1.0, -0.03125, -7.1875],
         "width": 1.75, 
-        "height": 0.1875, 
-        "armorThickness": 0.0
+        "height": 0.1875
     },
     {
         "pos":[0.0, -0.03125, -7.1875],
         "width": 1.75, 
-        "height": 0.1875, 
-        "armorThickness": 0.0
+        "height": 0.1875
     },
     {
         "pos":[-1.0, -0.03125, -7.1875],
         "width": 1.75, 
-        "height": 0.1875, 
-        "armorThickness": 0.0
+        "height": 0.1875
     },
     {
         "pos":[1.8125, -0.03125, -6.6875],
         "width": 0.5, 
-        "height": 0.1875, 
-        "armorThickness": 0.0
+        "height": 0.1875
     },
     {
         "pos":[1.9375, -0.03125, -7.09375],
         "width": 0.5, 
-        "height": 0.1875, 
-        "armorThickness": 0.0
+        "height": 0.1875
     },
     {
         "pos":[2.125, -0.03125, -7.65625],
         "width": 0.625, 
-        "height": 0.1875, 
-        "armorThickness": 0.0
+        "height": 0.1875
     },
     {
         "pos":[-2.125, -0.03125, -7.65625],
         "width": 0.625, 
-        "height": 0.1875, 
-        "armorThickness": 0.0
+        "height": 0.1875
     },
     {
         "pos":[-1.9375, -0.03125, -7.09375],
         "width": 0.5, 
-        "height": 0.1875, 
-        "armorThickness": 0.0
+        "height": 0.1875
     },
     {
         "pos":[-1.8125, -0.03125, -6.6875],
         "width": 0.5, 
-        "height": 0.1875, 
-        "armorThickness": 0.0
+        "height": 0.1875
     },
     {
         "pos":[0.0, 0.09375, -6.0625],
         "width": 0.125, 
-        "height": 0.375, 
-        "armorThickness": 0.0
+        "height": 0.375
     },
     {
         "pos":[0.0, 0.29688, -6.1875],
         "width": 0.125, 
-        "height": 0.75, 
-        "armorThickness": 0.0
+        "height": 0.75
     },
     {
         "pos":[0.0, 0.39453, -6.3125],
         "width": 0.125, 
-        "height": 1.0, 
-        "armorThickness": 0.0
+        "height": 1.0
     },
     {
         "pos":[0.0, 0.47852, -6.4375],
         "width": 0.125, 
-        "height": 1.125, 
-        "armorThickness": 0.0
+        "height": 1.125
     },
     {
         "pos":[0.0, 0.61426, -6.5625],
         "width": 0.125, 
-        "height": 1.155, 
-        "armorThickness": 0.0
+        "height": 1.155
     },
     {
         "pos":[0.0, 0.68213, -6.6875],
         "width": 0.125, 
-        "height": 1.265, 
-        "armorThickness": 0.0
+        "height": 1.265
     },
     {
         "pos":[0.0, 0.73178, -6.8125],
         "width": 0.125, 
-        "height": 1.345, 
-        "armorThickness": 0.0
+        "height": 1.345
     },
     {
         "pos":[0.0, 0.73958, -6.9375],
         "width": 0.125, 
-        "height": 1.475, 
-        "armorThickness": 0.0
+        "height": 1.475
     },
     {
         "pos":[0.0, 0.76875, -7.0625],
         "width": 0.125, 
-        "height": 1.525, 
-        "armorThickness": 0.0
+        "height": 1.525
     },
     {
         "pos":[0.0, 0.79625, -7.1875],
         "width": 0.125, 
-        "height": 1.595, 
-        "armorThickness": 0.0
+        "height": 1.595
     },
     {
         "pos":[0.0, 0.79625, -7.4375],
         "width": 0.125, 
-        "height": 1.595, 
-        "armorThickness": 0.0
+        "height": 1.595
     },
     {
         "pos":[0.0, 0.79625, -7.3125],
         "width": 0.125, 
-        "height": 1.595, 
-        "armorThickness": 0.0
+        "height": 1.595
     },
     {
         "pos":[0.0, 0.33306, -7.5625],
         "width": 0.125, 
-        "height": 2.4042, 
-        "armorThickness": 0.0
+        "height": 2.4042
     },
     {
         "pos":[0.0, 0.29346, -7.6875],
         "width": 0.125, 
-        "height": 2.325, 
-        "armorThickness": 0.0
+        "height": 2.325
     },
     {
         "pos":[0.0, -0.5, -7.25],
         "width": 0.25, 
-        "height": 0.875, 
-        "armorThickness": 0.0
+        "height": 0.875
     },
     {
         "pos":[0.0, -0.5, -7.46875],
         "width": 0.1875, 
-        "height": 0.875, 
-        "armorThickness": 0.0
+        "height": 0.875
     },
     {
         "pos":[0.0, 0.29346, -7.8125],
         "width": 0.125, 
-        "height": 2.155, 
-        "armorThickness": 0.0
+        "height": 2.155
     },
     {
         "pos":[0.0, 0.24596, -7.9375],
         "width": 0.125, 
-        "height": 1.985, 
-        "armorThickness": 0.0
+        "height": 1.985
     },
     {
         "pos":[0.0, 0.19096, -8.0625],
         "width": 0.125, 
-        "height": 1.805, 
-        "armorThickness": 0.0
+        "height": 1.805
     },
     {
         "pos":[0.0, 0.12346, -8.1875],
         "width": 0.125, 
-        "height": 1.595, 
-        "armorThickness": 0.0
+        "height": 1.595
     },
     {
         "pos":[0.0, -0.21154, -8.3125],
         "width": 0.125, 
-        "height": 0.815, 
-        "armorThickness": 0.0
+        "height": 0.815
     },
     {
         "pos":[0.0, -0.49, -8.4375],
         "width": 0.125, 
-        "height": 0.145, 
-        "armorThickness": 0.0
+        "height": 0.145
     }
-]
+],
+
+"doors": [
+    {
+        "name": "leftwing",
+        "closedPos":[6.875, -1.09375, 0.1875],
+        "openPos":[2.0, -1.09375, -5.8125],
+        "width": 1.5, 
+        "height": 0.1875
+    },
+    {
+        "name": "leftwing",
+        "closedPos":[6.75, 1.22175, 0.0625],
+        "openPos":[1.875, 1.22175, -5.6875],
+        "width": 1.75, 
+        "height": 0.1875
+    },
+    {
+        "name": "leftwing",
+        "closedPos":[6.09375, 1.22175, -0.15625],
+        "openPos":[1.65625, 1.22175, -5.03125],
+        "width": 2.1875, 
+        "height": 0.1875
+    },
+    {
+        "name": "leftwing",
+        "closedPos":[3.1875, 1.125, -0.08691],
+        "openPos":[1.72559, 1.125, -2.125],
+        "width": 2.5, 
+        "height": 0.1875
+    },
+    {
+        "name": "leftwing",
+        "closedPos":[4.5625, 1.17338, -0.15625],
+        "openPos":[1.65625, 1.17338, -3.5],
+        "width": 2.375, 
+        "height": 0.1875
+    },
+    {
+        "name": "leftwing",
+        "closedPos":[4.28125, -1.09375, -0.15625],
+        "openPos":[1.65625, -1.09375, -3.21875],
+        "width": 2.1875, 
+        "height": 0.1875
+    },
+    {
+        "name": "leftwing",
+        "closedPos":[2.46875, -1.09375, -0.15625],
+        "openPos":[1.65625, -1.09375, -1.40625],
+        "width": 2.1875, 
+        "height": 0.1875
+    },
+    {
+        "name": "leftwing",
+        "closedPos":[6.09375, -1.09375, -0.15625],
+        "openPos":[1.65625, -1.09375, -5.03125],
+        "width": 2.1875, 
+        "height": 0.1875
+    },
+    {
+        "name": "rightwing",
+        "closedPos":[-6.09375, -1.09375, -0.15625],
+        "openPos":[-1.65625, -1.09375, -5.03125],
+        "width": 2.1875, 
+        "height": 0.1875
+    },
+    {
+        "name": "rightwing",
+        "closedPos":[-2.46875, -1.09375, -0.15625],
+        "openPos":[-1.65625, -1.09375, -1.40625],
+        "width": 2.1875, 
+        "height": 0.1875
+    },
+    {
+        "name": "rightwing",
+        "closedPos":[-4.28125, -1.09375, -0.15625],
+        "openPos":[-1.65625, -1.09375, -3.21875],
+        "width": 2.1875, 
+        "height": 0.1875
+    },
+    {
+        "name": "rightwing",
+        "closedPos":[-4.5625, 1.17338, -0.15625],
+        "openPos":[-1.65625, 1.17338, -3.5],
+        "width": 2.375, 
+        "height": 0.1875
+    },
+    {
+        "name": "rightwing",
+        "closedPos":[-3.1875, 1.125, -0.08691],
+        "openPos":[-1.72559, 1.125, -2.125],
+        "width": 2.5, 
+        "height": 0.1875
+    },
+    {
+        "name": "rightwing",
+        "closedPos":[-6.09375, 1.22175, -0.15625],
+        "openPos":[-1.65625, 1.22175, -5.03125],
+        "width": 2.1875, 
+        "height": 0.1875
+    },
+    {
+        "name": "rightwing",
+        "closedPos":[-6.75, 1.22175, 0.0625],
+        "openPos":[-1.875, 1.22175, -5.6875],
+        "width": 1.75, 
+        "height": 0.1875
+    },
+    {
+        "name": "rightwing",
+        "closedPos":[-6.875, -1.09375, 0.1875],
+        "openPos":[-2.0, -1.09375, -5.8125],
+        "width": 1.5, 
+        "height": 0.1875
+    }
+],
