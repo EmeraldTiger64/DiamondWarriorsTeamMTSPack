@@ -1,0 +1,3 @@
+newmtl fmt_material
+Kd 1.00 1.00 1.00
+map_Kd minecraft:blocks/airlift_upper
