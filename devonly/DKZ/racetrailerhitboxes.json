@@ -1,838 +1,878 @@
 "collision": [
     {
-        "pos":[0.0, 0.125, 2.3457],
+        "pos":[-0.9375, 0.15625, 3.73438],
         "width": 1.0, 
-        "height": 0.125
+        "height": 0.0625
     },
     {
-        "pos":[-0.9375, 0.125, 2.3457],
+        "pos":[-0.9375, 0.15625, 2.82812],
         "width": 1.0, 
-        "height": 0.125
+        "height": 0.0625
     },
     {
-        "pos":[0.9375, 0.125, 2.3457],
+        "pos":[-0.9375, 0.15625, 1.92188],
         "width": 1.0, 
-        "height": 0.125
+        "height": 0.0625
     },
     {
-        "pos":[0.9375, 0.125, 3.21875],
+        "pos":[-0.9375, 0.15625, 1.01562],
         "width": 1.0, 
-        "height": 0.125
+        "height": 0.0625
     },
     {
-        "pos":[-0.9375, 0.125, 3.21875],
+        "pos":[-0.9375, 0.15625, 0.10938],
         "width": 1.0, 
-        "height": 0.125
+        "height": 0.0625
     },
     {
-        "pos":[0.0, 0.125, 3.21875],
+        "pos":[-0.9375, 0.15625, -0.79688],
         "width": 1.0, 
-        "height": 0.125
+        "height": 0.0625
     },
     {
-        "pos":[0.0, 0.125, 1.45313],
+        "pos":[-0.9375, 0.15625, -1.70312],
         "width": 1.0, 
-        "height": 0.125
+        "height": 0.0625
     },
     {
-        "pos":[-0.9375, 0.125, 1.45313],
+        "pos":[0.0, 0.15625, 3.73438],
         "width": 1.0, 
-        "height": 0.125
+        "height": 0.0625
     },
     {
-        "pos":[0.9375, 0.125, 1.45313],
+        "pos":[0.0, 0.15625, 2.82812],
         "width": 1.0, 
-        "height": 0.125
+        "height": 0.0625
     },
     {
-        "pos":[0.9375, 0.25, 0.5],
+        "pos":[0.0, 0.15625, 1.92188],
         "width": 1.0, 
-        "height": 0.125
+        "height": 0.0625
     },
     {
-        "pos":[-0.9375, 0.25, 0.5],
+        "pos":[0.0, 0.15625, 1.01562],
         "width": 1.0, 
-        "height": 0.125
+        "height": 0.0625
     },
     {
-        "pos":[0.0, 0.25, 0.5],
+        "pos":[0.0, 0.15625, 0.10938],
         "width": 1.0, 
-        "height": 0.125
+        "height": 0.0625
     },
     {
-        "pos":[0.0, 0.25, -0.5],
+        "pos":[0.0, 0.15625, -0.79688],
         "width": 1.0, 
-        "height": 0.125
+        "height": 0.0625
     },
     {
-        "pos":[-0.9375, 0.25, -0.5],
+        "pos":[0.0, 0.15625, -1.70312],
         "width": 1.0, 
-        "height": 0.125
+        "height": 0.0625
     },
     {
-        "pos":[0.9375, 0.25, -0.5],
+        "pos":[0.9375, 0.15625, 3.73438],
         "width": 1.0, 
-        "height": 0.125
+        "height": 0.0625
     },
     {
-        "pos":[0.9375, 0.125, -1.45313],
+        "pos":[0.9375, 0.15625, 2.82812],
         "width": 1.0, 
-        "height": 0.125
+        "height": 0.0625
     },
     {
-        "pos":[-0.9375, 0.125, -1.45313],
+        "pos":[0.9375, 0.15625, 1.92188],
         "width": 1.0, 
-        "height": 0.125
+        "height": 0.0625
     },
     {
-        "pos":[0.0, 0.125, -1.45313],
+        "pos":[0.9375, 0.15625, 1.01562],
         "width": 1.0, 
-        "height": 0.125
+        "height": 0.0625
     },
     {
-        "pos":[0.0, 0.125, -2.21875],
+        "pos":[0.9375, 0.15625, 0.10938],
         "width": 1.0, 
-        "height": 0.125
+        "height": 0.0625
     },
     {
-        "pos":[-0.9375, 0.125, -2.21875],
+        "pos":[0.9375, 0.15625, -0.79688],
         "width": 1.0, 
-        "height": 0.125
+        "height": 0.0625
     },
     {
-        "pos":[0.9375, 0.125, -2.21875],
+        "pos":[0.9375, 0.15625, -1.70312],
         "width": 1.0, 
-        "height": 0.125
+        "height": 0.0625
     }
 ],
 
 "doors": [
     {
         "name": "Ramp",
-        "closedPos":[-1.0, 1.71875, -2.75],
-        "openPos":[-1.0, -0.3125, -4.22519],
+        "closedPos":[-1.3125, 0.34375, -2.26562],
+        "openPos":[-1.3125, 0.06733, -2.33457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.1875, 1.71875, -2.75],
-        "openPos":[-1.1875, -0.3125, -4.22519],
+        "closedPos":[-0.875, 0.34375, -2.26562],
+        "openPos":[-0.875, 0.06733, -2.33457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-0.875, 1.71875, -2.75],
-        "openPos":[-0.875, -0.3125, -4.22519],
+        "closedPos":[-1.1875, 0.34375, -2.26562],
+        "openPos":[-1.1875, 0.06733, -2.33457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.3125, 1.71875, -2.75],
-        "openPos":[-1.3125, -0.3125, -4.22519],
+        "closedPos":[-1.0, 0.34375, -2.26562],
+        "openPos":[-1.0, 0.06733, -2.33457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.3125, 1.59375, -2.75],
-        "openPos":[-1.3125, -0.27604, -4.10019],
+        "closedPos":[1.1875, 0.34375, -2.26562],
+        "openPos":[1.1875, 0.06733, -2.33457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-0.875, 1.59375, -2.75],
-        "openPos":[-0.875, -0.27604, -4.10019],
+        "closedPos":[1.0, 0.34375, -2.26562],
+        "openPos":[1.0, 0.06733, -2.33457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.1875, 1.59375, -2.75],
-        "openPos":[-1.1875, -0.27604, -4.10019],
+        "closedPos":[1.3125, 0.34375, -2.26562],
+        "openPos":[1.3125, 0.06733, -2.33457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.0, 1.59375, -2.75],
-        "openPos":[-1.0, -0.27604, -4.10019],
+        "closedPos":[0.875, 0.34375, -2.26562],
+        "openPos":[0.875, 0.06733, -2.33457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.0, 1.46875, -2.75],
-        "openPos":[-1.0, -0.23958, -3.97519],
+        "closedPos":[0.875, 0.46875, -2.26562],
+        "openPos":[0.875, 0.06733, -2.45957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.1875, 1.46875, -2.75],
-        "openPos":[-1.1875, -0.23958, -3.97519],
+        "closedPos":[1.3125, 0.46875, -2.26562],
+        "openPos":[1.3125, 0.06733, -2.45957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-0.875, 1.46875, -2.75],
-        "openPos":[-0.875, -0.23958, -3.97519],
+        "closedPos":[1.0, 0.46875, -2.26562],
+        "openPos":[1.0, 0.06733, -2.45957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.3125, 1.46875, -2.75],
-        "openPos":[-1.3125, -0.23958, -3.97519],
+        "closedPos":[1.1875, 0.46875, -2.26562],
+        "openPos":[1.1875, 0.06733, -2.45957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.3125, 1.34375, -2.75],
-        "openPos":[-1.3125, -0.20313, -3.85019],
+        "closedPos":[-1.0, 0.46875, -2.26562],
+        "openPos":[-1.0, 0.06733, -2.45957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-0.875, 1.34375, -2.75],
-        "openPos":[-0.875, -0.20313, -3.85019],
+        "closedPos":[-1.1875, 0.46875, -2.26562],
+        "openPos":[-1.1875, 0.06733, -2.45957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.1875, 1.34375, -2.75],
-        "openPos":[-1.1875, -0.20313, -3.85019],
+        "closedPos":[-0.875, 0.46875, -2.26562],
+        "openPos":[-0.875, 0.06733, -2.45957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.0, 1.34375, -2.75],
-        "openPos":[-1.0, -0.20313, -3.85019],
+        "closedPos":[-1.3125, 0.46875, -2.26562],
+        "openPos":[-1.3125, 0.06733, -2.45957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.0, 1.21875, -2.75],
-        "openPos":[-1.0, -0.16667, -3.72519],
+        "closedPos":[-1.3125, 0.59375, -2.26562],
+        "openPos":[-1.3125, 0.06733, -2.58457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.1875, 1.21875, -2.75],
-        "openPos":[-1.1875, -0.16667, -3.72519],
+        "closedPos":[-0.875, 0.59375, -2.26562],
+        "openPos":[-0.875, 0.06733, -2.58457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-0.875, 1.21875, -2.75],
-        "openPos":[-0.875, -0.16667, -3.72519],
+        "closedPos":[-1.1875, 0.59375, -2.26562],
+        "openPos":[-1.1875, 0.06733, -2.58457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.3125, 1.21875, -2.75],
-        "openPos":[-1.3125, -0.16667, -3.72519],
+        "closedPos":[-1.0, 0.59375, -2.26562],
+        "openPos":[-1.0, 0.06733, -2.58457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.3125, 1.09375, -2.75],
-        "openPos":[-1.3125, -0.13021, -3.60019],
+        "closedPos":[1.1875, 0.59375, -2.26562],
+        "openPos":[1.1875, 0.06733, -2.58457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-0.875, 1.09375, -2.75],
-        "openPos":[-0.875, -0.13021, -3.60019],
+        "closedPos":[1.0, 0.59375, -2.26562],
+        "openPos":[1.0, 0.06733, -2.58457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.1875, 1.09375, -2.75],
-        "openPos":[-1.1875, -0.13021, -3.60019],
+        "closedPos":[1.3125, 0.59375, -2.26562],
+        "openPos":[1.3125, 0.06733, -2.58457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.0, 1.09375, -2.75],
-        "openPos":[-1.0, -0.13021, -3.60019],
+        "closedPos":[0.875, 0.59375, -2.26562],
+        "openPos":[0.875, 0.06733, -2.58457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.0, 0.96875, -2.75],
-        "openPos":[-1.0, -0.09375, -3.47519],
+        "closedPos":[0.875, 0.71875, -2.26562],
+        "openPos":[0.875, -0.05767, -2.70957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.1875, 0.96875, -2.75],
-        "openPos":[-1.1875, -0.09375, -3.47519],
+        "closedPos":[1.3125, 0.71875, -2.26562],
+        "openPos":[1.3125, -0.05767, -2.70957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-0.875, 0.96875, -2.75],
-        "openPos":[-0.875, -0.09375, -3.47519],
+        "closedPos":[1.0, 0.71875, -2.26562],
+        "openPos":[1.0, -0.05767, -2.70957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.3125, 0.96875, -2.75],
-        "openPos":[-1.3125, -0.09375, -3.47519],
+        "closedPos":[1.1875, 0.71875, -2.26562],
+        "openPos":[1.1875, -0.05767, -2.70957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.3125, 0.84375, -2.75],
-        "openPos":[-1.3125, -0.05729, -3.35019],
+        "closedPos":[-1.0, 0.71875, -2.26562],
+        "openPos":[-1.0, -0.05767, -2.70957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-0.875, 0.84375, -2.75],
-        "openPos":[-0.875, -0.05729, -3.35019],
+        "closedPos":[-1.1875, 0.71875, -2.26562],
+        "openPos":[-1.1875, -0.05767, -2.70957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.1875, 0.84375, -2.75],
-        "openPos":[-1.1875, -0.05729, -3.35019],
+        "closedPos":[-0.875, 0.71875, -2.26562],
+        "openPos":[-0.875, -0.05767, -2.70957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.0, 0.84375, -2.75],
-        "openPos":[-1.0, -0.05729, -3.35019],
+        "closedPos":[-1.3125, 0.71875, -2.26562],
+        "openPos":[-1.3125, -0.05767, -2.70957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.0, 0.71875, -2.75],
-        "openPos":[-1.0, -0.02084, -3.22519],
+        "closedPos":[-1.3125, 0.84375, -2.26562],
+        "openPos":[-1.3125, -0.05767, -2.83457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.1875, 0.71875, -2.75],
-        "openPos":[-1.1875, -0.02084, -3.22519],
+        "closedPos":[-0.875, 0.84375, -2.26562],
+        "openPos":[-0.875, -0.05767, -2.83457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-0.875, 0.71875, -2.75],
-        "openPos":[-0.875, -0.02084, -3.22519],
+        "closedPos":[-1.1875, 0.84375, -2.26562],
+        "openPos":[-1.1875, -0.05767, -2.83457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.3125, 0.71875, -2.75],
-        "openPos":[-1.3125, -0.02084, -3.22519],
+        "closedPos":[-1.0, 0.84375, -2.26562],
+        "openPos":[-1.0, -0.05767, -2.83457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.3125, 0.59375, -2.75],
-        "openPos":[-1.3125, 0.01562, -3.10019],
+        "closedPos":[1.1875, 0.84375, -2.26562],
+        "openPos":[1.1875, -0.05767, -2.83457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-0.875, 0.59375, -2.75],
-        "openPos":[-0.875, 0.01562, -3.10019],
+        "closedPos":[1.0, 0.84375, -2.26562],
+        "openPos":[1.0, -0.05767, -2.83457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.1875, 0.59375, -2.75],
-        "openPos":[-1.1875, 0.01562, -3.10019],
+        "closedPos":[1.3125, 0.84375, -2.26562],
+        "openPos":[1.3125, -0.05767, -2.83457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.0, 0.59375, -2.75],
-        "openPos":[-1.0, 0.01562, -3.10019],
+        "closedPos":[0.875, 0.84375, -2.26562],
+        "openPos":[0.875, -0.05767, -2.83457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.0, 0.46875, -2.75],
-        "openPos":[-1.0, 0.05208, -2.97519],
+        "closedPos":[0.875, 0.96875, -2.26562],
+        "openPos":[0.875, -0.05767, -2.95957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.1875, 0.46875, -2.75],
-        "openPos":[-1.1875, 0.05208, -2.97519],
+        "closedPos":[1.3125, 0.96875, -2.26562],
+        "openPos":[1.3125, -0.05767, -2.95957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-0.875, 0.46875, -2.75],
-        "openPos":[-0.875, 0.05208, -2.97519],
+        "closedPos":[1.0, 0.96875, -2.26562],
+        "openPos":[1.0, -0.05767, -2.95957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.3125, 0.46875, -2.75],
-        "openPos":[-1.3125, 0.05208, -2.97519],
+        "closedPos":[1.1875, 0.96875, -2.26562],
+        "openPos":[1.1875, -0.05767, -2.95957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.3125, 0.34375, -2.75],
-        "openPos":[-1.3125, 0.08854, -2.85019],
+        "closedPos":[-1.0, 0.96875, -2.26562],
+        "openPos":[-1.0, -0.05767, -2.95957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-0.875, 0.34375, -2.75],
-        "openPos":[-0.875, 0.08854, -2.85019],
+        "closedPos":[-1.1875, 0.96875, -2.26562],
+        "openPos":[-1.1875, -0.05767, -2.95957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.1875, 0.34375, -2.75],
-        "openPos":[-1.1875, 0.08854, -2.85019],
+        "closedPos":[-0.875, 0.96875, -2.26562],
+        "openPos":[-0.875, -0.05767, -2.95957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.0, 0.34375, -2.75],
-        "openPos":[-1.0, 0.08854, -2.85019],
+        "closedPos":[-1.3125, 0.96875, -2.26562],
+        "openPos":[-1.3125, -0.05767, -2.95957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.0, 0.21875, -2.75],
-        "openPos":[-1.0, 0.125, -2.72519],
+        "closedPos":[-1.3125, 1.09375, -2.26562],
+        "openPos":[-1.3125, -0.18267, -3.08457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.1875, 0.21875, -2.75],
-        "openPos":[-1.1875, 0.125, -2.72519],
+        "closedPos":[-0.875, 1.09375, -2.26562],
+        "openPos":[-0.875, -0.18267, -3.08457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-0.875, 0.21875, -2.75],
-        "openPos":[-0.875, 0.125, -2.72519],
+        "closedPos":[-1.1875, 1.09375, -2.26562],
+        "openPos":[-1.1875, -0.18267, -3.08457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[-1.3125, 0.21875, -2.75],
-        "openPos":[-1.3125, 0.125, -2.72519],
+        "closedPos":[-1.0, 1.09375, -2.26562],
+        "openPos":[-1.0, -0.18267, -3.08457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[0.875, 0.21875, -2.75],
-        "openPos":[0.875, 0.125, -2.72519],
+        "closedPos":[1.1875, 1.09375, -2.26562],
+        "openPos":[1.1875, -0.18267, -3.08457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[1.3125, 0.21875, -2.75],
-        "openPos":[1.3125, 0.125, -2.72519],
+        "closedPos":[1.0, 1.09375, -2.26562],
+        "openPos":[1.0, -0.18267, -3.08457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[1.0, 0.21875, -2.75],
-        "openPos":[1.0, 0.125, -2.72519],
+        "closedPos":[1.3125, 1.09375, -2.26562],
+        "openPos":[1.3125, -0.18267, -3.08457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[1.1875, 0.21875, -2.75],
-        "openPos":[1.1875, 0.125, -2.72519],
+        "closedPos":[0.875, 1.09375, -2.26562],
+        "openPos":[0.875, -0.18267, -3.08457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[1.1875, 0.34375, -2.75],
-        "openPos":[1.1875, 0.08854, -2.85019],
+        "closedPos":[0.875, 1.21875, -2.26562],
+        "openPos":[0.875, -0.18267, -3.20957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[1.0, 0.34375, -2.75],
-        "openPos":[1.0, 0.08854, -2.85019],
+        "closedPos":[1.3125, 1.21875, -2.26562],
+        "openPos":[1.3125, -0.18267, -3.20957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[1.3125, 0.34375, -2.75],
-        "openPos":[1.3125, 0.08854, -2.85019],
+        "closedPos":[1.0, 1.21875, -2.26562],
+        "openPos":[1.0, -0.18267, -3.20957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[0.875, 0.34375, -2.75],
-        "openPos":[0.875, 0.08854, -2.85019],
+        "closedPos":[1.1875, 1.21875, -2.26562],
+        "openPos":[1.1875, -0.18267, -3.20957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[0.875, 0.46875, -2.75],
-        "openPos":[0.875, 0.05208, -2.97519],
+        "closedPos":[-1.0, 1.21875, -2.26562],
+        "openPos":[-1.0, -0.18267, -3.20957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[1.3125, 0.46875, -2.75],
-        "openPos":[1.3125, 0.05208, -2.97519],
+        "closedPos":[-1.1875, 1.21875, -2.26562],
+        "openPos":[-1.1875, -0.18267, -3.20957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[1.0, 0.46875, -2.75],
-        "openPos":[1.0, 0.05208, -2.97519],
+        "closedPos":[-0.875, 1.21875, -2.26562],
+        "openPos":[-0.875, -0.18267, -3.20957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[1.1875, 0.46875, -2.75],
-        "openPos":[1.1875, 0.05208, -2.97519],
+        "closedPos":[-1.3125, 1.21875, -2.26562],
+        "openPos":[-1.3125, -0.18267, -3.20957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[1.1875, 0.59375, -2.75],
-        "openPos":[1.1875, 0.01562, -3.10019],
+        "closedPos":[-1.3125, 1.34375, -2.26562],
+        "openPos":[-1.3125, -0.18267, -3.33457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[1.0, 0.59375, -2.75],
-        "openPos":[1.0, 0.01562, -3.10019],
+        "closedPos":[-0.875, 1.34375, -2.26562],
+        "openPos":[-0.875, -0.18267, -3.33457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[1.3125, 0.59375, -2.75],
-        "openPos":[1.3125, 0.01562, -3.10019],
+        "closedPos":[-1.1875, 1.34375, -2.26562],
+        "openPos":[-1.1875, -0.18267, -3.33457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[0.875, 0.59375, -2.75],
-        "openPos":[0.875, 0.01562, -3.10019],
+        "closedPos":[-1.0, 1.34375, -2.26562],
+        "openPos":[-1.0, -0.18267, -3.33457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[0.875, 0.71875, -2.75],
-        "openPos":[0.875, -0.02084, -3.22519],
+        "closedPos":[1.1875, 1.34375, -2.26562],
+        "openPos":[1.1875, -0.18267, -3.33457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[1.3125, 0.71875, -2.75],
-        "openPos":[1.3125, -0.02084, -3.22519],
+        "closedPos":[1.0, 1.34375, -2.26562],
+        "openPos":[1.0, -0.18267, -3.33457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[1.0, 0.71875, -2.75],
-        "openPos":[1.0, -0.02084, -3.22519],
+        "closedPos":[1.3125, 1.34375, -2.26562],
+        "openPos":[1.3125, -0.18267, -3.33457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[1.1875, 0.71875, -2.75],
-        "openPos":[1.1875, -0.02084, -3.22519],
+        "closedPos":[0.875, 1.34375, -2.26562],
+        "openPos":[0.875, -0.18267, -3.33457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[1.1875, 0.84375, -2.75],
-        "openPos":[1.1875, -0.05729, -3.35019],
+        "closedPos":[0.875, 1.46875, -2.26562],
+        "openPos":[0.875, -0.30767, -3.45957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[1.0, 0.84375, -2.75],
-        "openPos":[1.0, -0.05729, -3.35019],
+        "closedPos":[1.3125, 1.46875, -2.26562],
+        "openPos":[1.3125, -0.30767, -3.45957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[1.3125, 0.84375, -2.75],
-        "openPos":[1.3125, -0.05729, -3.35019],
+        "closedPos":[1.0, 1.46875, -2.26562],
+        "openPos":[1.0, -0.30767, -3.45957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[0.875, 0.84375, -2.75],
-        "openPos":[0.875, -0.05729, -3.35019],
+        "closedPos":[1.1875, 1.46875, -2.26562],
+        "openPos":[1.1875, -0.30767, -3.45957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[0.875, 0.96875, -2.75],
-        "openPos":[0.875, -0.09375, -3.47519],
+        "closedPos":[-1.0, 1.46875, -2.26562],
+        "openPos":[-1.0, -0.30767, -3.45957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[1.3125, 0.96875, -2.75],
-        "openPos":[1.3125, -0.09375, -3.47519],
+        "closedPos":[-1.1875, 1.46875, -2.26562],
+        "openPos":[-1.1875, -0.30767, -3.45957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[1.0, 0.96875, -2.75],
-        "openPos":[1.0, -0.09375, -3.47519],
+        "closedPos":[-0.875, 1.46875, -2.26562],
+        "openPos":[-0.875, -0.30767, -3.45957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[1.1875, 0.96875, -2.75],
-        "openPos":[1.1875, -0.09375, -3.47519],
+        "closedPos":[-1.3125, 1.46875, -2.26562],
+        "openPos":[-1.3125, -0.30767, -3.45957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[1.1875, 1.09375, -2.75],
-        "openPos":[1.1875, -0.13021, -3.60019],
+        "closedPos":[-1.3125, 1.59375, -2.26562],
+        "openPos":[-1.3125, -0.30767, -3.58457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[1.0, 1.09375, -2.75],
-        "openPos":[1.0, -0.13021, -3.60019],
+        "closedPos":[-0.875, 1.59375, -2.26562],
+        "openPos":[-0.875, -0.30767, -3.58457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[1.3125, 1.09375, -2.75],
-        "openPos":[1.3125, -0.13021, -3.60019],
+        "closedPos":[-1.1875, 1.59375, -2.26562],
+        "openPos":[-1.1875, -0.30767, -3.58457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[0.875, 1.09375, -2.75],
-        "openPos":[0.875, -0.13021, -3.60019],
+        "closedPos":[-1.0, 1.59375, -2.26562],
+        "openPos":[-1.0, -0.30767, -3.58457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[0.875, 1.21875, -2.75],
-        "openPos":[0.875, -0.16667, -3.72519],
+        "closedPos":[1.1875, 1.59375, -2.26562],
+        "openPos":[1.1875, -0.30767, -3.58457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[1.3125, 1.21875, -2.75],
-        "openPos":[1.3125, -0.16667, -3.72519],
+        "closedPos":[1.0, 1.59375, -2.26562],
+        "openPos":[1.0, -0.30767, -3.58457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[1.0, 1.21875, -2.75],
-        "openPos":[1.0, -0.16667, -3.72519],
+        "closedPos":[1.3125, 1.59375, -2.26562],
+        "openPos":[1.3125, -0.30767, -3.58457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[1.1875, 1.21875, -2.75],
-        "openPos":[1.1875, -0.16667, -3.72519],
+        "closedPos":[0.875, 1.59375, -2.26562],
+        "openPos":[0.875, -0.30767, -3.58457],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[1.1875, 1.34375, -2.75],
-        "openPos":[1.1875, -0.20313, -3.85019],
+        "closedPos":[0.875, 1.71875, -2.26562],
+        "openPos":[0.875, -0.30767, -3.70957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[1.0, 1.34375, -2.75],
-        "openPos":[1.0, -0.20313, -3.85019],
+        "closedPos":[1.3125, 1.71875, -2.26562],
+        "openPos":[1.3125, -0.30767, -3.70957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[1.3125, 1.34375, -2.75],
-        "openPos":[1.3125, -0.20313, -3.85019],
+        "closedPos":[1.0, 1.71875, -2.26562],
+        "openPos":[1.0, -0.30767, -3.70957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[0.875, 1.34375, -2.75],
-        "openPos":[0.875, -0.20313, -3.85019],
+        "closedPos":[1.1875, 1.71875, -2.26562],
+        "openPos":[1.1875, -0.30767, -3.70957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[0.875, 1.46875, -2.75],
-        "openPos":[0.875, -0.23958, -3.97519],
+        "closedPos":[-1.0, 1.71875, -2.26562],
+        "openPos":[-1.0, -0.30767, -3.70957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[1.3125, 1.46875, -2.75],
-        "openPos":[1.3125, -0.23958, -3.97519],
+        "closedPos":[-1.1875, 1.71875, -2.26562],
+        "openPos":[-1.1875, -0.30767, -3.70957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[1.0, 1.46875, -2.75],
-        "openPos":[1.0, -0.23958, -3.97519],
+        "closedPos":[-0.875, 1.71875, -2.26562],
+        "openPos":[-0.875, -0.30767, -3.70957],
         "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     },
     {
         "name": "Ramp",
-        "closedPos":[1.1875, 1.46875, -2.75],
-        "openPos":[1.1875, -0.23958, -3.97519],
+        "closedPos":[-1.3125, 1.71875, -2.26562],
+        "openPos":[-1.3125, -0.30767, -3.70957],
         "width": 0.125, 
-        "height": 0.125
-    },
-    {
-        "name": "Ramp",
-        "closedPos":[1.1875, 1.59375, -2.75],
-        "openPos":[1.1875, -0.27604, -4.10019],
-        "width": 0.125, 
-        "height": 0.125
-    },
-    {
-        "name": "Ramp",
-        "closedPos":[1.0, 1.59375, -2.75],
-        "openPos":[1.0, -0.27604, -4.10019],
-        "width": 0.125, 
-        "height": 0.125
-    },
-    {
-        "name": "Ramp",
-        "closedPos":[1.3125, 1.59375, -2.75],
-        "openPos":[1.3125, -0.27604, -4.10019],
-        "width": 0.125, 
-        "height": 0.125
-    },
-    {
-        "name": "Ramp",
-        "closedPos":[0.875, 1.59375, -2.75],
-        "openPos":[0.875, -0.27604, -4.10019],
-        "width": 0.125, 
-        "height": 0.125
-    },
-    {
-        "name": "Ramp",
-        "closedPos":[0.875, 1.71875, -2.75],
-        "openPos":[0.875, -0.3125, -4.22519],
-        "width": 0.125, 
-        "height": 0.125
-    },
-    {
-        "name": "Ramp",
-        "closedPos":[1.3125, 1.71875, -2.75],
-        "openPos":[1.3125, -0.3125, -4.22519],
-        "width": 0.125, 
-        "height": 0.125
-    },
-    {
-        "name": "Ramp",
-        "closedPos":[1.0, 1.71875, -2.75],
-        "openPos":[1.0, -0.3125, -4.22519],
-        "width": 0.125, 
-        "height": 0.125
-    },
-    {
-        "name": "Ramp",
-        "closedPos":[1.1875, 1.71875, -2.75],
-        "openPos":[1.1875, -0.3125, -4.22519],
-        "width": 0.125, 
-        "height": 0.125
+        "height": 0.125,
+        "closedByDefault": true
     }
 ],
