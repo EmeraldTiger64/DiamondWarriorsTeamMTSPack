@@ -1,0 +1,22 @@
+probe extends 3 inch
+
+ (y)+2.29688
+ 
+	,
+			"defaultPart" : "unuparts:unuparts_part_unu_seat_invisible"
+	
+	,
+			"animations": [
+				{
+					"type": "rotation",
+					"variable": "pitch",
+					"centerPoint": [0,0.061035,0],
+					"axis": [-1,0,0]
+				},
+				{
+					"type": "rotation",
+					"variable": "roll",
+					"centerPoint": [0,0,0],
+					"axis": [0,0,-1]
+				}
+			]
