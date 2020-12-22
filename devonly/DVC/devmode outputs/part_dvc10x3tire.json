@@ -1,0 +1,25 @@
+{
+  "ground": {
+    "isWheel": true,
+    "width": 0.3125,
+    "height": 0.625,
+    "motiveFriction": 0.65,
+    "lateralFriction": 0.65
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "name": "DVC 10x3 Factory Tire",
+      "extraMaterials": []
+    }
+  ],
+  "prefixFolders": "",
+  "packID": "dwtmtspack",
+  "systemName": "dvc10x3tire",
+  "classification": "PART",
+  "general": {
+    "type": "ground_wheel",
+    "name": "DVC 10x3 Factory Tire",
+    "materials": ["minecraft:slime_ball:0:4","minecraft:iron_ingot:0:3"]
+  }
+}

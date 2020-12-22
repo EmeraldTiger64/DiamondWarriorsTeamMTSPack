@@ -1,0 +1,506 @@
+{
+  "motorized": {
+    "isFrontWheelDrive": true,
+    "hasCruiseControl": true,
+    "fuelCapacity": 10000,
+    "axleRatio": 3.75,
+    "dragCoefficient": 0.4,
+    "hornSound": "dwtmtspack:horn_car",
+    "instruments": [
+      {
+        "pos": [0.61719,0.8125,2.1483],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.017579125,
+        "hudX": 165,
+        "hudY": 40,
+        "hudScale": 0.45
+      },
+      {
+        "pos": [0.44531,0.8125,2.1483],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.017579125,
+        "hudX": 240,
+        "hudY": 40,
+        "hudScale": 0.45
+      },
+      {
+        "pos": [0.29688,0.86719,2.1483],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.01171875,
+        "hudX": 290,
+        "hudY": 24,
+        "hudScale": 0.22
+      },
+      {
+        "pos": [0.29688,0.74219,2.1483],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.01171875,
+        "hudX": 290,
+        "hudY": 54,
+        "hudScale": 0.22
+      },
+      {
+        "pos": [0.76563,0.86719,2.1483],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.01171875,
+        "hudX": 115,
+        "hudY": 24,
+        "hudScale": 0.22
+      },
+      {
+        "pos": [0.76563,0.74219,2.1483],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.01171875,
+        "hudX": 115,
+        "hudY": 54,
+        "hudScale": 0.22
+      }
+    ]
+  },
+  "parts": [
+    {
+      "pos": [0.50316,0.37,1.36],
+      "isController": true,
+      "types": ["seat"]
+    },
+    {
+      "pos": [-0.50316,0.37,1.36],
+      "types": ["seat"]
+    },
+    {
+      "pos": [0.29916,0.24243,2.84169],
+      "rot": [0.0,90.0,0.0],
+      "types": ["engine_car"],
+      "minValue": 0.15,
+      "maxValue": 0.325,
+      "particleObjects": [
+        {
+          "type": "smoke",
+          "color": "#D9D9D9",
+          "toColor": "#D9D9D9",
+          "transparency": 0.25,
+          "toTransparency": 0.25,
+          "scale": 1.0,
+          "pos": [0.38280999660491943,-0.05468999966979027,-0.9921900033950806],
+          "velocityVector": [0.0,0.0,-1.0],
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "pos": [0.985,0.0,0.0],
+      "types": ["ground_wheel"],
+      "minValue": 0.5,
+      "maxValue": 0.8125
+    },
+    {
+      "pos": [-0.985,0.0,0.0],
+      "types": ["ground_wheel"],
+      "minValue": 0.5,
+      "maxValue": 0.8125
+    },
+    {
+      "pos": [0.985,0.0,3.0],
+      "turnsWithSteer": true,
+      "types": ["ground_wheel"],
+      "minValue": 0.5,
+      "maxValue": 0.8125
+    },
+    {
+      "pos": [-0.985,0.0,3.0],
+      "turnsWithSteer": true,
+      "types": ["ground_wheel"],
+      "minValue": 0.5,
+      "maxValue": 0.8125
+    },
+    {
+      "pos": [0.0,0.34375,-0.4915],
+      "types": ["interactable_crate"],
+      "maxValue": 1.0
+    }
+  ],
+  "collision": [
+    {
+      "pos": [-0.1875,1.675,1.1875],
+      "width": 1.5,
+      "height": 0.0625
+    },
+    {
+      "pos": [0.1875,1.675,1.1875],
+      "width": 1.5,
+      "height": 0.0625
+    },
+    {
+      "pos": [-0.4375,0.8125,-0.3125],
+      "width": 1.25,
+      "height": 0.15
+    },
+    {
+      "pos": [0.4375,0.8125,-0.3125],
+      "width": 1.25,
+      "height": 0.15
+    },
+    {
+      "pos": [-0.3125,0.875,3.0],
+      "width": 1.5,
+      "height": 0.1
+    },
+    {
+      "pos": [0.3125,0.875,3.0],
+      "width": 1.5,
+      "height": 0.1
+    }
+  ],
+  "rendering": {
+    "textObjects": [
+      {
+        "pos": [0.0,0.4375,-0.9545],
+        "rot": [0.0,180.0,0.0],
+        "scale": 0.15,
+        "fieldName": "Text",
+        "defaultText": "FOX 601",
+        "maxLength": 8,
+        "color": "#000000"
+      },
+      {
+        "pos": [0.0,0.0625,3.8925],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.15,
+        "fieldName": "Text",
+        "defaultText": "FOX 601",
+        "maxLength": 8,
+        "color": "#000000"
+      }
+    ],
+    "animatedObjects": [
+      {
+        "objectName": "$GasPedal",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "throttle",
+            "centerPoint": [0.34375,0.4951,2.20287],
+            "axis": [-15.0,0.0,0.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$BrakePedal",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "brake",
+            "centerPoint": [0.58594,0.4951,2.20287],
+            "axis": [-15.0,0.0,0.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$ParkingBrake",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "p_brake",
+            "centerPoint": [0.78406,0.4951,2.20287],
+            "axis": [-15.0,0.0,0.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$Gearshift",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_gearshift_hvertical_1",
+            "centerPoint": [0.53125,0.70103,2.03794],
+            "axis": [0.0,0.5,-0.866025404]
+          },
+          {
+            "animationType": "rotation",
+            "variable": "engine_gearshift_hhorizontal_1",
+            "centerPoint": [0.53125,0.70103,2.03794],
+            "axis": [0.0,0.5,-0.866025404]
+          }
+        ]
+      },
+      {
+        "objectName": "$SteeringWheel",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [0.53125,0.77734,1.88595],
+            "axis": [-0.0,-0.5,0.866025404]
+          }
+        ]
+      },
+      {
+        "objectName": "$BlinkerStalk",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "LeftTurnLight",
+            "centerPoint": [0.53125,0.70103,2.03794],
+            "axis": [0.0,7.5,-12.990375]
+          },
+          {
+            "animationType": "rotation",
+            "variable": "RightTurnLight",
+            "centerPoint": [0.53125,0.70103,2.03794],
+            "axis": [0.0,-7.5,12.990375]
+          }
+        ]
+      },
+      {
+        "objectName": "$LeftTieRod",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [0.66406,0.05859,3.14844],
+            "axis": [-0.0,-1.0,-0.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$RightTieRod",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [-0.66406,0.05859,3.14844],
+            "axis": [-0.0,-1.0,-0.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$FLHubLinkage",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [0.90625,1.0,3.0],
+            "axis": [-0.0,-1.0,-0.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$FLHub",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [0.90625,1.0,3.0],
+            "axis": [-0.0,-1.0,-0.0]
+          },
+          {
+            "animationType": "rotation",
+            "variable": "engine_driveshaft_rotation_1",
+            "centerPoint": [0.90625,0.0,3.0],
+            "axis": [1.0,0.0,0.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$FRHubLinkage",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [-0.90625,1.0,3.0],
+            "axis": [-0.0,-1.0,-0.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$FRHub",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [-0.90625,1.0,3.0],
+            "axis": [-0.0,-1.0,-0.0]
+          },
+          {
+            "animationType": "rotation",
+            "variable": "engine_driveshaft_rotation_1",
+            "centerPoint": [-0.90625,0.0,3.0],
+            "axis": [1.0,0.0,0.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$RLHub",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_driveshaft_rotation_1",
+            "centerPoint": [0.0,0.0,0.0],
+            "axis": [1.0,0.0,0.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$RRHub",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_driveshaft_rotation_1",
+            "centerPoint": [0.0,0.0,0.0],
+            "axis": [1.0,0.0,0.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$Driveshaft",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_driveshaft_rotation_1",
+            "centerPoint": [0.0,0.132813,2.54688],
+            "axis": [0.0,-0.197393056,-3.54450786]
+          }
+        ]
+      },
+      {
+        "objectName": "$Hood",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "hood",
+            "centerPoint": [0.0,0.9375,2.375],
+            "axis": [-60.0,0.0,0.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$FLDoor",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "door",
+            "centerPoint": [1.0625,0.46875,2.1875],
+            "axis": [0.0,-60.0,0.0],
+            "duration": 30
+          }
+        ]
+      },
+      {
+        "objectName": "$FLDoor_Window",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "door",
+            "centerPoint": [1.0625,0.46875,2.1875],
+            "axis": [0.0,-60.0,0.0],
+            "duration": 30
+          }
+        ]
+      },
+      {
+        "objectName": "$FRDoor",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "door",
+            "centerPoint": [-1.0625,0.46875,2.1875],
+            "axis": [0.0,60.0,0.0],
+            "duration": 30
+          }
+        ]
+      },
+      {
+        "objectName": "$FRDoor_Window",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "door",
+            "centerPoint": [-1.0625,0.46875,2.1875],
+            "axis": [0.0,60.0,0.0],
+            "duration": 30
+          }
+        ]
+      },
+      {
+        "objectName": "$Trunk",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "door",
+            "centerPoint": [0.0,0.9375,0.0],
+            "axis": [60.0,0.0,0.0],
+            "duration": 30
+          }
+        ]
+      },
+      {
+        "objectName": "$RadiatorFan1",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_rotation_1",
+            "centerPoint": [-0.30469,0.48438,3.49383],
+            "axis": [0.0,0.0,0.5]
+          }
+        ]
+      },
+      {
+        "objectName": "$RadiatorFan2",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_rotation_1",
+            "centerPoint": [0.35156,0.48438,3.49383],
+            "axis": [0.0,0.0,0.5]
+          }
+        ]
+      }
+    ]
+  },
+  "definitions": [
+    {
+      "subName": "_trim1",
+      "name": "2002 DVC Fox 601 - Light Blue",
+      "extraMaterials": ["minecraft:dye:12:8"]
+    },
+    {
+      "subName": "_trim2",
+      "name": "2002 DVC Fox 601 - White",
+      "extraMaterials": ["minecraft:dye:15:8"]
+    },
+    {
+      "subName": "_trim3",
+      "name": "2002 DVC Fox 601 - Black",
+      "extraMaterials": ["minecraft:dye:0:8"]
+    },
+    {
+      "subName": "_trim4",
+      "name": "2002 DVC Fox 601 - Dark Blue",
+      "extraMaterials": ["minecraft:dye:4:6","minecraft:dye:0:2"]
+    },
+    {
+      "subName": "_trim5",
+      "name": "2002 DVC Fox 601 - Tan",
+      "extraMaterials": ["minecraft:dye:14:4","minecraft:dye:0:4"]
+    },
+    {
+      "subName": "_trim6",
+      "name": "2002 DVC Fox 601 - Racing Orange",
+      "extraMaterials": ["minecraft:dye:14:7","minecraft:dye:15:2","minecraft:dye:0:2"]
+    },
+    {
+      "subName": "_trim7",
+      "name": "2002 DVC Fox 601 - Yellow",
+      "extraMaterials": ["minecraft:dye:11:8"]
+    }
+  ],
+  "prefixFolders": "",
+  "packID": "dwtmtspack",
+  "systemName": "dvc2002fox601",
+  "classification": "VEHICLE",
+  "general": {
+    "emptyMass": 1102,
+    "description": "The 2002 DVC Fox 601 coupe can be seen as a sort-of different offering to the other vehicles DVC was making at the time. This car is designed to be small and fuel efficient, something you would want out of an economy-class car such as this. Despite it's size, however, this car is still very reliable and capable of getting you from point A to point B in your daily commute.",
+    "materials": ["minecraft:iron_ingot:0:8","minecraft:heavy_weighted_pressure_plate:0:10","minecraft:redstone:0:8","minecraft:glass_pane:0:4"]
+  }
+}

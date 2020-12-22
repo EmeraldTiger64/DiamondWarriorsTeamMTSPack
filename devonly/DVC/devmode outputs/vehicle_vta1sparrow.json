@@ -1,0 +1,486 @@
+{
+  "motorized": {
+    "hasFlaps": true,
+    "fuelCapacity": 6700,
+    "tailDistance": 4.6875,
+    "wingSpan": 8.5,
+    "wingArea": 9.5,
+    "aileronArea": 2.05,
+    "elevatorArea": 1.05,
+    "rudderArea": 0.45,
+    "instruments": [
+      {
+        "pos": [0.3125,0.726563,-0.6255],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.015625,
+        "hudX": 88,
+        "hudY": 49,
+        "hudScale": 0.390625
+      },
+      {
+        "pos": [0.15625,0.789063,-0.6255],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.015625,
+        "hudX": 144,
+        "hudY": 34,
+        "hudScale": 0.390625
+      },
+      {
+        "pos": [0.0,0.789063,-0.6255],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.015625,
+        "hudX": 200,
+        "hudY": 34,
+        "hudScale": 0.390625
+      },
+      {
+        "pos": [-0.15625,0.789063,-0.6255],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.015625,
+        "hudX": 256,
+        "hudY": 34,
+        "hudScale": 0.390625
+      },
+      {
+        "pos": [-0.3125,0.726563,-0.6255],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.015625,
+        "hudX": 312,
+        "hudY": 49,
+        "hudScale": 0.390625
+      },
+      {
+        "pos": [0.3125,0.570313,-0.6255],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.015625,
+        "hudX": 88,
+        "hudY": 105,
+        "hudScale": 0.390625
+      },
+      {
+        "pos": [0.15625,0.632812,-0.6255],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.015625,
+        "hudX": 144,
+        "hudY": 90,
+        "hudScale": 0.390625
+      },
+      {
+        "pos": [0.0,0.632812,-0.6255],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.015625,
+        "hudX": 200,
+        "hudY": 90,
+        "hudScale": 0.390625
+      },
+      {
+        "pos": [-0.15625,0.632812,-0.6255],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.015625,
+        "hudX": 256,
+        "hudY": 90,
+        "hudScale": 0.390625
+      },
+      {
+        "pos": [-0.3125,0.570313,-0.6255],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.015625,
+        "hudX": 312,
+        "hudY": 105,
+        "hudScale": 0.390625
+      },
+      {
+        "pos": [0.453125,0.710938,-0.6255],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.01171875,
+        "hudX": 40,
+        "hudY": 57,
+        "hudScale": 0.2734375
+      },
+      {
+        "pos": [0.453125,0.601563,-0.6255],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.01171875,
+        "hudX": 40,
+        "hudY": 97,
+        "hudScale": 0.2734375
+      },
+      {
+        "pos": [-0.453125,0.710938,-0.6255],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.01171875,
+        "hudX": 362,
+        "hudY": 57,
+        "hudScale": 0.2734375
+      },
+      {
+        "pos": [-0.453125,0.601563,-0.6255],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.01171875,
+        "hudX": 362,
+        "hudY": 97,
+        "hudScale": 0.2734375
+      }
+    ]
+  },
+  "parts": [
+    {
+      "pos": [0.0,0.148438,-4.8125],
+      "turnsWithSteer": true,
+      "types": ["ground_wheel"],
+      "minValue": 0.15,
+      "maxValue": 0.2
+    },
+    {
+      "pos": [-0.90625,-0.492187,0.59375],
+      "types": ["ground_wheel"],
+      "minValue": 0.3,
+      "maxValue": 0.3125
+    },
+    {
+      "pos": [0.90625,-0.492187,0.59375],
+      "types": ["ground_wheel"],
+      "minValue": 0.3,
+      "maxValue": 0.3125
+    },
+    {
+      "pos": [0.0,0.515625,1.40625],
+      "types": ["engine_aircraft_opposed"],
+      "maxValue": 0.75,
+      "particleObjects": [
+        {
+          "type": "smoke",
+          "color": "#D9D9D9",
+          "toColor": "#D9D9D9",
+          "transparency": 0.25,
+          "toTransparency": 0.25,
+          "scale": 1.0,
+          "pos": [-0.4375,-0.125,1.1875],
+          "velocityVector": [0.0,-1.600000023841858,-0.4000000059604645],
+          "quantity": 1
+        },
+        {
+          "type": "smoke",
+          "color": "#D9D9D9",
+          "toColor": "#D9D9D9",
+          "transparency": 0.25,
+          "toTransparency": 0.25,
+          "scale": 1.0,
+          "pos": [0.4375,-0.125,1.1875],
+          "velocityVector": [0.0,-1.600000023841858,-0.4000000059604645],
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "pos": [0.0,0.164063,-1.34375],
+      "isController": true,
+      "types": ["seat"],
+      "customTypes": ["aerobatic"],
+      "dismountPos": [-2.0,0.0,-2.0]
+    }
+  ],
+  "collision": [
+    {
+      "pos": [0.0,0.4375,1.5],
+      "width": 1.25,
+      "height": 0.75
+    },
+    {
+      "pos": [0.0,0.4375,0.25],
+      "width": 1.25,
+      "height": 0.75
+    },
+    {
+      "pos": [0.0,0.5625,-1.0],
+      "width": 1.25,
+      "height": 1.25
+    },
+    {
+      "pos": [0.0,0.5625,-2.25],
+      "width": 1.0,
+      "height": 1.125
+    },
+    {
+      "pos": [0.0,0.5625,-3.25],
+      "width": 0.825,
+      "height": 0.875
+    },
+    {
+      "pos": [0.0,0.5625,-4.125],
+      "width": 0.625,
+      "height": 0.625
+    },
+    {
+      "pos": [0.0,1.0,-4.5],
+      "width": 0.25,
+      "height": 1.0
+    },
+    {
+      "pos": [-0.875,0.625,-4.5],
+      "width": 1.0,
+      "height": 0.125
+    },
+    {
+      "pos": [0.875,0.625,-4.5],
+      "width": 1.0,
+      "height": 0.125
+    },
+    {
+      "pos": [-1.25,0.0,-0.25],
+      "width": 1.25,
+      "height": 0.125
+    },
+    {
+      "pos": [1.25,0.0,-0.25],
+      "width": 1.25,
+      "height": 0.125
+    },
+    {
+      "pos": [-2.5,0.0,-0.25],
+      "width": 1.25,
+      "height": 0.125
+    },
+    {
+      "pos": [2.5,0.0,-0.25],
+      "width": 1.25,
+      "height": 0.125
+    },
+    {
+      "pos": [-3.75,0.0,-0.25],
+      "width": 1.0,
+      "height": 0.125
+    },
+    {
+      "pos": [3.75,0.0,-0.25],
+      "width": 1.0,
+      "height": 0.125
+    }
+  ],
+  "rendering": {
+    "textObjects": [
+      {
+        "pos": [0.42,0.7,-2.5],
+        "rot": [0.0,99.65,0.0],
+        "scale": 0.45,
+        "fieldName": "Text",
+        "defaultText": "N2X7CS",
+        "maxLength": 6,
+        "color": "#DDDDDD"
+      },
+      {
+        "pos": [-0.42,0.7,-2.5],
+        "rot": [0.0,-99.65,0.0],
+        "scale": 0.45,
+        "fieldName": "Text",
+        "defaultText": "N2X7CS",
+        "maxLength": 6,
+        "color": "#DDDDDD"
+      }
+    ],
+    "animatedObjects": [
+      {
+        "objectName": "$Aileron_L",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "aileron",
+            "centerPoint": [2.65625,0.039063,-0.53125],
+            "axis": [-1.183668,0.0,-0.19728]
+          }
+        ]
+      },
+      {
+        "objectName": "$Aileron_R",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "aileron",
+            "centerPoint": [-2.65625,0.039063,-0.53125],
+            "axis": [1.183668,0.0,-0.19728]
+          }
+        ]
+      },
+      {
+        "objectName": "$Elevator_L",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "elevator",
+            "centerPoint": [0.71875,0.570314,-4.4375],
+            "axis": [1.185312,0.0,0.187152]
+          }
+        ]
+      },
+      {
+        "objectName": "$Elevator_R",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "elevator",
+            "centerPoint": [-0.71875,0.570314,-4.4375],
+            "axis": [1.185312,0.0,-0.187152]
+          }
+        ]
+      },
+      {
+        "objectName": "$Rudder",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [0.0,0.0,-4.59375],
+            "axis": [0.0,0.555556,0.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$MagnetoSwitches",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_magneto_1",
+            "centerPoint": [0.0,0.507813,-0.59375],
+            "axis": [30.0,0.0,0.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$RudderPedals",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [0.0,0.0,-0.369],
+            "axis": [0.0,-0.5,0.0]
+          },
+          {
+            "animationType": "rotation",
+            "variable": "brake",
+            "centerPoint": [0.0,0.099938,-0.39975],
+            "axis": [15.0,0.0,0.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$Stick",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "elevator",
+            "centerPoint": [0.0,-0.099938,-0.814875],
+            "axis": [-0.6,0.0,0.0]
+          },
+          {
+            "animationType": "rotation",
+            "variable": "aileron",
+            "centerPoint": [0.0,-0.099938,0.0],
+            "axis": [0.0,0.0,0.6]
+          }
+        ]
+      },
+      {
+        "objectName": "$RudderPedalMount",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [0.0,0.0,-0.369],
+            "axis": [0.0,-0.5,0.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$TailWheelStrut",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [0.0,0.0,-4.8125],
+            "axis": [0.0,1.0,0.0]
+          }
+        ]
+      },
+      {
+        "objectName": "%ThrottleKnob",
+        "animations": [
+          {
+            "animationType": "translation",
+            "variable": "throttle",
+            "axis": [0.0,0.0,0.09375]
+          }
+        ]
+      },
+      {
+        "objectName": "%MixtureKnob",
+        "animations": [
+          {
+            "animationType": "translation",
+            "variable": "engine_fuel_flow_1",
+            "axis": [0.0,0.0,0.12],
+            "clampMax": 0.09375
+          }
+        ]
+      },
+      {
+        "objectName": "%PropPitchKnob",
+        "animations": [
+          {
+            "animationType": "translation",
+            "variable": "propeller_pitch_percent_1",
+            "axis": [0.0,0.0,0.09375],
+            "clampMin": -0.03125
+          }
+        ]
+      },
+      {
+        "objectName": "%StarterButton",
+        "animations": [
+          {
+            "animationType": "translation",
+            "variable": "engine_starter_1",
+            "axis": [0.0,0.0,0.0078125]
+          }
+        ]
+      },
+      {
+        "objectName": "%Window_Canopy",
+        "animations": [
+          {
+            "animationType": "translation",
+            "variable": "door",
+            "axis": [0.0,0.0,-0.625],
+            "duration": 30
+          }
+        ]
+      }
+    ]
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "name": "§bVoltere §fVT§eA§f-1 §eSparrow §7(§8Unpainted§7)",
+      "extraMaterials": []
+    },
+    {
+      "subName": "_pokeball",
+      "name": "§bVoltere §fVT§eA§f-1 §eSparrow §7(Grey/§cRed§7)",
+      "extraMaterials": ["minecraft:dye:8:15","minecraft:dye:1:8"]
+    },
+    {
+      "subName": "_voodoo",
+      "name": "§bVoltere §fVT§eA§f-1 §eSparrow §7(§5Racing §aColors§7)",
+      "extraMaterials": ["minecraft:dye:5:15","minecraft:dye:10:5","minecraft:dye:0:4","minecraft:dye:15:4"]
+    }
+  ],
+  "prefixFolders": "",
+  "packID": "dwtmtspack",
+  "systemName": "vta1sparrow",
+  "classification": "VEHICLE",
+  "general": {
+    "isAircraft": true,
+    "emptyMass": 500,
+    "description": "The VTA-1 Sparrow is a high-performance aerobatic aircraft, capable of Unlimited-class competition. Weighing a feather-light 1150 pounds due to its entirely-carbon fiber construction, its long-span wings increase aileron area as well as helping it stand out from its counterparts from other manufacturers.",
+    "materials": ["dwtmtspack:carbonfiberspar:0:15","dwtmtspack:carbonfiberpanel:0:10","dwtmtspack:controlsurfacecable:0:1"]
+  }
+}

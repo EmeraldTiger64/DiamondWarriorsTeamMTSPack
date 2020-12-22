@@ -1,0 +1,91 @@
+{
+  "components": [
+    {
+      "textureXCenter": 192,
+      "textureYCenter": 576,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "lightUpTexture": true
+    },
+    {
+      "textureXCenter": 832,
+      "textureYCenter": 64,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "animations": [
+        {
+          "animationType": "rotation",
+          "variable": "electric_power",
+          "centerPoint": [0.0,0.0,0.0],
+          "axis": [0.0,0.0,6.92307710647583],
+          "offset": -135.0
+        }
+      ],
+      "lightUpTexture": true
+    },
+    {
+      "textureXCenter": 832,
+      "textureYCenter": 64,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "animations": [
+        {
+          "animationType": "rotation",
+          "variable": "engine_oil",
+          "centerPoint": [0.0,0.0,0.0],
+          "axis": [0.0,0.0,-0.8317499756813049],
+          "offset": 135.0
+        }
+      ],
+      "lightUpTexture": true
+    },
+    {
+      "textureXCenter": 192,
+      "textureYCenter": 704,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "lightOverlay": true
+    },
+    {
+      "textureXCenter": 832,
+      "textureYCenter": 192,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "animations": [
+        {
+          "animationType": "rotation",
+          "variable": "electric_power",
+          "centerPoint": [0.0,0.0,0.0],
+          "axis": [0.0,0.0,6.92307710647583],
+          "offset": -135.0
+        }
+      ],
+      "lightOverlay": true
+    },
+    {
+      "textureXCenter": 832,
+      "textureYCenter": 192,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "animations": [
+        {
+          "animationType": "rotation",
+          "variable": "engine_oil",
+          "centerPoint": [0.0,0.0,0.0],
+          "axis": [0.0,0.0,-0.8317499756813049],
+          "offset": 135.0
+        }
+      ],
+      "lightOverlay": true
+    }
+  ],
+  "prefixFolders": "",
+  "packID": "dwtmtspack",
+  "systemName": "dvccarbatteryoilcombo",
+  "classification": "INSTRUMENT",
+  "general": {
+    "name": "Combined Battery/Oil Pressure Gauge",
+    "description": "Indicates battery voltage (left) and engine oil pressure (right).",
+    "materials": ["minecraft:iron_ingot:0:1","minecraft:dye:0:1","minecraft:dye:8:2","minecraft:dye:15:3","minecraft:dye:1:1","minecraft:dye:4:1"]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "definitions": [
+    {
+      "subName": "",
+      "name": "Aerobatic Aircraft Seat",
+      "extraMaterials": []
+    }
+  ],
+  "prefixFolders": "",
+  "packID": "dwtmtspack",
+  "systemName": "aerobaticseat",
+  "classification": "PART",
+  "general": {
+    "type": "seat",
+    "customType": "aerobatic",
+    "name": "Aerobatic Aircraft Seat",
+    "materials": ["minecraft:wool:7:1","minecraft:wool:8:1","minecraft:iron_ingot:0:1","minecraft:string:-1:2"]
+  }
+}

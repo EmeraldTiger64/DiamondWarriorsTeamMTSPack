@@ -1,0 +1,25 @@
+{
+  "ground": {
+    "isWheel": true,
+    "width": 0.40625,
+    "height": 0.8125,
+    "motiveFriction": 0.65,
+    "lateralFriction": 0.65
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "name": "DVC 13x4 Factory Tire",
+      "extraMaterials": []
+    }
+  ],
+  "prefixFolders": "",
+  "packID": "dwtmtspack",
+  "systemName": "dvc13x4tire",
+  "classification": "PART",
+  "general": {
+    "type": "ground_wheel",
+    "name": "DVC 13x4 Factory Tire",
+    "materials": ["minecraft:slime_ball:0:6","minecraft:iron_ingot:0:3"]
+  }
+}

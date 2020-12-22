@@ -1,0 +1,19 @@
+{
+  "definitions": [
+    {
+      "subName": "",
+      "name": "Medium Aircraft Passenger Seat",
+      "extraMaterials": []
+    }
+  ],
+  "prefixFolders": "",
+  "packID": "dwtmtspack",
+  "systemName": "mediumaircraftpassengerseat",
+  "classification": "PART",
+  "general": {
+    "type": "seat",
+    "customType": "business",
+    "name": "Medium Aircraft Passenger Seat",
+    "materials": ["minecraft:stick:0:4","minecraft:iron_ingot:0:1","minecraft:leather:0:2","minecraft:dye:7:2","minecraft:dye:8:1"]
+  }
+}

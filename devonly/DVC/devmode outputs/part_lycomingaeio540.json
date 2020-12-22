@@ -1,0 +1,55 @@
+{
+  "engine": {
+    "isAutomatic": true,
+    "starterPower": 20,
+    "shiftSpeed": 20,
+    "revResistance": 10,
+    "maxRPM": 2700,
+    "fuelConsumption": 0.675,
+    "gearRatios": [
+      -1.0,
+      null,
+      1.0
+    ],
+    "fuelType": "avgas"
+  },
+  "subParts": [
+    {
+      "pos": [0.0,0.0,0.75],
+      "types": ["propeller"],
+      "maxValue": 95.0
+    }
+  ],
+  "rendering": {
+    "animatedObjects": [
+      {
+        "objectName": "$PropShaft",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_driveshaft_rotation",
+            "centerPoint": [0.0,0.0,0.0],
+            "axis": [0.0,0.0,1.0]
+          }
+        ]
+      }
+    ]
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "name": "§cLycoming §eAE§fIO-540 §7Aircraft Engine",
+      "extraMaterials": []
+    }
+  ],
+  "prefixFolders": "",
+  "packID": "dwtmtspack",
+  "systemName": "lycomingaeio540",
+  "classification": "PART",
+  "general": {
+    "type": "engine_aircraft_opposed",
+    "modelName": "lycomingo540",
+    "name": "§cLycoming §eAE§fIO-540 §7Aircraft Engine",
+    "materials": ["dwtmtspack:smallaircraftcylinder:0:6","dwtmtspack:mediumflatengineblock:0:1","dwtmtspack:mediumcrankshaft:0:1","dwtmtspack:mediumcamshaft:0:1","minecraft:iron_block:0:1"]
+  }
+}

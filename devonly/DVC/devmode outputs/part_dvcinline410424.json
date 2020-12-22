@@ -1,0 +1,117 @@
+{
+  "engine": {
+    "isAutomatic": true,
+    "starterPower": 45,
+    "shiftSpeed": 20,
+    "revResistance": 10,
+    "maxRPM": 9490,
+    "fuelConsumption": 0.25,
+    "gearRatios": [
+      -3.5,
+      null,
+      3.0,
+      1.78,
+      1.14,
+      0.75
+    ],
+    "fuelType": "gasoline"
+  },
+  "rendering": {
+    "animatedObjects": [
+      {
+        "objectName": "$ACCompressorPulley",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_rotation",
+            "centerPoint": [-0.17187,0.24219,0.83594],
+            "axis": [0.0,0.0,1.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$AlternatorPulley",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_rotation",
+            "centerPoint": [-0.21875,0.01562,0.82031],
+            "axis": [0.0,0.0,1.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$BeltTensionerPulley",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_rotation",
+            "centerPoint": [-0.10156,0.13281,0.85156],
+            "axis": [0.0,0.0,1.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$Camshaft",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_rotation",
+            "centerPoint": [0.0,0.39062,0.58203],
+            "axis": [0.0,0.0,0.5]
+          }
+        ]
+      },
+      {
+        "objectName": "$Crankshaft",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_rotation",
+            "centerPoint": [0.0,0.0,0.47786],
+            "axis": [0.0,0.0,1.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$Idler",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_rotation",
+            "centerPoint": [0.07031,0.10156,0.83984],
+            "axis": [0.0,0.0,1.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$PowerSteeringPulley",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_rotation",
+            "centerPoint": [0.17188,0.17969,0.83594],
+            "axis": [0.0,0.0,1.0]
+          }
+        ]
+      }
+    ]
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "name": "DVC Small Block I4 2.4L",
+      "extraMaterials": []
+    }
+  ],
+  "prefixFolders": "",
+  "packID": "dwtmtspack",
+  "systemName": "dvcinline410424",
+  "classification": "PART",
+  "general": {
+    "type": "engine_car",
+    "modelName": "dvcinline4stock",
+    "name": "DVC Small Block I4 2.4L",
+    "materials": ["minecraft:iron_ingot:0:15","minecraft:redstone:0:2","minecraft:gold_nugget:0:4","minecraft:quartz_block:0:1"]
+  }
+}

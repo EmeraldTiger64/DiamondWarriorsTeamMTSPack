@@ -1,0 +1,139 @@
+{
+  "engine": {
+    "starterPower": 45,
+    "shiftSpeed": 20,
+    "revResistance": 10,
+    "maxRPM": 7000,
+    "fuelConsumption": 0.4,
+    "gearRatios": [
+      -3.5,
+      null,
+      3.47,
+      2.19,
+      1.49,
+      1.0,
+      0.75
+    ],
+    "fuelType": "gasoline"
+  },
+  "rendering": {
+    "animatedObjects": [
+      {
+        "objectName": "$ACCompressorPulley",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_rotation",
+            "centerPoint": [0.09375,0.30469,0.83594],
+            "axis": [0.0,0.0,1.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$AlternatorPulley",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_rotation",
+            "centerPoint": [-0.21875,0.01562,0.82031],
+            "axis": [0.0,0.0,1.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$BeltTensionerPulley",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_rotation",
+            "centerPoint": [0.14063,0.13281,0.85156],
+            "axis": [0.0,0.0,1.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$Crankshaft",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_rotation",
+            "centerPoint": [0.0,0.0,0.47786],
+            "axis": [0.0,0.0,1.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$Idler",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_rotation",
+            "centerPoint": [0.125,0.00781,0.83984],
+            "axis": [0.0,0.0,1.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$LeftCamshaft",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_rotation",
+            "centerPoint": [-0.27344,0.28125,0.58008],
+            "axis": [0.0,0.0,0.5]
+          }
+        ]
+      },
+      {
+        "objectName": "$PowerSteeringPumpPulley",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_rotation",
+            "centerPoint": [0.26563,0.07031,0.83594],
+            "axis": [0.0,0.0,1.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$RightCamshaft",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_rotation",
+            "centerPoint": [0.27344,0.28125,0.58008],
+            "axis": [0.0,0.0,0.5]
+          }
+        ]
+      },
+      {
+        "objectName": "$TimingIdler",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_rotation",
+            "centerPoint": [0.0,0.16406,0.77734],
+            "axis": [0.0,0.0,1.0]
+          }
+        ]
+      }
+    ]
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "name": "DVC Small Block V8 5.7L",
+      "extraMaterials": []
+    }
+  ],
+  "prefixFolders": "",
+  "packID": "dwtmtspack",
+  "systemName": "dvcsmallblockv810857",
+  "classification": "PART",
+  "general": {
+    "type": "engine_car",
+    "modelName": "dvcsmallblockv8stock",
+    "name": "DVC Small Block V8 5.7L",
+    "materials": ["minecraft:iron_ingot:0:21","minecraft:redstone:0:3","minecraft:gold_nugget:0:8","minecraft:quartz_block:0:1"]
+  }
+}

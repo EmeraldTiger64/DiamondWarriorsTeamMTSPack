@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "textureXCenter": 576,
+      "textureYCenter": 64,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "lightUpTexture": true
+    },
+    {
+      "textureXCenter": 832,
+      "textureYCenter": 64,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "animations": [
+        {
+          "animationType": "rotation",
+          "variable": "engine_oil",
+          "centerPoint": [0.0,0.0,0.0],
+          "axis": [0.0,0.0,1.6634999513626099],
+          "offset": -90.0
+        }
+      ],
+      "lightUpTexture": true
+    },
+    {
+      "textureXCenter": 576,
+      "textureYCenter": 192,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "lightOverlay": true
+    },
+    {
+      "textureXCenter": 832,
+      "textureYCenter": 192,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "animations": [
+        {
+          "animationType": "rotation",
+          "variable": "engine_oil",
+          "centerPoint": [0.0,0.0,0.0],
+          "axis": [0.0,0.0,1.6634999513626099],
+          "offset": -90.0
+        }
+      ],
+      "lightOverlay": true
+    }
+  ],
+  "prefixFolders": "",
+  "packID": "dwtmtspack",
+  "systemName": "dvccaroilgauge",
+  "classification": "INSTRUMENT",
+  "general": {
+    "name": "Oil Pressure Gauge",
+    "description": "Indicates engine oil pressure.",
+    "materials": ["minecraft:iron_ingot:0:1","minecraft:dye:0:1","minecraft:dye:8:2","minecraft:dye:15:3","minecraft:dye:1:1","minecraft:dye:4:1"]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "propeller": {
+    "isDynamicPitch": true,
+    "pitch": 105,
+    "diameter": 86,
+    "startingHealth": 175
+  },
+  "rendering": {
+    "animatedObjects": [
+      {
+        "objectName": "$blade_1",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "propeller_pitch_deg",
+            "centerPoint": [0.0,0.0,0.125],
+            "axis": [-1.0,0.0,0.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$blade_2",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "propeller_pitch_deg",
+            "centerPoint": [0.0,0.0,0.125],
+            "axis": [0.5,0.866,0.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$blade_3",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "propeller_pitch_deg",
+            "centerPoint": [0.0,0.0,0.125],
+            "axis": [0.5,-0.866,0.0]
+          }
+        ]
+      }
+    ]
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "name": "§6Hartzell §5Purple §e'Claw' 3-Blade §7Constant-Speed Propeller §7(§ePerformance§7)",
+      "extraMaterials": []
+    }
+  ],
+  "prefixFolders": "",
+  "packID": "dwtmtspack",
+  "systemName": "propmedium3blade_perf_purple",
+  "classification": "PART",
+  "general": {
+    "type": "propeller",
+    "modelName": "propmedium3blade",
+    "name": "§6Hartzell §5Purple §e'Claw' 3-Blade §7Constant-Speed Propeller §7(§ePerformance§7)",
+    "materials": ["minecraft:dye:5:1","dwtmtspack:smallpropblade:0:3","dwtmtspack:smallpropspinner:0:1"]
+  }
+}

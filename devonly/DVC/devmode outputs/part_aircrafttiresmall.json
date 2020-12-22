@@ -1,0 +1,25 @@
+{
+  "ground": {
+    "isWheel": true,
+    "width": 0.15625,
+    "height": 0.3125,
+    "motiveFriction": 0.45,
+    "lateralFriction": 0.65
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "name": "Small Aircraft Wheel",
+      "extraMaterials": []
+    }
+  ],
+  "prefixFolders": "",
+  "packID": "dwtmtspack",
+  "systemName": "aircrafttiresmall",
+  "classification": "PART",
+  "general": {
+    "type": "ground_wheel",
+    "name": "Small Aircraft Wheel",
+    "materials": ["minecraft:dye:0:2","minecraft:iron_ingot:0:1","minecraft:slime_ball:0:4"]
+  }
+}

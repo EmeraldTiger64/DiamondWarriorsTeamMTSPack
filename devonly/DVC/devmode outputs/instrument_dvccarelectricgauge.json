@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "textureXCenter": 320,
+      "textureYCenter": 64,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "lightUpTexture": true
+    },
+    {
+      "textureXCenter": 832,
+      "textureYCenter": 64,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "animations": [
+        {
+          "animationType": "rotation",
+          "variable": "electric_power",
+          "centerPoint": [0.0,0.0,0.0],
+          "axis": [0.0,0.0,13.84615421295166],
+          "offset": -90.0
+        }
+      ],
+      "lightUpTexture": true
+    },
+    {
+      "textureXCenter": 320,
+      "textureYCenter": 192,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "lightOverlay": true
+    },
+    {
+      "textureXCenter": 832,
+      "textureYCenter": 192,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "animations": [
+        {
+          "animationType": "rotation",
+          "variable": "electric_power",
+          "centerPoint": [0.0,0.0,0.0],
+          "axis": [0.0,0.0,13.84615421295166],
+          "offset": -90.0
+        }
+      ],
+      "lightOverlay": true
+    }
+  ],
+  "prefixFolders": "",
+  "packID": "dwtmtspack",
+  "systemName": "dvccarelectricgauge",
+  "classification": "INSTRUMENT",
+  "general": {
+    "name": "Electrical Gauge",
+    "description": "Indicates battery voltage.",
+    "materials": ["minecraft:iron_ingot:0:1","minecraft:dye:0:1","minecraft:dye:8:2","minecraft:dye:15:3","minecraft:dye:1:1","minecraft:dye:4:1"]
+  }
+}

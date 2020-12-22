@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "textureXCenter": 448,
+      "textureYCenter": 64,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "lightUpTexture": true
+    },
+    {
+      "textureXCenter": 832,
+      "textureYCenter": 64,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "animations": [
+        {
+          "animationType": "rotation",
+          "variable": "engine_temp",
+          "centerPoint": [0.0,0.0,0.0],
+          "axis": [0.0,0.0,1.3636363744735718],
+          "offset": -90.0
+        }
+      ],
+      "lightUpTexture": true
+    },
+    {
+      "textureXCenter": 448,
+      "textureYCenter": 192,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "lightOverlay": true
+    },
+    {
+      "textureXCenter": 832,
+      "textureYCenter": 192,
+      "textureWidth": 128,
+      "textureHeight": 128,
+      "animations": [
+        {
+          "animationType": "rotation",
+          "variable": "engine_temp",
+          "centerPoint": [0.0,0.0,0.0],
+          "axis": [0.0,0.0,1.3636363744735718],
+          "offset": -90.0
+        }
+      ],
+      "lightOverlay": true
+    }
+  ],
+  "prefixFolders": "",
+  "packID": "dwtmtspack",
+  "systemName": "dvccartempgauge",
+  "classification": "INSTRUMENT",
+  "general": {
+    "name": "Temperature Gauge",
+    "description": "Indicates engine temperature.",
+    "materials": ["minecraft:iron_ingot:0:1","minecraft:dye:0:1","minecraft:dye:8:2","minecraft:dye:15:3","minecraft:dye:1:1","minecraft:dye:4:1"]
+  }
+}
