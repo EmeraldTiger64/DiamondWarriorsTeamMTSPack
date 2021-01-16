@@ -1,0 +1,574 @@
+"collision": [
+
+],
+
+"doors": [
+    {
+        "name": "rightdoor",
+        "closedPos":[-1.0625, 2.05664, 6.28711],
+        "openPos":[-1.73016, 2.05664, 6.72186],
+        "width": 0.13672, 
+        "height": 0.13672
+    },
+    {
+        "name": "leftdoor",
+        "closedPos":[1.0625, 2.05664, 6.28711],
+        "openPos":[1.73016, 2.05664, 6.72186],
+        "width": 0.13672, 
+        "height": 0.13672
+    },
+    {
+        "name": "leftdoor",
+        "closedPos":[1.0625, 1.34375, 6.3125],
+        "openPos":[1.74375, 1.34375, 6.88395],
+        "width": 0.3125, 
+        "height": 0.3125
+    },
+    {
+        "name": "rightdoor",
+        "closedPos":[-1.0625, 1.34375, 6.3125],
+        "openPos":[-1.74375, 1.34375, 6.88395],
+        "width": 0.3125, 
+        "height": 0.3125
+    },
+    {
+        "name": "hood",
+        "closedPos":[1.59375, 0.70462, 10.03125],
+        "openPos":[1.59375, 0.76308, 10.45896],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-1.59375, 0.70462, 10.03125],
+        "openPos":[-1.59375, 0.76308, 10.45896],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-1.09375, 0.70462, 10.03125],
+        "openPos":[-1.09375, 0.76308, 10.45896],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[1.09375, 0.70462, 10.03125],
+        "openPos":[1.09375, 0.76308, 10.45896],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[1.09375, 0.70462, 8.53125],
+        "openPos":[1.09375, 1.99704, 9.73022],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-1.09375, 0.70462, 8.53125],
+        "openPos":[-1.09375, 1.99704, 9.73022],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-1.59375, 0.70462, 8.53125],
+        "openPos":[-1.59375, 1.99704, 9.73022],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[1.59375, 0.70462, 8.53125],
+        "openPos":[1.59375, 1.99704, 9.73022],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[1.59375, 1.0, 9.03125],
+        "openPos":[1.59375, 1.69609, 10.20896],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[1.59375, 1.0, 9.53125],
+        "openPos":[1.59375, 1.26308, 10.45896],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-1.59375, 1.0, 9.03125],
+        "openPos":[-1.59375, 1.69609, 10.20896],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-1.59375, 1.0, 9.53125],
+        "openPos":[-1.59375, 1.26308, 10.45896],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[1.09375, 1.0, 9.53125],
+        "openPos":[1.09375, 1.26308, 10.45896],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-1.09375, 1.0, 9.53125],
+        "openPos":[-1.09375, 1.26308, 10.45896],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-1.09375, 1.0, 9.03125],
+        "openPos":[-1.09375, 1.69609, 10.20896],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[1.09375, 1.0, 9.03125],
+        "openPos":[1.09375, 1.69609, 10.20896],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.09375, 0.95312, 10.21875],
+        "openPos":[0.15625, 0.65987, 10.78918],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.34375, 0.95312, 10.21875],
+        "openPos":[-0.15625, 0.65987, 10.78918],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.21875, 1.45312, 10.21875],
+        "openPos":[-0.15625, 0.90987, 11.22219],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.21875, 1.45312, 10.21875],
+        "openPos":[0.15625, 0.90987, 11.22219],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.59375, 1.45312, 10.21875],
+        "openPos":[-0.59375, 0.90987, 11.22219],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.59375, 1.45312, 10.21875],
+        "openPos":[0.59375, 0.90987, 11.22219],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.21875, 1.95312, 10.21875],
+        "openPos":[0.15625, 1.15987, 11.6552],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.59375, 1.95312, 10.21875],
+        "openPos":[0.59375, 1.15987, 11.6552],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.21875, 1.95312, 10.21875],
+        "openPos":[-0.15625, 1.15987, 11.6552],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.59375, 1.95312, 10.21875],
+        "openPos":[-0.59375, 1.15987, 11.6552],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.59375, 0.95312, 10.21875],
+        "openPos":[0.59375, 0.65987, 10.78918],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.59375, 0.95312, 10.21875],
+        "openPos":[-0.59375, 0.65987, 10.78918],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.59375, 1.0, 9.92095],
+        "openPos":[-0.59375, 0.84569, 10.73602],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.59375, 1.0, 9.92095],
+        "openPos":[0.59375, 0.84569, 10.73602],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.59375, 1.95312, 9.92095],
+        "openPos":[-0.59375, 1.32225, 11.56145],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.21875, 1.95312, 9.92095],
+        "openPos":[-0.15625, 1.32225, 11.56145],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.59375, 1.95312, 9.92095],
+        "openPos":[0.59375, 1.32225, 11.56145],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.21875, 1.95312, 9.92095],
+        "openPos":[0.15625, 1.32225, 11.56145],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.59375, 1.45312, 9.92095],
+        "openPos":[0.59375, 1.07225, 11.12844],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.59375, 1.45312, 9.92095],
+        "openPos":[-0.59375, 1.07225, 11.12844],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.71875, 0.25, 8.03125],
+        "openPos":[-0.71875, 2.20274, 9.0865],
+        "width": 0.5, 
+        "height": 0.5
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.71875, 0.25, 8.03125],
+        "openPos":[0.71875, 2.20274, 9.0865],
+        "width": 0.5, 
+        "height": 0.5
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.71875, 0.5, 8.03125],
+        "openPos":[0.71875, 2.32774, 9.30301],
+        "width": 0.5, 
+        "height": 0.5
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.71875, 0.5, 8.03125],
+        "openPos":[-0.71875, 2.32774, 9.30301],
+        "width": 0.5, 
+        "height": 0.5
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.71875, 1.0, 8.53125],
+        "openPos":[0.71875, 2.14473, 9.98602],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.71875, 1.0, 8.53125],
+        "openPos":[-0.71875, 2.14473, 9.98602],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.71875, 1.0, 8.03125],
+        "openPos":[-0.71875, 2.57774, 9.73602],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.71875, 1.0, 8.03125],
+        "openPos":[0.71875, 2.57774, 9.73602],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.71875, 1.5, 8.03125],
+        "openPos":[0.71875, 2.82774, 10.16903],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.71875, 1.5, 8.03125],
+        "openPos":[-0.71875, 2.82774, 10.16903],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.71875, 1.5, 8.53125],
+        "openPos":[-0.71875, 2.39473, 10.41903],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.71875, 1.5, 8.53125],
+        "openPos":[0.71875, 2.39473, 10.41903],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.65625, 1.48437, 9.03125],
+        "openPos":[0.65625, 1.94609, 10.64197],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.65625, 1.48437, 9.03125],
+        "openPos":[-0.65625, 1.94609, 10.64197],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.65625, 1.46875, 9.53125],
+        "openPos":[-0.65625, 1.51308, 10.89197],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.65625, 1.46875, 9.53125],
+        "openPos":[0.65625, 1.51308, 10.89197],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.21875, 1.96875, 9.53125],
+        "openPos":[0.15625, 1.76308, 11.32498],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.65625, 1.96875, 9.53125],
+        "openPos":[0.65625, 1.76308, 11.32498],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.21875, 1.96875, 9.53125],
+        "openPos":[-0.15625, 1.76308, 11.32498],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.65625, 1.96875, 9.53125],
+        "openPos":[-0.65625, 1.76308, 11.32498],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.65625, 1.98437, 9.03125],
+        "openPos":[-0.65625, 2.19609, 11.07498],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.21875, 1.98437, 9.03125],
+        "openPos":[-0.15625, 2.19609, 11.07498],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.65625, 1.98437, 9.03125],
+        "openPos":[0.65625, 2.19609, 11.07498],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.21875, 1.98437, 9.03125],
+        "openPos":[0.15625, 2.19609, 11.07498],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.21875, 2.0, 8.53125],
+        "openPos":[0.21875, 2.64473, 10.85205],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.71875, 2.0, 8.53125],
+        "openPos":[0.71875, 2.64473, 10.85205],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.21875, 2.0, 8.53125],
+        "openPos":[-0.21875, 2.64473, 10.85205],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.71875, 2.0, 8.53125],
+        "openPos":[-0.71875, 2.64473, 10.85205],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.71875, 2.0, 8.03125],
+        "openPos":[-0.71875, 3.07774, 10.60205],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.21875, 2.0, 8.03125],
+        "openPos":[-0.21875, 3.07774, 10.60205],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.71875, 2.0, 8.03125],
+        "openPos":[0.71875, 3.07774, 10.60205],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.21875, 2.0, 8.03125],
+        "openPos":[0.21875, 3.07774, 10.60205],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    }
+],
