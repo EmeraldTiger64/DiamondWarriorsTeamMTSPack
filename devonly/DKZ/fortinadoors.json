@@ -1,0 +1,38 @@
+"collision": [
+
+],
+
+"doors": [
+    {
+        "name": "doorR",
+        "closedPos":[-1.18359, 1.05729, 2.32813],
+        "openPos":[-1.794, 1.05729, 2.92512],
+        "width": 0.125, 
+        "height": 0.125,
+        "activateOnSeated": true
+    },
+    {
+        "name": "doorR",
+        "closedPos":[-1.05469, 1.04167, 2.48963],
+        "openPos":[-1.59815, 1.04167, 2.85922],
+        "width": 0.125, 
+        "height": 0.125,
+        "activateOnSeated": true
+    },
+    {
+        "name": "doorL",
+        "closedPos":[1.05469, 1.04167, 2.48963],
+        "openPos":[1.59815, 1.04167, 2.85922],
+        "width": 0.125, 
+        "height": 0.125,
+        "activateOnSeated": true
+    },
+    {
+        "name": "doorL",
+        "closedPos":[1.18359, 1.05729, 2.32813],
+        "openPos":[1.794, 1.05729, 2.92512],
+        "width": 0.125, 
+        "height": 0.125,
+        "activateOnSeated": true
+    }
+],
