@@ -1,0 +1,15 @@
+{
+	"general": {
+		"name" : ".44 Magnum Speedloader",
+		"type" : "bullet",
+		"materials" : ["oredict:ingotIron:2", "mts:mtsheavyindustrialbyadamrk.adamrevolver_bullet:6"],
+		"stackSize": 1,
+		"description" : "A specialized loading device to make reloading your trusty Big Iron faster and more efficient."
+	},
+	
+	"bullet" : {
+		"type" : "normal",
+		"diameter" : 10.9,
+		"quantity" : 6
+	}
+}

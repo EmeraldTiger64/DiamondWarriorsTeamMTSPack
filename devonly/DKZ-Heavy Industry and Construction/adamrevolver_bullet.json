@@ -1,0 +1,14 @@
+{
+	"general": {
+		"name" : ".44 Magnum Bullet",
+		"type" : "bullet",
+		"materials" : ["oredict:ingotGold:1", "minecraft:gunpowder:0:10"],
+		"stackSize": 6
+	},
+	
+	"bullet" : {
+		"type" : "normal",
+		"diameter" : 10.9,
+		"quantity" : 1
+	}
+}

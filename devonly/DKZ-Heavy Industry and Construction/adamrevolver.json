@@ -1,0 +1,68 @@
+{
+	"general": {
+		"name" : "Adam's 44 Magnum Revolver",
+		"type" : "gun_hand_standard",
+		"materials" : ["oredict:ingotIron:3","oredict:plankWood:1"],
+		"description": "It is a shame that Adam R.K. could not live to see the day when his trusty Big Iron, found on the dashboard of his ever so detailed Peterbilt 379, would be weilded by the driver. To protect their precious cargo load from bandits, this revolver has  been with the truck since days of old. May he live on in the hearts of these drivers, as they are now entrusted with the firepower of Adam R.K.'s trusty .44 Magnum revolver."
+	},
+
+	"gun" : {
+		"autoReload" : false,
+		"capacity" : 6,
+		"fireDelay" : 2,
+		"reloadTime" : 60,
+		"muzzleVelocity" : 420,
+		"muzzlePositions" : [
+			[0,0.2125,0.1875]
+		],
+		"diameter" : 10.9,
+		"length" : 0.34375,
+		"minPitch" : 0,
+		"maxPitch" : 0,
+		"minYaw" : 0,
+		"maxYaw" : 0,
+		"isTurret" : false,
+		"handHeld": true,
+		"handHeldNormalOffset": [0, 0, 0.5],
+		"handHeldAimedOffset": [0.3125, 0.0625, 0.4375]
+	},
+	"rendering": {
+  "animatedObjects": [
+      {
+		"objectName": "cylinder",
+		"animations": [
+        {
+            "animationType": "rotation",
+            "variable": "gun_cooldown",
+            "centerPoint": [0,0.1875,0],
+            "axis": [0,0,60]
+        }
+        ]
+	  },
+	  {
+        "objectName": "hammer",
+        "animations": [
+          {
+            "animationType": "translation",
+            "variable": "gun_muzzle_1_firing",
+			"centerPoint": [0.0,0.15,0.03125],
+            "axis": [30.0,0.0,0],
+            "duration": 1
+          }
+        ]
+      },
+	  {
+        "objectName": "trigger",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "gun_firing",
+			"centerPoint": [0.0,0.020127,0.122374],
+            "axis": [25.0,0.0,0.0],
+            "duration": 1
+          }
+        ]
+      }
+	 ]
+	}
+}
