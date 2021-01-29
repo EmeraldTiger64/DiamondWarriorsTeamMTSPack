@@ -1,0 +1,2268 @@
+{
+  "definitions" : [
+		{
+			"name" : "ARK Peterbilt 379 [Dark Blue]",
+			"subName" : "_darkblue",
+			"extraMaterials" : ["oredict:dyeBlue:64", "oredict:dyeWhite:64"],
+			"secondTone": ""
+		},
+		{
+			"name" : "ARK Peterbilt 379 [Banana]",
+			"subName" : "_banana",
+			"extraMaterials" : ["oredict:dyeYellow:64", "oredict:dyeWhite:64"],
+			"secondTone": "_gold"
+		},
+		{
+			"name" : "ARK Peterbilt 379 [Black]",
+			"subName" : "_black",
+			"extraMaterials" : ["oredict:dyeBlack:64", "oredict:dyeWhite:64"],
+			"secondTone": "_black"
+		},
+		{
+			"name" : "ARK Peterbilt 379 [Brown]",
+			"subName" : "_brown",
+			"extraMaterials" : ["oredict:dyeBrown:64", "oredict:dyeWhite:64"],
+			"secondTone": "_red"
+		},
+		{
+			"name" : "ARK Peterbilt 379 [Fisherman]",
+			"subName" : "_fisherman",
+			"extraMaterials" : ["oredict:dyeCyan:64", "oredict:dyeWhite:64"],
+			"secondTone": ""
+		},
+		{
+			"name" : "ARK Peterbilt 379 [Forest]",
+			"subName" : "_forest",
+			"extraMaterials" : ["oredict:dyeGreen:64", "oredict:dyeWhite:64"],
+			"secondTone": "_green"
+		},
+		{
+			"name" : "ARK Peterbilt 379 [Lemon]",
+			"subName" : "_lemon",
+			"extraMaterials" : ["oredict:dyeLime:64", "oredict:dyeWhite:64"],
+			"secondTone": "_gold"
+		},
+		{
+			"name" : "ARK Peterbilt 379 [Military Green]",
+			"subName" : "_militarygreen",
+			"extraMaterials" : ["oredict:dyeGreen:64", "oredict:dyeBlack:64", "oredict:dyeWhite:64"],
+			"secondTone": "_green"
+		},
+		{
+			"name" : "ARK Peterbilt 379 [Violet]",
+			"subName" : "_moarviolet",
+			"extraMaterials" : ["oredict:dyePurple:64", "oredict:dyeWhite:64"],
+			"secondTone": "_pink"
+		},
+		{
+			"name" : "ARK Peterbilt 379 [Red]",
+			"subName" : "_red",
+			"extraMaterials" : ["oredict:dyeRed:64", "oredict:dyeWhite:64"],
+			"secondTone": "_red"
+		},
+		{
+			"name" : "ARK Peterbilt 379 [Magenta]",
+			"subName" : "_violet",
+			"extraMaterials" : ["oredict:dyeMagenta:64", "oredict:dyeWhite:64"],
+			"secondTone": "_pink"
+		},
+		{
+			"name" : "ARK Peterbilt 379 [White]",
+			"subName" : "_whitesupremacydealwithit",
+			"extraMaterials" : ["oredict:gemDiamond:0:64", "oredict:dyeWhite:64"],
+			"secondTone": "_black"
+		},
+		{
+			"name" : "ARK Peterbilt 379 [Lovely]",
+			"subName" : "_lovely",
+			"extraMaterials" : ["oredict:gemEmerald:64", "oredict:dyeWhite:64"],
+			"secondTone": "_pink"
+		}
+	],
+	
+  "general": {
+		"description" : "Adam R.K. was a man that I had approached in 2019, with the desire to see his pack live through the ages of Immersive Vehicles. I knew very little of him, relying only on the information relayed to me by thou Don Bruce. In my history of knowing him, he was rather distant, and unclear on what he desired. He was, admittedly, vulgar in his requests for what to put into empty spaces. However he was a man who, against expectations, was willing to entrust me with the future of his pack.\nIt is because of this trust, that I, Laura M. Darkez, give to mts the ARK Peterbilt 379 Heavy Industrial Content Pack! Maintained and refurbished, my goal is to uphold the trust granted to me, and to let Adam R. K's legacy live on.",
+		"type" : "car",
+		"openTop" : false,
+		"emptyMass" : 9000,
+		"materials" : ["oredict:gemLapis:64", "oredict:plankWood:64", "oredict:dustRedstone:10", "oredict:ingotIron:256"]
+  },
+
+  "motorized" : {
+    "fuelCapacity" : 60000,
+    "instruments" : [
+			{
+				"pos" : [-0.078, 2.243, 6.764],
+				"rot" : [20, -21, 0],
+				"hudpos" : [22, 64],
+				"scale" : 0.012,
+				"hudScale" : 0.9
+			},
+			{
+				"pos" : [0.05, 2.226, 6.809],
+				"rot" : [20, -21, 0],
+				"hudpos" : [36, 64],
+				"scale" : 0.012,
+				"hudScale" : 0.9
+			},
+			{
+				"pos" : [0.185, 2.21, 6.854],
+				"rot" : [20, -21, 0],
+				"hudpos" : [50, 64],
+				"scale" : 0.012,
+				"hudScale" : 0.9
+			},
+			{
+				"pos" : [-0.078, 2.110, 6.716],
+				"rot" : [20, -21, 0],
+				"hudpos" : [64, 64],
+				"scale" : 0.012,
+				"hudScale" : 0.9
+			},
+			{
+				"pos" : [0.053, 2.094, 6.761],
+				"rot" : [20, -21, 0],
+				"hudpos" : [78, 64],
+				"scale" : 0.012,
+				"hudScale" : 0.9
+			},
+			{
+				"pos" : [0.185, 2.077, 6.806],
+				"rot" : [20, -21, 0],
+				"hudpos" : [22, 88],
+				"scale" : 0.012,
+				"hudScale" : 0.9
+			},
+			{
+				"pos" : [-0.078, 1.978, 6.668],
+				"rot" : [20, -21, 0],
+				"hudpos" : [36, 88],
+				"scale" : 0.012,
+				"hudScale" : 0.9
+			},
+			{
+				"pos" : [0.053, 1.962, 6.713],
+				"rot" : [20, -21, 0],
+				"hudpos" : [50, 88],
+				"scale" : 0.012,
+				"hudScale" : 0.9
+			},
+			{
+				"pos" : [0.185, 1.945, 6.758],
+				"rot" : [20, -21, 0],
+				"hudpos" : [64, 88],
+				"scale" : 0.012,
+				"hudScale" : 0.9
+			},
+			{
+				"pos" : [0.406, 2.2, 6.881],
+				"rot" : [21, 0, 0],
+				"hudpos" : [78, 88],
+				"scale" : 0.012,
+				"hudScale" : 0.9
+			},
+			{
+				"pos" : [0.343, 2.08, 6.838],
+				"rot" : [21, 0, 0],
+				"hudpos" : [64, 112],
+				"scale" : 0.012,
+				"hudScale" : 0.9
+			},
+			{
+				"pos" : [0.343, 1.936, 6.784],
+				"rot" : [21, 0, 0],
+				"hudpos" : [78, 112],
+				"scale" : 0.012,
+				"hudScale" : 0.9
+			}
+		],
+	"controls" : [],
+	"hornSound" : "mtsheavyindustrialbyadamrk:peterbilt379ark_horn"
+  },
+
+  "car" : {
+		"isBigTruck" : true,
+    "isFrontWheelDrive" : false,
+		"isRearWheelDrive" : true,
+		"axleRatio" : 3.55,
+    "dragCoefficient" : 0.45
+  },
+	
+	"parts": [
+		
+		{
+      "pos" : [-1.3125, 0.0, -0.125],
+      "types" : ["custom"],
+	  "customTypes" : ["wheel_shaft_rear_379"],
+	  "additionalParts" : [
+			{
+			"pos" : [-1.1875, 0.0, -0.125],
+			"types" : ["ground_wheel_budd"],
+			"customTypes" : ["adam"],
+			"minValue" : 1.6,
+			"maxValue" : 1.6
+			}, 
+			{
+			"pos" : [-1.6875, 0.0, -0.125],
+			"inverseMirroring": true,
+			"types" : ["ground_wheel_budd"],
+			"customTypes" : ["adam"],
+			"minValue" : 1.6,
+			"maxValue" : 1.6
+			}
+		]
+    },
+		{
+      "pos" : [-1.3125, 0.0, -1.875],
+      "types" : ["custom"],
+	  "customTypes" : ["wheel_shaft_rear_379"],
+	  "additionalParts" : [
+			{
+			"pos" : [-1.1875, 0.0, -1.875],
+			"types" : ["ground_wheel_budd"],
+			"customTypes" : ["adam"],
+			"minValue" : 1.6,
+			"maxValue" : 1.6
+			}, 
+			{
+			"pos" : [-1.6875, 0.0, -1.875],
+			"inverseMirroring": true,
+			"types" : ["ground_wheel_budd"],
+			"customTypes" : ["adam"],
+			"minValue" : 1.6,
+			"maxValue" : 1.6
+			}
+		]
+    },
+		{
+      "pos" : [-1.3125, 0.0, -3.625],
+      "types" : ["custom"],
+	  "customTypes" : ["wheel_shaft_rear_379"],
+	  "additionalParts" : [
+			{
+			"pos" : [-1.1875, 0.0, -3.625],
+			"types" : ["ground_wheel_budd"],
+			"customTypes" : ["adam"],
+			"minValue" : 1.6,
+			"maxValue" : 1.6
+			}, 
+			{
+			"pos" : [-1.6875, 0.0, -3.625],
+			"inverseMirroring": true,
+			"types" : ["ground_wheel_budd"],
+			"customTypes" : ["adam"],
+			"minValue" : 1.6,
+			"maxValue" : 1.6
+			}
+		]
+    },
+		
+		
+		
+		{
+      "pos" : [1.3125, 0.0, -0.125],
+      "types" : ["custom"],
+	  "customTypes" : ["wheel_shaft_rear_379"],
+	  "additionalParts" : [
+			{
+			"pos" : [1.1875, 0.0, -0.125],
+			"types" : ["ground_wheel_budd"],
+			"customTypes" : ["adam"],
+			"minValue" : 1.6,
+			"maxValue" : 1.6
+			}, 
+			{
+			"pos" : [1.6875, 0.0, -0.125],
+			"types" : ["ground_wheel_budd"],
+			"customTypes" : ["adam"],
+			"minValue" : 1.6,
+			"maxValue" : 1.6,
+			"inverseMirroring": true
+			}
+		]
+    },
+		{
+      "pos" : [1.3125, 0.0, -1.875],
+      "types" : ["custom"],
+	  "customTypes" : ["wheel_shaft_rear_379"],
+	  "additionalParts" : [
+			{
+			"pos" : [1.1875, 0.0, -1.875],
+			"types" : ["ground_wheel_budd"],
+			"customTypes" : ["adam"],
+			"minValue" : 1.6,
+			"maxValue" : 1.6
+			}, 
+			{
+			"pos" : [1.6875, 0.0, -1.875],
+			"types" : ["ground_wheel_budd"],
+			"customTypes" : ["adam"],
+			"minValue" : 1.6,
+			"maxValue" : 1.6,
+			"inverseMirroring": true
+			}
+		]
+    },
+	{
+      "pos" : [1.3125, 0.0, -3.625],
+      "types" : ["custom"],
+	  "customTypes" : ["wheel_shaft_rear_379"],
+	  "additionalParts" : [
+			{
+			"pos" : [1.1875, 0.0, -3.625],
+			"types" : ["ground_wheel_budd"],
+			"customTypes" : ["adam"],
+			"minValue" : 1.6,
+			"maxValue" : 1.6
+			}, 
+			{
+			"pos" : [1.6875, 0.0, -3.625],
+			"inverseMirroring": true,
+			"types" : ["ground_wheel_budd"],
+			"customTypes" : ["adam"],
+			"minValue" : 1.6,
+			"maxValue" : 1.6
+			}
+		]
+    },
+	{
+      "pos": [-1.3537,0.0,9.25],
+      "types": ["custom"],
+      "customTypes": ["wheel_shaft_379"],
+      "additionalParts": [
+        {
+          "pos": [-1.625,0.0,9.25],
+          "turnsWithSteer": true,
+          "types": ["ground_wheel_budd"],
+          "customTypes": ["adam"],
+          "minValue": 1.6,
+          "maxValue": 1.6,
+          "animations": [
+            {
+              "animationType": "rotation",
+              "variable": "rudder",
+              "centerPoint": [0.28125,0.0,0.0],
+              "axis": [0.0,-1.0,0.0]
+            }
+          ]
+        }
+      ],
+      //Right wheel shaft roates based on the rotation of the left shaft and turning bar.
+      //To rotate the left wheel shaft we need to move the part to the proper position.
+      "animations": [
+      //PART POSITION"pos": [-1.3537,0.0,9.25],
+      //Need to subtract model from part to get delta rather than absolute position.
+		  {
+            "animationType": "inhibitor",
+            "variable": "rudder",
+            "clampMin":0,
+            "clampMax":100
+          },
+		  {
+            "animationType": "rotation",
+            "variable": "rudder",
+            //MODEL"centerPoint": [1.3437,0.25,9.25],
+            "centerPoint": [2.6874,0,0],
+            "axis": [-0.0,-1.0,-0.0]
+          },
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            //MODEL"centerPoint": [1.25,0.0,8.71875],
+            "centerPoint": [2.6037,0.0,-0.53125],
+            "axis": [-0.0,1.0864,-0.0]
+          },
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            //MODEL "centerPoint": [-1.25,0.0,8.71875],
+            "centerPoint": [0.1037,0.0,-0.53125],
+            "axis": [-0.0,-0.9189,-0.0]
+          },
+          {
+            "animationType": "activator",
+            "variable": "rudder",
+            "clampMin":0,
+            "clampMax":100
+          },
+          {
+            "animationType": "inhibitor",
+            "variable": "rudder",
+            "clampMin":-100,
+            "clampMax":0
+          },
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            //MODEL"centerPoint": [1.3437,0.25,9.25],
+            "centerPoint": [2.6874,0,0],
+            "axis": [-0.0,-0.8324,-0.0]
+          },
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            //MODEL"centerPoint": [1.25,0.0,8.71875],
+            "centerPoint": [2.6037,0.0,-0.53125],
+            "axis": [-0.0,0.918844444,-0.0]
+          },
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            //MODEL "centerPoint": [-1.25,0.0,8.71875],
+            "centerPoint": [0.1037,0.0,-0.53125],
+            "axis": [-0.0,-1.0864,-0.0]
+          }
+        ]
+    },
+    {
+      "pos": [1.3537,0.0,9.25],
+      "types": ["custom"],
+      "customTypes": ["wheel_shaft_379"],
+      "additionalParts": [
+        {
+          "pos": [1.625,0.0,9.25],
+          "turnsWithSteer": true,
+          "types": ["ground_wheel_budd"],
+          "customTypes": ["adam"],
+          "minValue": 1.6,
+          "maxValue": 1.6,
+          "animations": [
+            {
+              "animationType": "rotation",
+              "variable": "rudder",
+              "centerPoint": [-0.28125,0.0,0.0],
+              "axis": [0.0,-1.0,0.0]
+            }
+          ]
+        }
+      ],
+      //Left wheel shaft roates 45 degrees when turning left, and 37.46 when turning right.
+      //To rotate the left wheel shaft we need to move the part to the proper position.
+      "animations": [
+      //PART POSITION"pos": [1.3537,0.0,9.25],
+      //Need to subtract model from part to get delta rather than absolute position.
+		  {
+            "animationType": "inhibitor",
+            "variable": "rudder",
+            "clampMin":0,
+            "clampMax":100
+          },
+		  {
+            "animationType": "rotation",
+            "variable": "rudder",
+            //MODEL"centerPoint": [1.3437,0.25,9.25],
+            "centerPoint": [0,0,0],
+            "axis": [-0.0,-1.0,-0.0]
+          },
+          {
+            "animationType": "activator",
+            "variable": "rudder",
+            "clampMin":0,
+            "clampMax":100
+          },
+          {
+            "animationType": "inhibitor",
+            "variable": "rudder",
+            "clampMin":-100,
+            "clampMax":0
+          },
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            //MODEL"centerPoint": [1.3437,0.25,9.25],
+            "centerPoint": [0,0,0],
+            "axis": [-0.0,-0.8324,-0.0]
+          }
+        ]
+    },
+		{
+      "pos" : [-0.5625, 1.75, 6.25],
+	  "dismountPos" : [-2.5625, 1.0, 6.25],
+      "types" : ["seat"],
+	  "minValue": 0,
+	  "maxValue": 2,
+	  "linkedDoors": ["rightdoor"]
+    },
+		{
+      "pos" : [0.5625, 1.75, 6.25],
+	  "dismountPos" : [2.5625, 1.0, 6.25],
+      "types" : ["seat"],
+	  "isController" : true,
+	  "minValue": 0,
+	  "maxValue": 2,
+	  "linkedDoors": ["leftdoor"]
+    },
+		{
+      "pos" : [0, 0.125, 8.75],
+      "types" : ["engine_car"],
+	  	"minValue" : 1.54,
+		"maxValue" : 1.56,
+		"linkedDoors": ["hood"]
+    },
+		{
+      "pos": [-0.101935,2.37116,6.84559],
+      "rot": [4.6,-14.9,-90],
+      "types": ["gun_hand_standard"],
+	  "isSpare": true,
+      "minValue": 10.9,
+      "maxValue": 10.9,
+      "linkedDoors": ["leftdoor","rightdoor"]
+    }
+  ],
+	
+  "collision": [
+		{
+      "pos" : [0.0, 0.71875, 6.0625],
+      "width" : 2.23,
+      "height" : 0.68
+    },
+		{
+      "pos" : [0.0, 3.3125, 5.9325],
+      "width" : 2.23,
+      "height" : 0.12
+    },
+		{
+      "pos" : [0.0, 2.65, 7.2725],
+      "width" : 0.31,
+      "height" : 1.18
+    },
+		{
+      "pos" : [0.93, 1.75, 5.1525],
+      "width" : 0.75,
+      "height" : 2.56
+    },
+		{
+      "pos" : [1.06, 3.59, 4.4025],
+      "width" : 0.75,
+      "height" : 0.68
+    },
+		{
+      "pos" : [1.06, 1.56, 4.4025],
+      "width" : 0.75,
+      "height" : 1.0
+    },
+		{
+      "pos" : [1.06, 1.56, 3.6525],
+      "width" : 0.75,
+      "height" : 1.0
+    },
+		{
+      "pos" : [0.0, 1.0, 3.6825],
+      "width" : 3.13,
+      "height" : 0.12
+    },
+		{
+      "pos" : [0.0, 4.0, 3.6825],
+      "width" : 3.13,
+      "height" : 0.12
+    },
+		{
+      "pos" : [-0.55, 2.21, 4.5925],
+      "width" : 0.15,
+      "height" : 3.68
+    },
+		{
+      "pos" : [-0.55, 2.21, 4.2725],
+      "width" : 0.15,
+      "height" : 3.68
+    },
+		{
+      "pos" : [-0.78, 2.21, 3.9025],
+      "width" : 0.31,
+      "height" : 3.68
+    },
+		{
+      "pos" : [-1.09, 2.21, 3.9025],
+      "width" : 0.31,
+      "height" : 3.68
+    },
+		{
+      "pos" : [-1.06, 1.56, 3.5225],
+      "width" : 0.75,
+      "height" : 1.0
+    },
+		{
+      "pos" : [0.0, 1.31, 1.9925],
+      "width" : 0.89,
+      "height" : 0.75
+    },
+		{
+      "pos" : [0.0, 0.9, 1.2425],
+      "width" : 1.49,
+      "height" : 0.06
+    },
+		{
+      "pos" : [0.0, 0.62, 1.4325],
+      "width" : 1.36,
+      "height" : 0.5
+    },
+		{
+      "pos" : [0.0, 0.43, 0.0625],
+      "width" : 1.36,
+      "height" : 0.87
+    },
+		{
+      "pos" : [0.0, 0.43, -1.3175],
+      "width" : 1.36,
+      "height" : 0.87
+    },
+		{
+      "pos" : [0.0, 0.5, -2.6875],
+      "width" : 1.36,
+      "height" : 1.0
+    },
+		{
+      "pos" : [0.0, 0.93, -1.7575],
+      "width" : 1.36,
+      "height" : 0.12
+    },
+		{
+      "pos" : [0.0, 1.12, -2.1875],
+      "width" : 1.36,
+      "height" : 0.37
+    },
+		{
+      "pos" : [0.0, 1.09, -2.6875],
+      "width" : 0.95,
+      "height" : 0.18
+    },
+		{
+      "pos" : [0.0, 0.56, -4.0575],
+      "width" : 1.49,
+      "height" : 0.5
+    },
+		{
+      "pos" : [-1.5, 0.68, 0.3125],
+      "width" : 0.39,
+      "height" : 0.39
+    },
+		{
+      "pos" : [-1.5, 0.81, -0.0675],
+      "width" : 0.39,
+      "height" : 0.39
+    },
+		{
+      "pos" : [-1.5, 0.81, -3.7475],
+      "width" : 0.39,
+      "height" : 0.39
+    },
+		{
+      "pos" : [-1.5, 0.68, -4.1175],
+      "width" : 0.39,
+      "height" : 0.39
+    },
+		{
+      "pos" : [-1.5, 0.25, 0.6825],
+      "width" : 0.39,
+      "height" : 0.5
+    },
+		{
+      "pos" : [-1.75, 0.5, -4.6875],
+      "width" : 0.27,
+      "height" : 0.37
+    },
+		{
+      "pos" : [-1.5, 0.5, -4.6875],
+      "width" : 0.27,
+      "height" : 0.37
+    },
+		{
+      "pos" : [-1.25, 0.5, -4.6875],
+      "width" : 0.27,
+      "height" : 0.37
+    },
+		{
+      "pos" : [-0.93, 0.1, -1.8775],
+      "width" : 0.57,
+      "height" : 0.1
+    },
+		{
+      "pos" : [-1.11, 0.087, 6.5925],
+      "width" : 1.14,
+      "height" : 0.12
+    },
+		{
+      "pos" : [-0.93, 0.262, 6.5925],
+      "width" : 1.14,
+      "height" : 0.47
+    },
+		{
+      "pos" : [-1.31, 1.46, 7.5225],
+      "width" : 0.57,
+      "height" : 1.31
+    },
+		{
+      "pos" : [-1.68, 2.78, 6.9425],
+      "width" : 0.31,
+      "height" : 0.68
+    },
+		{
+      "pos" : [-1.31, 2.78, 7.0925],
+      "width" : 0.31,
+      "height" : 0.68
+    },
+		{
+      "pos" : [-0.93, 2.09, 7.0925],
+      "width" : 0.31,
+      "height" : 2.06
+    },
+		{
+      "pos" : [-0.62, 2.09, 7.0925],
+      "width" : 0.31,
+      "height" : 2.06
+    },
+		{
+      "pos" : [-0.31, 2.15, 7.1525],
+      "width" : 0.31,
+      "height" : 2.18
+    },
+		{
+      "pos" : [-1.31, 1.87, 5.8425],
+      "width" : 0.57,
+      "height" : 2.12
+    },
+		{
+      "pos" : [-1.37, 3.93, 5.8425],
+      "width" : 0.36,
+      "height" : 2.0
+    },
+		{
+      "pos" : [-0.09, 3.46, 5.5225],
+      "width" : 0.31,
+      "height" : 0.31
+    },
+		{
+      "pos" : [-0.4, 3.46, 5.5225],
+      "width" : 0.31,
+      "height" : 0.31
+    },
+		{
+      "pos" : [-0.71, 2.0, 5.5225],
+      "width" : 0.31,
+      "height" : 3.25
+    },
+		{
+      "pos" : [-1.03, 2.0, 5.5225],
+      "width" : 0.31,
+      "height" : 3.25
+    },
+		{
+      "pos" : [-1.34, 2.06, 5.4025],
+      "width" : 0.31,
+      "height" : 3.37
+    },
+	
+		{
+      "pos" : [-1.4, 2.18, 5.0925],
+      "width" : 0.31,
+      "height" : 3.62
+    },
+		{
+      "pos" : [-1.4, 2.18, 4.7725],
+      "width" : 0.31,
+      "height" : 3.62
+    },
+		{
+      "pos" : [-1.4, 2.18, 4.4625],
+      "width" : 0.31,
+      "height" : 3.62
+    },
+		{
+      "pos" : [-1.4, 2.18, 4.1525],
+      "width" : 0.31,
+      "height" : 3.62
+    },
+		{
+      "pos" : [-1.4, 2.18, 3.8425],
+      "width" : 0.31,
+      "height" : 3.62
+    },
+		{
+      "pos" : [-1.4, 2.18, 3.5225],
+      "width" : 0.31,
+      "height" : 3.62
+    },
+		{
+      "pos" : [-1.4, 2.18, 3.2125],
+      "width" : 0.31,
+      "height" : 3.62
+    },
+		{
+      "pos" : [-1.4, 2.18, 2.9025],
+      "width" : 0.31,
+      "height" : 3.62
+    },
+		{
+      "pos" : [-1.4, 2.18, 2.5925],
+      "width" : 0.31,
+      "height" : 3.62
+    },
+		{
+      "pos" : [-1.4, 2.18, 2.2725],
+      "width" : 0.31,
+      "height" : 3.62
+    },
+		{
+      "pos" : [-1.4, 2.18, 1.9625],
+      "width" : 0.31,
+      "height" : 3.62
+    },
+		{
+      "pos" : [-1.09, 2.18, 1.9625],
+      "width" : 0.31,
+      "height" : 3.62
+    },
+		{
+      "pos" : [-0.78, 2.18, 1.9625],
+      "width" : 0.31,
+      "height" : 3.62
+    },
+		{
+      "pos" : [-0.46, 2.18, 1.9625],
+      "width" : 0.31,
+      "height" : 3.62
+    },
+		{
+      "pos" : [-0.15, 2.18, 1.9625],
+      "width" : 0.31,
+      "height" : 3.62
+    },
+	
+		{
+      "pos" : [-1.56, -0.03, 1.2725],
+      "width" : 0.68,
+      "height" : 0.06
+    },
+		{
+      "pos" : [-1.25, 0.25, 1.2725],
+      "width" : 0.68,
+      "height" : 0.5
+    },
+		{
+      "pos" : [-0.87, 0.37, 1.2725],
+      "width" : 0.68,
+      "height" : 0.87
+    },
+		{
+      "pos" : [-1.25, 0.56, 4.9025],
+      "width" : 1.14,
+      "height" : 0.81
+    },
+		{
+      "pos" : [-1.25, 0.56, 3.9025],
+      "width" : 1.14,
+      "height" : 0.81
+    },
+		{
+      "pos" : [-1.25, 0.56, 2.3425],
+      "width" : 1.14,
+      "height" : 0.81
+    },
+		{
+      "pos" : [-0.62, 1.4, 2.6525],
+      "width" : 1.24,
+      "height" : 0.68
+    },
+		{
+      "pos" : [-1.12, 3.59, 3.4025],
+      "width" : 0.75,
+      "height" : 0.68
+    },
+		{
+      "pos" : [-1.12, 3.59, 2.6525],
+      "width" : 0.75,
+      "height" : 0.68
+    },
+		{
+      "pos" : [-0.43, 3.59, 2.2725],
+      "width" : 0.75,
+      "height" : 0.68
+    },
+		{
+      "pos" : [1.5, 0.68, 0.3125],
+      "width" : 0.39,
+      "height" : 0.39
+    },
+		{
+      "pos" : [1.5, 0.81, -0.0675],
+      "width" : 0.39,
+      "height" : 0.39
+    },
+		{
+      "pos" : [1.5, 0.81, -3.7475],
+      "width" : 0.39,
+      "height" : 0.39
+    },
+		{
+      "pos" : [1.5, 0.68, -4.1175],
+      "width" : 0.39,
+      "height" : 0.39
+    },
+		{
+      "pos" : [1.5, 0.25, 0.6825],
+      "width" : 0.39,
+      "height" : 0.5
+    },
+		{
+      "pos" : [1.75, 0.5, -4.6875],
+      "width" : 0.27,
+      "height" : 0.37
+    },
+		{
+      "pos" : [1.5, 0.5, -4.6875],
+      "width" : 0.27,
+      "height" : 0.37
+    },
+		{
+      "pos" : [1.25, 0.5, -4.6875],
+      "width" : 0.27,
+      "height" : 0.37
+    },
+		{
+      "pos" : [0.93, 0.1, -1.8775],
+      "width" : 0.57,
+      "height" : 0.1
+    },
+		{
+      "pos" : [1.11, 0.087, 6.5925],
+      "width" : 1.14,
+      "height" : 0.12
+    },
+		{
+      "pos" : [0.93, 0.262, 6.5925],
+      "width" : 1.14,
+      "height" : 0.47
+    },
+		{
+      "pos" : [1.31, 1.46, 7.5225],
+      "width" : 0.57,
+      "height" : 1.31
+    },
+		{
+      "pos" : [1.68, 2.78, 6.9425],
+      "width" : 0.31,
+      "height" : 0.68
+    },
+		{
+      "pos" : [1.31, 2.78, 7.0925],
+      "width" : 0.31,
+      "height" : 0.68
+    },
+		{
+      "pos" : [0.93, 2.09, 7.0925],
+      "width" : 0.31,
+      "height" : 2.06
+    },
+		{
+      "pos" : [0.62, 2.09, 7.0925],
+      "width" : 0.31,
+      "height" : 2.06
+    },
+		{
+      "pos" : [0.31, 2.15, 7.1525],
+      "width" : 0.31,
+      "height" : 2.18
+    },
+		{
+      "pos" : [1.31, 1.87, 5.8425],
+      "width" : 0.57,
+      "height" : 2.12
+    },
+		{
+      "pos" : [1.37, 3.93, 5.8425],
+      "width" : 0.36,
+      "height" : 2.0
+    },
+		{
+      "pos" : [0.09, 3.46, 5.5225],
+      "width" : 0.31,
+      "height" : 0.31
+    },
+		{
+      "pos" : [0.4, 3.46, 5.5225],
+      "width" : 0.31,
+      "height" : 0.31
+    },
+		{
+      "pos" : [0.71, 2.0, 5.5225],
+      "width" : 0.31,
+      "height" : 3.25
+    },
+		{
+      "pos" : [1.03, 2.0, 5.5225],
+      "width" : 0.31,
+      "height" : 3.25
+    },
+		{
+      "pos" : [1.34, 2.06, 5.4025],
+      "width" : 0.31,
+      "height" : 3.37
+    },
+	
+		{
+      "pos" : [1.4, 2.18, 5.0925],
+      "width" : 0.31,
+      "height" : 3.62
+    },
+		{
+      "pos" : [1.4, 2.18, 4.7725],
+      "width" : 0.31,
+      "height" : 3.62
+    },
+		{
+      "pos" : [1.4, 2.18, 4.4625],
+      "width" : 0.31,
+      "height" : 3.62
+    },
+		{
+      "pos" : [1.4, 2.18, 4.1525],
+      "width" : 0.31,
+      "height" : 3.62
+    },
+		{
+      "pos" : [1.4, 2.18, 3.8425],
+      "width" : 0.31,
+      "height" : 3.62
+    },
+		{
+      "pos" : [1.4, 2.18, 3.5225],
+      "width" : 0.31,
+      "height" : 3.62
+    },
+		{
+      "pos" : [1.4, 2.18, 3.2125],
+      "width" : 0.31,
+      "height" : 3.62
+    },
+		{
+      "pos" : [1.4, 2.18, 2.9025],
+      "width" : 0.31,
+      "height" : 3.62
+    },
+		{
+      "pos" : [1.4, 2.18, 2.5925],
+      "width" : 0.31,
+      "height" : 3.62
+    },
+		{
+      "pos" : [1.4, 2.18, 2.2725],
+      "width" : 0.31,
+      "height" : 3.62
+    },
+		{
+      "pos" : [1.4, 2.18, 1.9625],
+      "width" : 0.31,
+      "height" : 3.62
+    },
+		{
+      "pos" : [1.09, 2.18, 1.9625],
+      "width" : 0.31,
+      "height" : 3.62
+    },
+		{
+      "pos" : [0.78, 2.18, 1.9625],
+      "width" : 0.31,
+      "height" : 3.62
+    },
+		{
+      "pos" : [0.46, 2.18, 1.9625],
+      "width" : 0.31,
+      "height" : 3.62
+    },
+		{
+      "pos" : [0.15, 2.18, 1.9625],
+      "width" : 0.31,
+      "height" : 3.62
+    },
+	
+		{
+      "pos" : [1.56, -0.03, 1.2725],
+      "width" : 0.68,
+      "height" : 0.06
+    },
+		{
+      "pos" : [1.25, 0.25, 1.2725],
+      "width" : 0.68,
+      "height" : 0.5
+    },
+		{
+      "pos" : [0.87, 0.37, 1.2725],
+      "width" : 0.68,
+      "height" : 0.87
+    },
+		{
+      "pos" : [1.25, 0.56, 4.9025],
+      "width" : 1.14,
+      "height" : 0.81
+    },
+		{
+      "pos" : [1.25, 0.56, 3.9025],
+      "width" : 1.14,
+      "height" : 0.81
+    },
+		{
+      "pos" : [1.25, 0.56, 2.3425],
+      "width" : 1.14,
+      "height" : 0.81
+    },
+		{
+      "pos" : [0.62, 1.4, 2.6525],
+      "width" : 1.24,
+      "height" : 0.68
+    },
+		{
+      "pos" : [1.12, 3.59, 3.4025],
+      "width" : 0.75,
+      "height" : 0.68
+    },
+		{
+      "pos" : [1.12, 3.59, 2.6525],
+      "width" : 0.75,
+      "height" : 0.68
+    },
+		{
+      "pos" : [0.43, 3.59, 2.2725],
+      "width" : 0.75,
+      "height" : 0.68
+    }
+	 ],
+"doors": [
+	{
+        "name": "rightdoor",
+        "closedPos":[-1.0625, 2.05664, 6.28711],
+        "openPos":[-1.73016, 2.05664, 6.72186],
+        "width": 0.13672, 
+        "height": 0.13672
+    },
+    {
+        "name": "leftdoor",
+        "closedPos":[1.0625, 2.05664, 6.28711],
+        "openPos":[1.73016, 2.05664, 6.72186],
+        "width": 0.13672, 
+        "height": 0.13672
+    },
+    {
+        "name": "leftdoor",
+        "closedPos":[1.0625, 1.34375, 6.3125],
+        "openPos":[1.74375, 1.34375, 6.88395],
+        "width": 0.3125, 
+        "height": 0.3125
+    },
+    {
+        "name": "rightdoor",
+        "closedPos":[-1.0625, 1.34375, 6.3125],
+        "openPos":[-1.74375, 1.34375, 6.88395],
+        "width": 0.3125, 
+        "height": 0.3125
+    },
+    {
+        "name": "hood",
+        "closedPos":[1.59375, 0.70462, 10.03125],
+        "openPos":[1.59375, 0.76308, 10.45896],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-1.59375, 0.70462, 10.03125],
+        "openPos":[-1.59375, 0.76308, 10.45896],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-1.09375, 0.70462, 10.03125],
+        "openPos":[-1.09375, 0.76308, 10.45896],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[1.09375, 0.70462, 10.03125],
+        "openPos":[1.09375, 0.76308, 10.45896],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[1.09375, 0.70462, 8.53125],
+        "openPos":[1.09375, 1.99704, 9.73022],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-1.09375, 0.70462, 8.53125],
+        "openPos":[-1.09375, 1.99704, 9.73022],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-1.59375, 0.70462, 8.53125],
+        "openPos":[-1.59375, 1.99704, 9.73022],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[1.59375, 0.70462, 8.53125],
+        "openPos":[1.59375, 1.99704, 9.73022],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[1.59375, 1.0, 9.03125],
+        "openPos":[1.59375, 1.69609, 10.20896],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[1.59375, 1.0, 9.53125],
+        "openPos":[1.59375, 1.26308, 10.45896],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-1.59375, 1.0, 9.03125],
+        "openPos":[-1.59375, 1.69609, 10.20896],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-1.59375, 1.0, 9.53125],
+        "openPos":[-1.59375, 1.26308, 10.45896],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[1.09375, 1.0, 9.53125],
+        "openPos":[1.09375, 1.26308, 10.45896],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-1.09375, 1.0, 9.53125],
+        "openPos":[-1.09375, 1.26308, 10.45896],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-1.09375, 1.0, 9.03125],
+        "openPos":[-1.09375, 1.69609, 10.20896],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[1.09375, 1.0, 9.03125],
+        "openPos":[1.09375, 1.69609, 10.20896],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.09375, 0.95312, 10.21875],
+        "openPos":[0.15625, 0.65987, 10.78918],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.34375, 0.95312, 10.21875],
+        "openPos":[-0.15625, 0.65987, 10.78918],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.21875, 1.45312, 10.21875],
+        "openPos":[-0.15625, 0.90987, 11.22219],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.21875, 1.45312, 10.21875],
+        "openPos":[0.15625, 0.90987, 11.22219],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.59375, 1.45312, 10.21875],
+        "openPos":[-0.59375, 0.90987, 11.22219],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.59375, 1.45312, 10.21875],
+        "openPos":[0.59375, 0.90987, 11.22219],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.21875, 1.95312, 10.21875],
+        "openPos":[0.15625, 1.15987, 11.6552],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.59375, 1.95312, 10.21875],
+        "openPos":[0.59375, 1.15987, 11.6552],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.21875, 1.95312, 10.21875],
+        "openPos":[-0.15625, 1.15987, 11.6552],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.59375, 1.95312, 10.21875],
+        "openPos":[-0.59375, 1.15987, 11.6552],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.59375, 0.95312, 10.21875],
+        "openPos":[0.59375, 0.65987, 10.78918],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.59375, 0.95312, 10.21875],
+        "openPos":[-0.59375, 0.65987, 10.78918],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.59375, 1.0, 9.92095],
+        "openPos":[-0.59375, 0.84569, 10.73602],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.59375, 1.0, 9.92095],
+        "openPos":[0.59375, 0.84569, 10.73602],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.59375, 1.95312, 9.92095],
+        "openPos":[-0.59375, 1.32225, 11.56145],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.21875, 1.95312, 9.92095],
+        "openPos":[-0.15625, 1.32225, 11.56145],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.59375, 1.95312, 9.92095],
+        "openPos":[0.59375, 1.32225, 11.56145],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.21875, 1.95312, 9.92095],
+        "openPos":[0.15625, 1.32225, 11.56145],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.59375, 1.45312, 9.92095],
+        "openPos":[0.59375, 1.07225, 11.12844],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.59375, 1.45312, 9.92095],
+        "openPos":[-0.59375, 1.07225, 11.12844],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.71875, 0.25, 8.03125],
+        "openPos":[-0.71875, 2.20274, 9.0865],
+        "width": 0.5, 
+        "height": 0.5
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.71875, 0.25, 8.03125],
+        "openPos":[0.71875, 2.20274, 9.0865],
+        "width": 0.5, 
+        "height": 0.5
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.71875, 0.5, 8.03125],
+        "openPos":[0.71875, 2.32774, 9.30301],
+        "width": 0.5, 
+        "height": 0.5
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.71875, 0.5, 8.03125],
+        "openPos":[-0.71875, 2.32774, 9.30301],
+        "width": 0.5, 
+        "height": 0.5
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.71875, 1.0, 8.53125],
+        "openPos":[0.71875, 2.14473, 9.98602],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.71875, 1.0, 8.53125],
+        "openPos":[-0.71875, 2.14473, 9.98602],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.71875, 1.0, 8.03125],
+        "openPos":[-0.71875, 2.57774, 9.73602],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.71875, 1.0, 8.03125],
+        "openPos":[0.71875, 2.57774, 9.73602],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.71875, 1.5, 8.03125],
+        "openPos":[0.71875, 2.82774, 10.16903],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.71875, 1.5, 8.03125],
+        "openPos":[-0.71875, 2.82774, 10.16903],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.71875, 1.5, 8.53125],
+        "openPos":[-0.71875, 2.39473, 10.41903],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.71875, 1.5, 8.53125],
+        "openPos":[0.71875, 2.39473, 10.41903],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.65625, 1.48437, 9.03125],
+        "openPos":[0.65625, 1.94609, 10.64197],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.65625, 1.48437, 9.03125],
+        "openPos":[-0.65625, 1.94609, 10.64197],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.65625, 1.46875, 9.53125],
+        "openPos":[-0.65625, 1.51308, 10.89197],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.65625, 1.46875, 9.53125],
+        "openPos":[0.65625, 1.51308, 10.89197],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.21875, 1.96875, 9.53125],
+        "openPos":[0.15625, 1.76308, 11.32498],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.65625, 1.96875, 9.53125],
+        "openPos":[0.65625, 1.76308, 11.32498],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.21875, 1.96875, 9.53125],
+        "openPos":[-0.15625, 1.76308, 11.32498],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.65625, 1.96875, 9.53125],
+        "openPos":[-0.65625, 1.76308, 11.32498],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.65625, 1.98437, 9.03125],
+        "openPos":[-0.65625, 2.19609, 11.07498],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.21875, 1.98437, 9.03125],
+        "openPos":[-0.15625, 2.19609, 11.07498],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.65625, 1.98437, 9.03125],
+        "openPos":[0.65625, 2.19609, 11.07498],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.21875, 1.98437, 9.03125],
+        "openPos":[0.15625, 2.19609, 11.07498],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.21875, 2.0, 8.53125],
+        "openPos":[0.21875, 2.64473, 10.85205],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.71875, 2.0, 8.53125],
+        "openPos":[0.71875, 2.64473, 10.85205],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.21875, 2.0, 8.53125],
+        "openPos":[-0.21875, 2.64473, 10.85205],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.71875, 2.0, 8.53125],
+        "openPos":[-0.71875, 2.64473, 10.85205],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.71875, 2.0, 8.03125],
+        "openPos":[-0.71875, 3.07774, 10.60205],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[-0.21875, 2.0, 8.03125],
+        "openPos":[-0.21875, 3.07774, 10.60205],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.71875, 2.0, 8.03125],
+        "openPos":[0.71875, 3.07774, 10.60205],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    },
+    {
+        "name": "hood",
+        "closedPos":[0.21875, 2.0, 8.03125],
+        "openPos":[0.21875, 3.07774, 10.60205],
+        "width": 0.5, 
+        "height": 0.5,
+        "ignoresClicks": true
+    }
+],
+  "rendering": {
+	"customVariables": ["WINDOWS"],
+    "textObjects": [
+      {
+        "pos": [0.0,0.185,10.5025],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.2,
+        "fieldName": "Text",
+        "defaultText": "A.R.K. HVY",
+        "maxLength": 10,
+        "color": "#ffffff"
+      }
+    ],
+    "animatedObjects": [
+      {
+        "objectName": "$gas_pedal",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "throttle",
+            "centerPoint": [0.25,1.13326,6.9464],
+            "axis": [15.0,0.0,0.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$brake_pedal",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "brake",
+            "centerPoint": [0.5,1.13326,6.9464],
+            "axis": [15.0,0.0,0.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$hood",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "hood",
+            "centerPoint": [0.0,0.3125,10.25],
+            "axis": [60.0,0.0,0.0],
+			"duration": 15
+          }
+        ]
+      },
+      {
+        "objectName": "$&Headlight_FFFF00_FFFFF_110",
+        "applyAfter": "$hood",
+        "animations": []
+      },
+      {
+        "objectName": "$&Runninglight_FFFF00_FFFFF_010",
+        "applyAfter": "$hood",
+        "animations": []
+      },
+      {
+        "objectName": "$&Leftturnlight_FFCC00_FFC00_110",
+        "applyAfter": "$hood",
+        "animations": []
+      },
+      {
+        "objectName": "$&Rightturnlight_FFCC00_FFC00_110",
+        "applyAfter": "$hood",
+        "animations": []
+      },
+	  {
+        "objectName": "$&Leftturnlight_FFCC00_FFC00_010",
+        "applyAfter": "$hood",
+        "animations": []
+      },
+      {
+        "objectName": "$&Rightturnlight_FFCC00_FFC00_010",
+        "applyAfter": "$hood",
+        "animations": []
+      },
+      {
+        "objectName": "$brake_lever",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "p_brake",
+            "centerPoint": [0.03125,1.2187,6.0312],
+            "axis": [15.0,0.0,0.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$fifth_wheel",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "p_brake",
+            "centerPoint": [0.0,1.0622,-2.1073],
+            "axis": [-5.0,0.0,0.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$gear_lever",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_gearshift_1",
+            "centerPoint": [-0.09375,1.09375,6.5],
+            "axis": [-2.0,0.0,0.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$&Runninglight_FFFFFF_FFFFF_010",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_gearshift_1",
+            "centerPoint": [-0.09375,1.09375,6.5],
+            "axis": [-2.0,0.0,0.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$door_left",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "leftdoor",
+            "centerPoint": [1.09375,1.71875,6.96875],
+            "axis": [0.0,-70.0,0.0],
+            "duration": 10
+          }
+        ]
+      },
+	  {
+		"objectName": "leftwindow",
+		"applyAfter": "$door_left",
+		"animations": [
+          {
+            "animationType": "translation",
+            "variable": "WINDOWS",
+            "centerPoint": [0,0,0],
+            "axis": [0.0,-0.5625,0.0],
+            "duration": 40
+          }
+        ]
+	  },
+	  {
+		"objectName": "leftdoorleveroutside",
+		"applyAfter": "$door_left",
+		"animations": [
+			{
+				"animationType": "rotation",
+				"variable": "leftdoor",
+				"centerPoint": [1.17188,1.34375,6.40625],
+				"axis": [0.0,-30.0,0.0],
+				"duration": 2
+			}
+		]
+	  },
+	  {
+		"objectName": "leftlever",
+		"applyAfter": "$door_left",
+		"animations": [
+			{
+				"animationType": "rotation",
+				"variable": "WINDOWS",
+				"centerPoint": [1,1.875,6.46875],
+				"axis": [1080.0,0.0,0.0],
+				"duration": 40
+			}
+		]
+	  },
+	  {
+		"objectName": "leftdoorlever",
+		"applyAfter": "$door_left",
+		"animations": [
+			{
+				"animationType": "rotation",
+				"variable": "leftdoor",
+				"centerPoint": [1.0625,2.0625,6.28125],
+				"axis": [15.0,0.0,0.0],
+				"duration": 2
+			}
+		]
+	  },
+      {
+        "objectName": "$door_right",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "rightdoor",
+            "centerPoint": [-1.09375,1.71875,6.96875],
+            "axis": [0.0,70.0,0.0],
+            "duration": 10
+          }
+        ]
+      },
+	  {
+		"objectName": "rightwindow",
+		"applyAfter": "$door_right",
+		"animations": [
+          {
+            "animationType": "translation",
+            "variable": "WINDOWS",
+            "centerPoint": [0,0,0],
+            "axis": [0.0,-0.5625,0.0],
+            "duration": 40
+          }
+        ]
+	  },
+	  {
+		"objectName": "rightdoorleveroutside",
+		"applyAfter": "$door_right",
+		"animations": [
+			{
+				"animationType": "rotation",
+				"variable": "rightdoor",
+				"centerPoint": [-1.17188,1.34375,6.40625],
+				"axis": [0.0,30.0,0.0],
+				"duration": 2
+			}
+		]
+	  },
+	  {
+		"objectName": "rightlever",
+		"applyAfter": "$door_right",
+		"animations": [
+			{
+				"animationType": "rotation",
+				"variable": "WINDOWS",
+				"centerPoint": [-1,1.875,6.46875],
+				"axis": [1080.0,0.0,0.0],
+				"duration": 40
+			}
+		]
+	  },
+	  {
+		"objectName": "rightdoorlever",
+		"applyAfter": "$door_right",
+		"animations": [
+			{
+				"animationType": "rotation",
+				"variable": "rightdoor",
+				"centerPoint": [-1.0625,2.0625,6.28125],
+				"axis": [15.0,0.0,0.0],
+				"duration": 2
+			}
+		]
+	  },
+      {
+        "objectName": "$drivewheel",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [0.5625,2.25,6.5531],
+            "axis": [-0.0,-15.4548,4.1411]
+          }
+        ]
+      },
+      {
+        "objectName": "$linkage1",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [0.625,1.4687,7.8125],
+            "axis": [-0.0,-0.0,16.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$linkage2",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [0.778,1.0601,8.6868],
+            "axis": [2.7693,-7.0089,14.114]
+          }
+        ]
+      },
+      {
+        "objectName": "$linkage3",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [0.9375,0.6162,9.5479],
+            "axis": [-0.0,-10.2846,12.2567]
+          }
+        ]
+      },
+      {
+        "objectName": "$linkage4",
+        //Linkage out of steering gearbox.  This is on its own rotation.
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [1.1562,0.5312,9.8438],
+            "axis": [0.60,-0.0,-0.0]
+          }
+        ]
+      },
+      {
+      	//Linkage off of linkage 4.  Use prior linkage rotation and add rotation.
+      	//Forwards and backwards rotation is different due to angles.
+        "objectName": "$linkage5",
+        "applyAfter": "$linkage4",
+        "animations": [
+          {
+            "animationType": "inhibitor",
+            "variable": "rudder",
+            "clampMin":0,
+            "clampMax":100
+          },
+          //Forwards rotation is minimal, but needs to to outwards due to the knuckle moving.
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [1.15625,0.133056,9.77312],
+            "axis": [-0.5,-0.0,-0.0]
+          },
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [1.15625,0.133056,9.77312],
+            "axis": [-0.0,-0.45,-0.0],
+            "absolute": true
+          },
+          {
+            "animationType": "activator",
+            "variable": "rudder",
+            "clampMin":0,
+            "clampMax":100
+          },
+          {
+            "animationType": "inhibitor",
+            "variable": "rudder",
+            "clampMin":-100,
+            "clampMax":0
+          },
+          //Reverse rotation is larger than forwards due to arm angle.
+          //No toe out is needed due to the knuckle not moving sideways.
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [1.15625,0.133056,9.77312],
+            "axis": [-0.85,-0.0,-0.0]
+          }
+        ]
+      },
+      //Drum turns 45 degrees left and 37.46 when right.
+      //The following rotations are left first, and then right.
+      {
+        "objectName": "$drum_front_left",
+        "animations": [
+          {
+            "animationType": "inhibitor",
+            "variable": "rudder",
+            "clampMin":0,
+            "clampMax":100
+          },
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [1.3437,0.25,9.25],
+            "axis": [-0.0,-1.0,-0.0]
+          },
+          {
+            "animationType": "activator",
+            "variable": "rudder",
+            "clampMin":0,
+            "clampMax":100
+          },
+          {
+            "animationType": "inhibitor",
+            "variable": "rudder",
+            "clampMin":-100,
+            "clampMax":0
+          },
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [1.3437,0.25,9.25],
+            "axis": [-0.0,-0.8324,-0.0]
+          }
+        ]
+      },
+      //Turning bar rotates based on left drum connector.
+      //Bar needs to rotate 3.89 on full lock.
+      {
+        "objectName": "$turning_bar",
+        "applyAfter" : "$drum_front_left",
+        "animations": [
+          {
+            "animationType": "inhibitor",
+            "variable": "rudder",
+            "clampMin":0,
+            "clampMax":100
+          },
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [1.25,0.0,8.71875],
+            "axis": [-0.0,1.0864,-0.0]
+          },
+          {
+            "animationType": "activator",
+            "variable": "rudder",
+            "clampMin":0,
+            "clampMax":100
+          },
+          {
+            "animationType": "inhibitor",
+            "variable": "rudder",
+            "clampMin":-100,
+            "clampMax":0
+          },
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [1.25,0.0,8.71875],
+            "axis": [-0.0,0.918844444,-0.0]
+          }
+        ]
+      },
+      //Right drum rotates based on turning bar.
+      {
+        "objectName": "$drum_front_right",
+        "applyAfter": "$turning_bar",
+        "animations": [
+          {
+            "animationType": "inhibitor",
+            "variable": "rudder",
+            "clampMin":0,
+            "clampMax":100
+          },
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [-1.25,0.0,8.71875],
+            "axis": [-0.0,-0.9189,-0.0]
+          },
+          {
+            "animationType": "activator",
+            "variable": "rudder",
+            "clampMin":0,
+            "clampMax":100
+          },
+          {
+            "animationType": "inhibitor",
+            "variable": "rudder",
+            "clampMin":-100,
+            "clampMax":0
+          },
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [-1.25,0.0,8.71875],
+            "axis": [-0.0,-1.0864,-0.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$bigshaft2",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_driveshaft_rotation_1",
+            "centerPoint": [0.0559,0.0166,0.4723],
+            "axis": [-0.0208,0.2265,1.987]
+          }
+        ]
+      },
+      {
+        "objectName": "$bigshaft5",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_driveshaft_rotation_1",
+            "centerPoint": [-4.0E-4,0.0,-1.0],
+            "axis": [-0.3498,0.0,1.9691]
+          }
+        ]
+      },
+      {
+        "objectName": "$bigshaft8",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_driveshaft_rotation_1",
+            "centerPoint": [-4.0E-4,0.0,-2.7499],
+            "axis": [-0.3498,0.0,1.9691]
+          }
+        ]
+      },
+      {
+        "objectName": "$bigshaft1",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_driveshaft_rotation_1",
+            "centerPoint": [0.0,0.625,6.0],
+            "axis": [0.0,0.0,2.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$bigshaft3",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_driveshaft_rotation_1",
+            "centerPoint": [0.0617,0.0,0.25],
+            "axis": [0.0,0.0,2.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$bigshaft4",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_driveshaft_rotation_1",
+            "centerPoint": [-0.0617,0.0,-0.5],
+            "axis": [0.0,0.0,2.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$bigshaft6",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_driveshaft_rotation_1",
+            "centerPoint": [0.0617,0.0,-1.5],
+            "axis": [0.0,0.0,2.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$bigshaft7",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_driveshaft_rotation_1",
+            "centerPoint": [-0.0617,0.0,-2.25],
+            "axis": [0.0,0.0,2.0]
+          }
+        ]
+      },
+      {
+        "objectName": "$bigshaft9",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_driveshaft_rotation_1",
+            "centerPoint": [0.0617,0.0,-3.25],
+            "axis": [0.0,0.0,2.0]
+          }
+        ]
+      }
+    ],
+    "displayTextMaxLength": 10,
+    "defaultDisplayText": "A.R.K. HVY"
+  }
+}
