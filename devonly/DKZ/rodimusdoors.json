@@ -1,0 +1,78 @@
+"collision": [
+
+],
+
+"doors": [
+    {
+        "name": "TailGate",
+        "closedPos":[0.02083, 0.75, -0.8125],
+        "openPos":[0.02083, 0.3125, -1.1875],
+        "width": 0.25, 
+        "height": 0.25,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.1875, 0.75, -0.8125],
+        "openPos":[0.1875, 0.3125, -1.1875],
+        "width": 0.25, 
+        "height": 0.25,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.1875, 0.75, -0.8125],
+        "openPos":[-0.1875, 0.3125, -1.1875],
+        "width": 0.25, 
+        "height": 0.25,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.4375, 0.75, -0.8125],
+        "openPos":[0.4375, 0.3125, -1.1875],
+        "width": 0.25, 
+        "height": 0.25,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.4375, 0.75, -0.8125],
+        "openPos":[-0.4375, 0.3125, -1.1875],
+        "width": 0.25, 
+        "height": 0.25,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.6875, 0.75, -0.8125],
+        "openPos":[0.6875, 0.3125, -1.1875],
+        "width": 0.25, 
+        "height": 0.25,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.6875, 0.75, -0.8125],
+        "openPos":[-0.6875, 0.3125, -1.1875],
+        "width": 0.25, 
+        "height": 0.25,
+        "closedByDefault": true
+    },
+    {
+        "name": "LeftDoor",
+        "closedPos":[1.0, 0.75, 1.5],
+        "openPos":[1.77083, 0.75, 2.14915],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightDoor",
+        "closedPos":[-1.0, 0.75, 1.5],
+        "openPos":[-1.77083, 0.75, 2.14915],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    }
+],

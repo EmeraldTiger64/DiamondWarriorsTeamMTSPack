@@ -1,0 +1,20 @@
+"collision": [
+
+],
+
+"doors": [
+    {
+        "name": "RightHood",
+        "closedPos":[-0.76562, -0.5625, -0.4375],
+        "openPos":[-1.11926, 0.06339, -0.32078],
+        "width": 0.25, 
+        "height": 0.25
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.76562, -0.5625, -0.4375],
+        "openPos":[1.11926, 0.06339, -0.32078],
+        "width": 0.25, 
+        "height": 0.25
+    }
+],

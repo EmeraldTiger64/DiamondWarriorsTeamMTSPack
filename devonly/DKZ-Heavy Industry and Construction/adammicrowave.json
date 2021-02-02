@@ -1,0 +1,13 @@
+{
+	"general": {
+		"name" : "Adam's Microwave",
+		"description": "Adam's portable microwave, now functional",
+		"type" : "interactable_furniture",
+		"customType": "microwave_adam",
+		"materials" : ["minecraft:iron_ingot:0:4","minecraft:furnace:0:1"]
+	},
+	"interactable": {
+		"interactionType" : "furnace",
+		"inventoryUnits" : 1
+	}
+}

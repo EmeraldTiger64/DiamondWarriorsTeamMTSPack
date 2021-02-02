@@ -1,0 +1,83 @@
+{
+	"general": {
+		"name" : ".44 Caliber High Velocity Magnum [45 Center-Fire Cartridges]",
+		"description": "A box of High Velocity 44 Magnum Cartridges, the perfect ammo for your trusty Big Iron",
+		"type" : "interactable_crate",
+		"customType": "ammobox",
+		"materials" : ["oredict:dyeBlue:3","oredict:dyeWhite:1","oredict:dyeRed:2","minecraft:paper:0:10"]
+	},
+	"interactable": {
+		"interactionType" : "crate",
+		"inventoryUnits" : 5
+	},
+	"rendering": {
+  "animatedObjects": [
+      {
+        "objectName": "bullet1",
+        "animations": [
+          {
+            "animationType": "visibility",
+            "variable": "interactable_count",
+            "clampMin": 45.0,
+            "clampMax": 45.0
+          }
+        ]
+      },
+	  {
+        "objectName": "bullet2",
+        "animations": [
+          {
+            "animationType": "visibility",
+            "variable": "interactable_count",
+            "clampMin": 44.0,
+            "clampMax": 45.0
+          }
+        ]
+      },
+	  {
+        "objectName": "bullet3",
+        "animations": [
+          {
+            "animationType": "visibility",
+            "variable": "interactable_count",
+            "clampMin": 43.0,
+            "clampMax": 45.0
+          }
+        ]
+      },
+	  {
+        "objectName": "bullet4",
+        "animations": [
+          {
+            "animationType": "visibility",
+            "variable": "interactable_count",
+            "clampMin": 42.0,
+            "clampMax": 45.0
+          }
+        ]
+      },
+	  {
+        "objectName": "bullet5",
+        "animations": [
+          {
+            "animationType": "visibility",
+            "variable": "interactable_count",
+            "clampMin": 41.0,
+            "clampMax": 45.0
+          }
+        ]
+      },
+	  {
+        "objectName": "bullet6",
+        "animations": [
+          {
+            "animationType": "visibility",
+            "variable": "interactable_count",
+            "clampMin": 40.0,
+            "clampMax": 45.0
+          }
+        ]
+      }
+	]
+  }
+}
