@@ -1,0 +1,14 @@
+"collision": [
+
+],
+
+"doors": [
+    {
+        "name": "fueldoor",
+        "closedPos":[1.00391, 0.65625, 1.46875],
+        "openPos":[1.00391, 0.65625, 1.28125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    }
+],
