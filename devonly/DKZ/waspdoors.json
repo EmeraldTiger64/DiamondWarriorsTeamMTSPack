@@ -1,8 +1,185 @@
 "collision": [
-
+    {
+        "pos":[-0.90625, 0.5, -1.03125],
+        "width": 0.5, 
+        "height": 0.125,
+        "isInterior": true
+    },
+    {
+        "pos":[0.90625, 0.5, -1.03125],
+        "width": 0.5, 
+        "height": 0.125,
+        "isInterior": true
+    },
+    {
+        "pos":[1.03125, 0.625, -0.78125],
+        "width": 0.5, 
+        "height": 0.125
+    },
+    {
+        "pos":[-1.03125, 0.625, -0.78125],
+        "width": 0.5, 
+        "height": 0.125
+    },
+    {
+        "pos":[-1.09375, 0.8125, -0.125],
+        "width": 0.5, 
+        "height": 0.125
+    },
+    {
+        "pos":[-1.09375, 0.72806, -0.46526],
+        "width": 0.5, 
+        "height": 0.125
+    },
+    {
+        "pos":[1.09375, 0.72806, -0.46526],
+        "width": 0.5, 
+        "height": 0.125
+    },
+    {
+        "pos":[1.09375, 0.8125, -0.125],
+        "width": 0.5, 
+        "height": 0.125
+    }
 ],
 
 "doors": [
+    {
+        "name": "Trunk",
+        "closedPos":[0.40625, 0.5, -1.03125],
+        "openPos":[0.40625, 1.62746, -0.81332],
+        "width": 0.5, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "Trunk",
+        "closedPos":[-0.40625, 0.5, -1.03125],
+        "openPos":[-0.40625, 1.62746, -0.81332],
+        "width": 0.5, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "Trunk",
+        "closedPos":[0.0, 0.5, -1.03125],
+        "openPos":[0.0, 1.62746, -0.81332],
+        "width": 0.5, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "Trunk",
+        "closedPos":[-0.1875, 0.625, -0.78125],
+        "openPos":[-0.1875, 1.41096, -0.58007],
+        "width": 0.5, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "Trunk",
+        "closedPos":[0.1875, 0.625, -0.78125],
+        "openPos":[0.1875, 1.41096, -0.58007],
+        "width": 0.5, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "Trunk",
+        "closedPos":[-0.53125, 0.625, -0.78125],
+        "openPos":[-0.53125, 1.41096, -0.58007],
+        "width": 0.5, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "Trunk",
+        "closedPos":[0.53125, 0.625, -0.78125],
+        "openPos":[0.53125, 1.41096, -0.58007],
+        "width": 0.5, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "Trunk",
+        "closedPos":[0.59375, 0.72806, -0.46526],
+        "openPos":[0.59375, 1.18883, -0.33282],
+        "width": 0.5, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "Trunk",
+        "closedPos":[-0.59375, 0.72806, -0.46526],
+        "openPos":[-0.59375, 1.18883, -0.33282],
+        "width": 0.5, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "Trunk",
+        "closedPos":[0.21875, 0.72806, -0.46526],
+        "openPos":[0.21875, 1.18883, -0.33282],
+        "width": 0.5, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "Trunk",
+        "closedPos":[-0.21875, 0.72806, -0.46526],
+        "openPos":[-0.21875, 1.18883, -0.33282],
+        "width": 0.5, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "Trunk",
+        "closedPos":[-0.21875, 0.8125, -0.15206],
+        "openPos":[-0.21875, 0.95982, -0.10309],
+        "width": 0.5, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "Trunk",
+        "closedPos":[0.21875, 0.8125, -0.15206],
+        "openPos":[0.21875, 0.95982, -0.10309],
+        "width": 0.5, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "Trunk",
+        "closedPos":[-0.59375, 0.8125, -0.15206],
+        "openPos":[-0.59375, 0.95982, -0.10309],
+        "width": 0.5, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "Trunk",
+        "closedPos":[0.59375, 0.8125, -0.15206],
+        "openPos":[0.59375, 0.95982, -0.10309],
+        "width": 0.5, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "RightDoor",
+        "closedPos":[-1.25, 0.71875, 1.75],
+        "openPos":[-2.35708, 0.71875, 2.48142],
+        "width": 0.25, 
+        "height": 0.125,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftDoor",
+        "closedPos":[1.25, 0.71875, 1.75],
+        "openPos":[2.35708, 0.71875, 2.48142],
+        "width": 0.25, 
+        "height": 0.125,
+        "closeOnMovement": true
+    },
     {
         "name": "Hood",
         "closedPos":[-0.75, 0.8125, 4.8125],
