@@ -1,0 +1,3047 @@
+"collision": [
+    {
+        "pos":[0.0, 1.03125, 4.0],
+        "width": 0.25, 
+        "height": 1.1875
+    },
+    {
+        "pos":[-0.25, 1.03125, 4.0],
+        "width": 0.25, 
+        "height": 1.1875
+    },
+    {
+        "pos":[0.25, 1.03125, 4.0],
+        "width": 0.25, 
+        "height": 1.1875
+    },
+    {
+        "pos":[-0.5, 1.03125, 4.0],
+        "width": 0.25, 
+        "height": 1.1875
+    },
+    {
+        "pos":[0.5, 1.03125, 4.0],
+        "width": 0.25, 
+        "height": 1.1875
+    },
+    {
+        "pos":[0.75, 0.96875, 4.0],
+        "width": 0.25, 
+        "height": 1.0625
+    },
+    {
+        "pos":[-0.75, 0.96875, 4.0],
+        "width": 0.25, 
+        "height": 1.0625
+    },
+    {
+        "pos":[1.3125, 0.40625, -3.875],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[1.4375, 0.40625, -3.875],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[-1.3125, 0.40625, -3.875],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[-1.4375, 0.40625, -3.875],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[-1.1875, 0.40625, -3.875],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[1.1875, 0.40625, -3.875],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[-1.0625, 0.40625, -3.875],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[1.0625, 0.40625, -3.875],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[-0.9375, 0.40625, -3.875],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[0.9375, 0.40625, -3.875],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[-0.8125, 0.40625, -3.875],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[0.8125, 0.40625, -3.875],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[-0.6875, 0.40625, -3.875],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[-0.5625, 0.40625, -3.875],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[-0.4375, 0.40625, -3.875],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[-0.3125, 0.40625, -3.875],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[0.6875, 0.40625, -3.875],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[0.5625, 0.40625, -3.875],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[0.4375, 0.40625, -3.875],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[0.3125, 0.40625, -3.875],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[-0.1875, 0.40625, -3.875],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[-0.0625, 0.40625, -3.875],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[0.0625, 0.40625, -3.875],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[0.1875, 0.40625, -3.875],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[1.125, 0.375, 0.4375],
+        "width": 0.875, 
+        "height": 0.125
+    },
+    {
+        "pos":[1.125, 0.375, -0.4375],
+        "width": 0.875, 
+        "height": 0.125
+    },
+    {
+        "pos":[1.125, 0.375, 1.3125],
+        "width": 0.875, 
+        "height": 0.125
+    },
+    {
+        "pos":[1.125, 0.375, 2.125],
+        "width": 0.875, 
+        "height": 0.125
+    },
+    {
+        "pos":[1.125, 0.375, -1.3125],
+        "width": 0.875, 
+        "height": 0.125
+    },
+    {
+        "pos":[1.125, 0.375, -2.125],
+        "width": 0.875, 
+        "height": 0.125
+    },
+    {
+        "pos":[-1.125, 0.375, -2.125],
+        "width": 0.875, 
+        "height": 0.125
+    },
+    {
+        "pos":[-1.125, 0.375, -1.3125],
+        "width": 0.875, 
+        "height": 0.125
+    },
+    {
+        "pos":[-1.125, 0.375, 2.125],
+        "width": 0.875, 
+        "height": 0.125
+    },
+    {
+        "pos":[-1.125, 0.375, 1.3125],
+        "width": 0.875, 
+        "height": 0.125
+    },
+    {
+        "pos":[-1.125, 0.375, -0.4375],
+        "width": 0.875, 
+        "height": 0.125
+    },
+    {
+        "pos":[-1.125, 0.375, 0.4375],
+        "width": 0.875, 
+        "height": 0.125
+    },
+    {
+        "pos":[0.1875, 0.40625, 4.3125],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[0.0625, 0.40625, 4.3125],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[-0.0625, 0.40625, 4.3125],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[-0.1875, 0.40625, 4.3125],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[0.3125, 0.40625, 4.3125],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[0.4375, 0.40625, 4.3125],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[0.5625, 0.40625, 4.3125],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[0.6875, 0.40625, 4.3125],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[-0.3125, 0.40625, 4.3125],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[-0.4375, 0.40625, 4.3125],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[-0.5625, 0.40625, 4.3125],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[-0.6875, 0.40625, 4.3125],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[0.8125, 0.40625, 4.3125],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[1.5, 0.46875, 4.1875],
+        "width": 0.125, 
+        "height": 0.25
+    },
+    {
+        "pos":[1.34375, 0.4375, 4.25],
+        "width": 0.1875, 
+        "height": 0.3125
+    },
+    {
+        "pos":[-1.34375, 0.4375, 4.25],
+        "width": 0.1875, 
+        "height": 0.3125
+    },
+    {
+        "pos":[-1.5, 0.46875, 4.1875],
+        "width": 0.125, 
+        "height": 0.25
+    },
+    {
+        "pos":[-0.8125, 0.40625, 4.3125],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[0.9375, 0.40625, 4.3125],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[-0.9375, 0.40625, 4.3125],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[1.0625, 0.40625, 4.3125],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[-1.0625, 0.40625, 4.3125],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[1.1875, 0.40625, 4.3125],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[-1.1875, 0.40625, 4.3125],
+        "width": 0.125, 
+        "height": 0.375
+    },
+    {
+        "pos":[1.1875, 1.3125, 2.25],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 1.3125, 2.25],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-0.9375, 1.3125, 2.3125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[0.9375, 1.3125, 2.3125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[0.6875, 1.3125, 2.3125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-0.6875, 1.3125, 2.3125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-0.4375, 1.3125, 2.3125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[0.4375, 1.3125, 2.3125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[0.1875, 1.3125, 2.3125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-0.1875, 1.3125, 2.3125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-0.1875, 1.3125, 0.6875],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[0.1875, 1.3125, 0.6875],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[0.4375, 1.3125, 0.6875],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-0.4375, 1.3125, 0.6875],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-0.6875, 1.3125, 0.6875],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[0.6875, 1.3125, 0.6875],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[0.9375, 1.3125, 0.6875],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-0.9375, 1.3125, 0.6875],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 1.3125, 0.6875],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[1.1875, 1.3125, 0.6875],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[0.875, 0.4375, 1.8125],
+        "width": 0.75, 
+        "height": 0.125
+    },
+    {
+        "pos":[0.9375, 0.4375, 1.0625],
+        "width": 0.75, 
+        "height": 0.125
+    },
+    {
+        "pos":[-0.9375, 0.4375, 1.0625],
+        "width": 0.75, 
+        "height": 0.125
+    },
+    {
+        "pos":[-0.875, 0.4375, 1.8125],
+        "width": 0.75, 
+        "height": 0.125
+    },
+    {
+        "pos":[-0.5, 0.75, 1.8125],
+        "width": 0.75, 
+        "height": 0.125
+    },
+    {
+        "pos":[-0.5, 0.75, 1.0625],
+        "width": 0.75, 
+        "height": 0.125
+    },
+    {
+        "pos":[0.5, 0.75, 1.0625],
+        "width": 0.75, 
+        "height": 0.125
+    },
+    {
+        "pos":[0.5, 0.75, 1.8125],
+        "width": 0.75, 
+        "height": 0.125
+    },
+    {
+        "pos":[-1.1875, 1.3125, -3.9375],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[1.1875, 1.3125, -3.9375],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[1.1875, 1.9375, -3.9375],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 1.9375, -3.9375],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 1.9375, -3.8125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[1.1875, 1.9375, -3.8125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[1.1875, 1.3125, -3.8125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 1.3125, -3.8125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 1.3125, -3.5625],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[1.1875, 1.3125, -3.5625],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[1.1875, 1.9375, -3.5625],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 1.9375, -3.5625],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 1.9375, -3.3125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[1.1875, 1.9375, -3.3125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[1.1875, 1.3125, -3.3125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 1.3125, -3.3125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 1.3125, -3.0625],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[1.1875, 1.3125, -3.0625],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[1.1875, 1.9375, -3.0625],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 1.9375, -3.0625],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 1.9375, -2.8125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[1.1875, 1.9375, -2.8125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[1.1875, 1.3125, -2.8125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 1.3125, -2.8125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 1.3125, -2.5625],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[1.1875, 1.3125, -2.5625],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[1.1875, 1.9375, -2.5625],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 1.9375, -2.5625],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 1.9375, -2.3125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[1.1875, 1.9375, -2.3125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[1.1875, 1.3125, -2.3125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 1.3125, -2.3125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 1.3125, -2.0625],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[1.1875, 1.3125, -2.0625],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[1.1875, 1.9375, -2.0625],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 1.9375, -2.0625],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 1.9375, -1.8125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[1.1875, 1.9375, -1.8125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[1.1875, 1.3125, -1.8125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 1.3125, -1.8125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 1.3125, -1.5625],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[1.1875, 1.3125, -1.5625],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[1.1875, 1.9375, -1.5625],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 1.9375, -1.5625],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 1.9375, -1.3125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[1.1875, 1.9375, -1.3125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[1.1875, 1.3125, -1.3125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 1.3125, -1.3125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 1.3125, -1.0625],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[1.1875, 1.3125, -1.0625],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[1.1875, 1.9375, -1.0625],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 1.9375, -1.0625],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 2.0625, -0.8125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[1.1875, 2.0625, -0.8125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[1.1875, 1.3125, -0.8125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 1.3125, -0.8125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[1.1875, 2.20312, -0.5625],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 2.20312, -0.5625],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 1.3125, -0.5625],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[1.1875, 1.3125, -0.5625],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[1.1875, 1.3125, -0.3125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 1.3125, -0.3125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 2.35938, -0.3125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[1.1875, 2.35938, -0.3125],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 2.5, -0.0625],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 1.3125, -0.0625],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[1.1875, 1.3125, -0.0625],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[1.1875, 1.3125, 0.1875],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 1.3125, 0.1875],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-0.9375, 1.3125, 0.1875],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[0.9375, 1.3125, 0.1875],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[0.6875, 1.3125, 0.1875],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-0.6875, 1.3125, 0.1875],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-0.4375, 1.3125, 0.1875],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[0.4375, 1.3125, 0.1875],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[0.1875, 1.3125, 0.1875],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-0.1875, 1.3125, 0.1875],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-0.1875, 2.5, 0.1875],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[0.1875, 2.5, 0.1875],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[0.4375, 2.5, 0.1875],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-0.4375, 2.5, 0.1875],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-0.6875, 2.5, 0.1875],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[0.6875, 2.5, 0.1875],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[0.9375, 2.5, 0.1875],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-0.9375, 2.5, 0.1875],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[-1.1875, 2.5, 0.1875],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[1.1875, 2.5, 0.1875],
+        "width": 0.125, 
+        "height": 1.0
+    },
+    {
+        "pos":[0.0, 2.6875, 1.75],
+        "width": 0.75, 
+        "height": 0.125
+    },
+    {
+        "pos":[0.75, 2.6875, 1.75],
+        "width": 0.75, 
+        "height": 0.125
+    },
+    {
+        "pos":[-0.75, 2.6875, 1.75],
+        "width": 0.75, 
+        "height": 0.125
+    },
+    {
+        "pos":[-0.75, 2.6875, 1.0],
+        "width": 0.75, 
+        "height": 0.125
+    },
+    {
+        "pos":[0.75, 2.6875, 1.0],
+        "width": 0.75, 
+        "height": 0.125
+    },
+    {
+        "pos":[0.0, 2.6875, 1.0],
+        "width": 0.75, 
+        "height": 0.125
+    },
+    {
+        "pos":[0.0, 0.75, -3.5625],
+        "width": 0.875, 
+        "height": 0.125
+    },
+    {
+        "pos":[0.8125, 0.75, -3.5625],
+        "width": 0.875, 
+        "height": 0.125
+    },
+    {
+        "pos":[-0.8125, 0.75, -3.5625],
+        "width": 0.875, 
+        "height": 0.125
+    },
+    {
+        "pos":[0.0, 0.75, -1.9375],
+        "width": 0.875, 
+        "height": 0.125
+    },
+    {
+        "pos":[0.8125, 0.75, -1.9375],
+        "width": 0.875, 
+        "height": 0.125
+    },
+    {
+        "pos":[-0.8125, 0.75, -1.9375],
+        "width": 0.875, 
+        "height": 0.125
+    },
+    {
+        "pos":[0.8125, 0.75, -2.8125],
+        "width": 0.875, 
+        "height": 0.125
+    },
+    {
+        "pos":[0.0, 0.75, -2.8125],
+        "width": 0.875, 
+        "height": 0.125
+    },
+    {
+        "pos":[0.0, 0.75, -1.0625],
+        "width": 0.875, 
+        "height": 0.125
+    },
+    {
+        "pos":[0.8125, 0.75, -1.0625],
+        "width": 0.875, 
+        "height": 0.125
+    },
+    {
+        "pos":[-0.8125, 0.75, -1.0625],
+        "width": 0.875, 
+        "height": 0.125
+    },
+    {
+        "pos":[-0.8125, 0.75, -0.1875],
+        "width": 0.875, 
+        "height": 0.125
+    },
+    {
+        "pos":[0.8125, 0.75, -0.1875],
+        "width": 0.875, 
+        "height": 0.125
+    },
+    {
+        "pos":[0.0, 0.75, -0.1875],
+        "width": 0.875, 
+        "height": 0.125
+    }
+],
+
+"doors": [
+    {
+        "name": "RightHood",
+        "closedPos":[-0.125, 1.53125, 3.75],
+        "openPos":[-0.125, 1.61559, 3.75],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[-0.125, 1.5625, 3.5],
+        "openPos":[-0.125, 1.66559, 3.5],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.125, 1.59375, 3.25],
+        "openPos":[-0.125, 1.74684, 3.25],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.125, 1.625, 3.0],
+        "openPos":[-0.125, 1.82809, 3.0],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.125, 1.65625, 2.75],
+        "openPos":[-0.125, 1.89372, 2.75],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.125, 1.6875, 2.5],
+        "openPos":[-0.125, 1.9375, 2.5],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.375, 1.6875, 2.5],
+        "openPos":[-0.3125, 2.1875, 2.54837],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.375, 1.65625, 2.75],
+        "openPos":[-0.3125, 2.14372, 2.79837],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.375, 1.625, 3.0],
+        "openPos":[-0.3125, 2.07809, 3.04837],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.375, 1.59375, 3.25],
+        "openPos":[-0.25, 1.99684, 3.29837],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[-0.375, 1.5625, 3.5],
+        "openPos":[-0.25, 1.91559, 3.54837],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.375, 1.53125, 3.75],
+        "openPos":[-0.25, 1.86559, 3.79837],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.625, 1.53125, 3.75],
+        "openPos":[-0.375, 2.11559, 3.84673],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[-0.625, 1.5625, 3.5],
+        "openPos":[-0.375, 2.16559, 3.59673],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.625, 1.59375, 3.25],
+        "openPos":[-0.375, 2.24684, 3.34673],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.625, 1.625, 3.0],
+        "openPos":[-0.4375, 2.32809, 3.09673],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.625, 1.65625, 2.75],
+        "openPos":[-0.4375, 2.39372, 2.84673],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.625, 1.6875, 2.5],
+        "openPos":[-0.4375, 2.4375, 2.59673],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.875, 1.125, 3.0],
+        "openPos":[-1.00735, 2.1783, 3.16603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.84375, 1.125, 3.25],
+        "openPos":[-0.9761, 2.1283, 3.41603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.90625, 1.125, 2.75],
+        "openPos":[-1.0386, 2.2283, 2.91603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.8125, 1.125, 3.5],
+        "openPos":[-0.94485, 2.0783, 3.66603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.9375, 1.125, 2.5],
+        "openPos":[-1.06985, 2.2783, 2.66603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.78125, 1.125, 3.75],
+        "openPos":[-0.9136, 2.0283, 3.91603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.78125, 1.375, 3.75],
+        "openPos":[-0.6636, 2.1533, 3.91603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.9375, 1.375, 2.5],
+        "openPos":[-0.81985, 2.4033, 2.66603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.8125, 1.375, 3.5],
+        "openPos":[-0.69485, 2.2033, 3.66603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.90625, 1.375, 2.75],
+        "openPos":[-0.7886, 2.3533, 2.91603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.84375, 1.375, 3.25],
+        "openPos":[-0.7261, 2.2533, 3.41603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.875, 1.375, 3.0],
+        "openPos":[-0.75735, 2.3033, 3.16603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.9375, 1.5625, 2.5],
+        "openPos":[-0.59375, 2.53771, 2.66603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.90625, 1.53125, 2.75],
+        "openPos":[-0.57812, 2.46268, 2.91603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.875, 1.5, 3.0],
+        "openPos":[-0.5625, 2.39705, 3.16603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.84375, 1.46875, 3.25],
+        "openPos":[-0.54688, 2.3158, 3.41603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.8125, 1.4375, 3.5],
+        "openPos":[-0.53125, 2.23455, 3.66603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.78125, 1.40625, 3.75],
+        "openPos":[-0.51562, 2.18455, 3.91603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.78125, 0.875, 3.75],
+        "openPos":[-1.1636, 1.87205, 3.91603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.9375, 0.875, 2.5],
+        "openPos":[-1.31985, 2.12205, 2.66603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.8125, 0.875, 3.5],
+        "openPos":[-1.19485, 1.92205, 3.66603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.90625, 0.875, 2.75],
+        "openPos":[-1.2886, 2.07205, 2.91603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.84375, 0.875, 3.25],
+        "openPos":[-1.2261, 1.97205, 3.41603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightHood",
+        "closedPos":[-0.875, 0.875, 3.0],
+        "openPos":[-1.25735, 2.02205, 3.16603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftDoor",
+        "closedPos":[1.23429, 1.625, 0.99966],
+        "openPos":[2.33732, 1.625, 1.92506],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightDoor",
+        "closedPos":[-1.23429, 1.625, 0.99966],
+        "openPos":[-2.33732, 1.625, 1.92506],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftDoor",
+        "closedPos":[1.23429, 1.625, 1.81216],
+        "openPos":[1.57382, 1.625, 2.20295],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightDoor",
+        "closedPos":[-1.23429, 1.625, 1.81216],
+        "openPos":[-1.57382, 1.625, 2.20295],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightDoor",
+        "closedPos":[-1.23429, 0.78125, 1.81216],
+        "openPos":[-1.57382, 0.78125, 2.20295],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftDoor",
+        "closedPos":[1.23429, 0.78125, 1.81216],
+        "openPos":[1.57382, 0.78125, 2.20295],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.625, 1.6875, 2.5],
+        "openPos":[0.4375, 2.4375, 2.59673],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.625, 1.65625, 2.75],
+        "openPos":[0.4375, 2.39372, 2.84673],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.625, 1.625, 3.0],
+        "openPos":[0.4375, 2.32809, 3.09673],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.625, 1.59375, 3.25],
+        "openPos":[0.375, 2.24684, 3.34673],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.625, 1.5625, 3.5],
+        "openPos":[0.375, 2.16559, 3.59673],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.625, 1.53125, 3.75],
+        "openPos":[0.375, 2.11559, 3.84673],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.375, 1.53125, 3.75],
+        "openPos":[0.25, 1.86559, 3.79837],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.375, 1.5625, 3.5],
+        "openPos":[0.25, 1.91559, 3.54837],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.375, 1.59375, 3.25],
+        "openPos":[0.25, 1.99684, 3.29837],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.375, 1.625, 3.0],
+        "openPos":[0.3125, 2.07809, 3.04837],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.375, 1.65625, 2.75],
+        "openPos":[0.3125, 2.14372, 2.79837],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.375, 1.6875, 2.5],
+        "openPos":[0.3125, 2.1875, 2.54837],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.125, 1.6875, 2.5],
+        "openPos":[0.125, 1.9375, 2.5],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.125, 1.65625, 2.75],
+        "openPos":[0.125, 1.89372, 2.75],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.125, 1.625, 3.0],
+        "openPos":[0.125, 1.82809, 3.0],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.125, 1.59375, 3.25],
+        "openPos":[0.125, 1.74684, 3.25],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.125, 1.5625, 3.5],
+        "openPos":[0.125, 1.66559, 3.5],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.125, 1.53125, 3.75],
+        "openPos":[0.125, 1.61559, 3.75],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.78125, 1.40625, 3.75],
+        "openPos":[0.51562, 2.18455, 3.91603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.8125, 1.4375, 3.5],
+        "openPos":[0.53125, 2.23455, 3.66603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.84375, 1.46875, 3.25],
+        "openPos":[0.54688, 2.3158, 3.41603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.875, 1.5, 3.0],
+        "openPos":[0.5625, 2.39705, 3.16603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.90625, 1.53125, 2.75],
+        "openPos":[0.57812, 2.46268, 2.91603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.9375, 1.5625, 2.5],
+        "openPos":[0.59375, 2.53771, 2.66603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.875, 1.375, 3.0],
+        "openPos":[0.75735, 2.3033, 3.16603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.84375, 1.375, 3.25],
+        "openPos":[0.7261, 2.2533, 3.41603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.90625, 1.375, 2.75],
+        "openPos":[0.7886, 2.3533, 2.91603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.8125, 1.375, 3.5],
+        "openPos":[0.69485, 2.2033, 3.66603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.9375, 1.375, 2.5],
+        "openPos":[0.81985, 2.4033, 2.66603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.78125, 1.375, 3.75],
+        "openPos":[0.6636, 2.1533, 3.91603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.78125, 1.125, 3.75],
+        "openPos":[0.9136, 2.0283, 3.91603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.9375, 1.125, 2.5],
+        "openPos":[1.06985, 2.2783, 2.66603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.8125, 1.125, 3.5],
+        "openPos":[0.94485, 2.0783, 3.66603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.90625, 1.125, 2.75],
+        "openPos":[1.0386, 2.2283, 2.91603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.84375, 1.125, 3.25],
+        "openPos":[0.9761, 2.1283, 3.41603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.875, 1.125, 3.0],
+        "openPos":[1.00735, 2.1783, 3.16603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.875, 0.875, 3.0],
+        "openPos":[1.25735, 2.02205, 3.16603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.84375, 0.875, 3.25],
+        "openPos":[1.2261, 1.97205, 3.41603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.90625, 0.875, 2.75],
+        "openPos":[1.2886, 2.07205, 2.91603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.8125, 0.875, 3.5],
+        "openPos":[1.19485, 1.92205, 3.66603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.9375, 0.875, 2.5],
+        "openPos":[1.31985, 2.12205, 2.66603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftHood",
+        "closedPos":[0.78125, 0.875, 3.75],
+        "openPos":[1.1636, 1.87205, 3.91603],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "RightDoor",
+        "closedPos":[-1.23429, 0.78125, 0.99966],
+        "openPos":[-2.33732, 0.78125, 1.92506],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "LeftDoor",
+        "closedPos":[1.23429, 0.78125, 0.99966],
+        "openPos":[2.33732, 0.78125, 1.92506],
+        "width": 0.25, 
+        "height": 0.25,
+        "closeOnMovement": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.0625, 1.375, -3.9375],
+        "openPos":[-0.0625, 0.75, -4.5625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.0625, 1.375, -3.9375],
+        "openPos":[0.0625, 0.75, -4.5625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.1875, 1.375, -3.9375],
+        "openPos":[-0.1875, 0.75, -4.5625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.1875, 1.375, -3.9375],
+        "openPos":[0.1875, 0.75, -4.5625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.3125, 1.375, -3.9375],
+        "openPos":[-0.3125, 0.75, -4.5625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.3125, 1.375, -3.9375],
+        "openPos":[0.3125, 0.75, -4.5625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.4375, 1.375, -3.9375],
+        "openPos":[-0.4375, 0.75, -4.5625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.4375, 1.375, -3.9375],
+        "openPos":[0.4375, 0.75, -4.5625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.5625, 1.375, -3.9375],
+        "openPos":[-0.5625, 0.75, -4.5625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.5625, 1.375, -3.9375],
+        "openPos":[0.5625, 0.75, -4.5625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.6875, 1.375, -3.9375],
+        "openPos":[-0.6875, 0.75, -4.5625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.6875, 1.375, -3.9375],
+        "openPos":[0.6875, 0.75, -4.5625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.8125, 1.375, -3.9375],
+        "openPos":[-0.8125, 0.75, -4.5625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.8125, 1.375, -3.9375],
+        "openPos":[0.8125, 0.75, -4.5625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.9375, 1.375, -3.9375],
+        "openPos":[-0.9375, 0.75, -4.5625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.9375, 1.375, -3.9375],
+        "openPos":[0.9375, 0.75, -4.5625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-1.0625, 1.375, -3.9375],
+        "openPos":[-1.0625, 0.75, -4.5625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[1.0625, 1.375, -3.9375],
+        "openPos":[1.0625, 0.75, -4.5625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[1.0625, 1.25, -3.9375],
+        "openPos":[1.0625, 0.75, -4.4375],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-1.0625, 1.25, -3.9375],
+        "openPos":[-1.0625, 0.75, -4.4375],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.9375, 1.25, -3.9375],
+        "openPos":[0.9375, 0.75, -4.4375],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.9375, 1.25, -3.9375],
+        "openPos":[-0.9375, 0.75, -4.4375],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.8125, 1.25, -3.9375],
+        "openPos":[0.8125, 0.75, -4.4375],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.8125, 1.25, -3.9375],
+        "openPos":[-0.8125, 0.75, -4.4375],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.6875, 1.25, -3.9375],
+        "openPos":[0.6875, 0.75, -4.4375],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.6875, 1.25, -3.9375],
+        "openPos":[-0.6875, 0.75, -4.4375],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.5625, 1.25, -3.9375],
+        "openPos":[0.5625, 0.75, -4.4375],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.5625, 1.25, -3.9375],
+        "openPos":[-0.5625, 0.75, -4.4375],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.4375, 1.25, -3.9375],
+        "openPos":[0.4375, 0.75, -4.4375],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.4375, 1.25, -3.9375],
+        "openPos":[-0.4375, 0.75, -4.4375],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.3125, 1.25, -3.9375],
+        "openPos":[0.3125, 0.75, -4.4375],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.3125, 1.25, -3.9375],
+        "openPos":[-0.3125, 0.75, -4.4375],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.1875, 1.25, -3.9375],
+        "openPos":[0.1875, 0.75, -4.4375],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.1875, 1.25, -3.9375],
+        "openPos":[-0.1875, 0.75, -4.4375],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.0625, 1.25, -3.9375],
+        "openPos":[0.0625, 0.75, -4.4375],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.0625, 1.25, -3.9375],
+        "openPos":[-0.0625, 0.75, -4.4375],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.0625, 1.5, -3.9375],
+        "openPos":[-0.0625, 0.75, -4.6875],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.0625, 1.5, -3.9375],
+        "openPos":[0.0625, 0.75, -4.6875],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.1875, 1.5, -3.9375],
+        "openPos":[-0.1875, 0.75, -4.6875],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.1875, 1.5, -3.9375],
+        "openPos":[0.1875, 0.75, -4.6875],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.3125, 1.5, -3.9375],
+        "openPos":[-0.3125, 0.75, -4.6875],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.3125, 1.5, -3.9375],
+        "openPos":[0.3125, 0.75, -4.6875],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.4375, 1.5, -3.9375],
+        "openPos":[-0.4375, 0.75, -4.6875],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.4375, 1.5, -3.9375],
+        "openPos":[0.4375, 0.75, -4.6875],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.5625, 1.5, -3.9375],
+        "openPos":[-0.5625, 0.75, -4.6875],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.5625, 1.5, -3.9375],
+        "openPos":[0.5625, 0.75, -4.6875],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.6875, 1.5, -3.9375],
+        "openPos":[-0.6875, 0.75, -4.6875],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.6875, 1.5, -3.9375],
+        "openPos":[0.6875, 0.75, -4.6875],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.8125, 1.5, -3.9375],
+        "openPos":[-0.8125, 0.75, -4.6875],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.8125, 1.5, -3.9375],
+        "openPos":[0.8125, 0.75, -4.6875],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.9375, 1.5, -3.9375],
+        "openPos":[-0.9375, 0.75, -4.6875],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.9375, 1.5, -3.9375],
+        "openPos":[0.9375, 0.75, -4.6875],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-1.0625, 1.5, -3.9375],
+        "openPos":[-1.0625, 0.75, -4.6875],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[1.0625, 1.5, -3.9375],
+        "openPos":[1.0625, 0.75, -4.6875],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[1.0625, 1.125, -3.9375],
+        "openPos":[1.0625, 0.75, -4.3125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-1.0625, 1.125, -3.9375],
+        "openPos":[-1.0625, 0.75, -4.3125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.9375, 1.125, -3.9375],
+        "openPos":[0.9375, 0.75, -4.3125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.9375, 1.125, -3.9375],
+        "openPos":[-0.9375, 0.75, -4.3125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.8125, 1.125, -3.9375],
+        "openPos":[0.8125, 0.75, -4.3125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.8125, 1.125, -3.9375],
+        "openPos":[-0.8125, 0.75, -4.3125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.6875, 1.125, -3.9375],
+        "openPos":[0.6875, 0.75, -4.3125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.6875, 1.125, -3.9375],
+        "openPos":[-0.6875, 0.75, -4.3125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.5625, 1.125, -3.9375],
+        "openPos":[0.5625, 0.75, -4.3125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.5625, 1.125, -3.9375],
+        "openPos":[-0.5625, 0.75, -4.3125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.4375, 1.125, -3.9375],
+        "openPos":[0.4375, 0.75, -4.3125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.4375, 1.125, -3.9375],
+        "openPos":[-0.4375, 0.75, -4.3125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.3125, 1.125, -3.9375],
+        "openPos":[0.3125, 0.75, -4.3125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.3125, 1.125, -3.9375],
+        "openPos":[-0.3125, 0.75, -4.3125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.1875, 1.125, -3.9375],
+        "openPos":[0.1875, 0.75, -4.3125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.1875, 1.125, -3.9375],
+        "openPos":[-0.1875, 0.75, -4.3125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.0625, 1.125, -3.9375],
+        "openPos":[0.0625, 0.75, -4.3125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.0625, 1.125, -3.9375],
+        "openPos":[-0.0625, 0.75, -4.3125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.0625, 1.625, -3.9375],
+        "openPos":[-0.0625, 0.75, -4.8125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.0625, 1.625, -3.9375],
+        "openPos":[0.0625, 0.75, -4.8125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.1875, 1.625, -3.9375],
+        "openPos":[-0.1875, 0.75, -4.8125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.1875, 1.625, -3.9375],
+        "openPos":[0.1875, 0.75, -4.8125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.3125, 1.625, -3.9375],
+        "openPos":[-0.3125, 0.75, -4.8125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.3125, 1.625, -3.9375],
+        "openPos":[0.3125, 0.75, -4.8125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.4375, 1.625, -3.9375],
+        "openPos":[-0.4375, 0.75, -4.8125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.4375, 1.625, -3.9375],
+        "openPos":[0.4375, 0.75, -4.8125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.5625, 1.625, -3.9375],
+        "openPos":[-0.5625, 0.75, -4.8125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.5625, 1.625, -3.9375],
+        "openPos":[0.5625, 0.75, -4.8125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.6875, 1.625, -3.9375],
+        "openPos":[-0.6875, 0.75, -4.8125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.6875, 1.625, -3.9375],
+        "openPos":[0.6875, 0.75, -4.8125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.8125, 1.625, -3.9375],
+        "openPos":[-0.8125, 0.75, -4.8125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.8125, 1.625, -3.9375],
+        "openPos":[0.8125, 0.75, -4.8125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.9375, 1.625, -3.9375],
+        "openPos":[-0.9375, 0.75, -4.8125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.9375, 1.625, -3.9375],
+        "openPos":[0.9375, 0.75, -4.8125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-1.0625, 1.625, -3.9375],
+        "openPos":[-1.0625, 0.75, -4.8125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[1.0625, 1.625, -3.9375],
+        "openPos":[1.0625, 0.75, -4.8125],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[1.0625, 1.0, -3.9375],
+        "openPos":[1.0625, 0.75, -4.1875],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-1.0625, 1.0, -3.9375],
+        "openPos":[-1.0625, 0.75, -4.1875],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.9375, 1.0, -3.9375],
+        "openPos":[0.9375, 0.75, -4.1875],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.9375, 1.0, -3.9375],
+        "openPos":[-0.9375, 0.75, -4.1875],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.8125, 1.0, -3.9375],
+        "openPos":[0.8125, 0.75, -4.1875],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.8125, 1.0, -3.9375],
+        "openPos":[-0.8125, 0.75, -4.1875],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.6875, 1.0, -3.9375],
+        "openPos":[0.6875, 0.75, -4.1875],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.6875, 1.0, -3.9375],
+        "openPos":[-0.6875, 0.75, -4.1875],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.5625, 1.0, -3.9375],
+        "openPos":[0.5625, 0.75, -4.1875],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.5625, 1.0, -3.9375],
+        "openPos":[-0.5625, 0.75, -4.1875],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.4375, 1.0, -3.9375],
+        "openPos":[0.4375, 0.75, -4.1875],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.4375, 1.0, -3.9375],
+        "openPos":[-0.4375, 0.75, -4.1875],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.3125, 1.0, -3.9375],
+        "openPos":[0.3125, 0.75, -4.1875],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.3125, 1.0, -3.9375],
+        "openPos":[-0.3125, 0.75, -4.1875],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.1875, 1.0, -3.9375],
+        "openPos":[0.1875, 0.75, -4.1875],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.1875, 1.0, -3.9375],
+        "openPos":[-0.1875, 0.75, -4.1875],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.0625, 1.0, -3.9375],
+        "openPos":[0.0625, 0.75, -4.1875],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.0625, 1.0, -3.9375],
+        "openPos":[-0.0625, 0.75, -4.1875],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.0625, 1.75, -3.9375],
+        "openPos":[-0.0625, 0.75, -4.9375],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.0625, 1.75, -3.9375],
+        "openPos":[0.0625, 0.75, -4.9375],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.1875, 1.75, -3.9375],
+        "openPos":[-0.1875, 0.75, -4.9375],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.1875, 1.75, -3.9375],
+        "openPos":[0.1875, 0.75, -4.9375],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.3125, 1.75, -3.9375],
+        "openPos":[-0.3125, 0.75, -4.9375],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.3125, 1.75, -3.9375],
+        "openPos":[0.3125, 0.75, -4.9375],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.4375, 1.75, -3.9375],
+        "openPos":[-0.4375, 0.75, -4.9375],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.4375, 1.75, -3.9375],
+        "openPos":[0.4375, 0.75, -4.9375],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.5625, 1.75, -3.9375],
+        "openPos":[-0.5625, 0.75, -4.9375],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.5625, 1.75, -3.9375],
+        "openPos":[0.5625, 0.75, -4.9375],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.6875, 1.75, -3.9375],
+        "openPos":[-0.6875, 0.75, -4.9375],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.6875, 1.75, -3.9375],
+        "openPos":[0.6875, 0.75, -4.9375],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.8125, 1.75, -3.9375],
+        "openPos":[-0.8125, 0.75, -4.9375],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.8125, 1.75, -3.9375],
+        "openPos":[0.8125, 0.75, -4.9375],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.9375, 1.75, -3.9375],
+        "openPos":[-0.9375, 0.75, -4.9375],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.9375, 1.75, -3.9375],
+        "openPos":[0.9375, 0.75, -4.9375],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-1.0625, 1.75, -3.9375],
+        "openPos":[-1.0625, 0.75, -4.9375],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[1.0625, 1.75, -3.9375],
+        "openPos":[1.0625, 0.75, -4.9375],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[1.0625, 0.875, -3.9375],
+        "openPos":[1.0625, 0.75, -4.0625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-1.0625, 0.875, -3.9375],
+        "openPos":[-1.0625, 0.75, -4.0625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.9375, 0.875, -3.9375],
+        "openPos":[0.9375, 0.75, -4.0625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.9375, 0.875, -3.9375],
+        "openPos":[-0.9375, 0.75, -4.0625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.8125, 0.875, -3.9375],
+        "openPos":[0.8125, 0.75, -4.0625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.8125, 0.875, -3.9375],
+        "openPos":[-0.8125, 0.75, -4.0625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.6875, 0.875, -3.9375],
+        "openPos":[0.6875, 0.75, -4.0625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.6875, 0.875, -3.9375],
+        "openPos":[-0.6875, 0.75, -4.0625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.5625, 0.875, -3.9375],
+        "openPos":[0.5625, 0.75, -4.0625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.5625, 0.875, -3.9375],
+        "openPos":[-0.5625, 0.75, -4.0625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.4375, 0.875, -3.9375],
+        "openPos":[0.4375, 0.75, -4.0625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.4375, 0.875, -3.9375],
+        "openPos":[-0.4375, 0.75, -4.0625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.3125, 0.875, -3.9375],
+        "openPos":[0.3125, 0.75, -4.0625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.3125, 0.875, -3.9375],
+        "openPos":[-0.3125, 0.75, -4.0625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.1875, 0.875, -3.9375],
+        "openPos":[0.1875, 0.75, -4.0625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.1875, 0.875, -3.9375],
+        "openPos":[-0.1875, 0.75, -4.0625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.0625, 0.875, -3.9375],
+        "openPos":[0.0625, 0.75, -4.0625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.0625, 0.875, -3.9375],
+        "openPos":[-0.0625, 0.75, -4.0625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.0625, 1.875, -3.9375],
+        "openPos":[-0.0625, 0.75, -5.0625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.0625, 1.875, -3.9375],
+        "openPos":[0.0625, 0.75, -5.0625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.1875, 1.875, -3.9375],
+        "openPos":[-0.1875, 0.75, -5.0625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.1875, 1.875, -3.9375],
+        "openPos":[0.1875, 0.75, -5.0625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.3125, 1.875, -3.9375],
+        "openPos":[-0.3125, 0.75, -5.0625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.3125, 1.875, -3.9375],
+        "openPos":[0.3125, 0.75, -5.0625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.4375, 1.875, -3.9375],
+        "openPos":[-0.4375, 0.75, -5.0625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.4375, 1.875, -3.9375],
+        "openPos":[0.4375, 0.75, -5.0625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.5625, 1.875, -3.9375],
+        "openPos":[-0.5625, 0.75, -5.0625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.5625, 1.875, -3.9375],
+        "openPos":[0.5625, 0.75, -5.0625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.6875, 1.875, -3.9375],
+        "openPos":[-0.6875, 0.75, -5.0625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.6875, 1.875, -3.9375],
+        "openPos":[0.6875, 0.75, -5.0625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.8125, 1.875, -3.9375],
+        "openPos":[-0.8125, 0.75, -5.0625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.8125, 1.875, -3.9375],
+        "openPos":[0.8125, 0.75, -5.0625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.9375, 1.875, -3.9375],
+        "openPos":[-0.9375, 0.75, -5.0625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.9375, 1.875, -3.9375],
+        "openPos":[0.9375, 0.75, -5.0625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-1.0625, 1.875, -3.9375],
+        "openPos":[-1.0625, 0.75, -5.0625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[1.0625, 1.875, -3.9375],
+        "openPos":[1.0625, 0.75, -5.0625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    }
+],
