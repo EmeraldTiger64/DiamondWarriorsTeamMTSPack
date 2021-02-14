@@ -1,8 +1,38 @@
 {
   "general": {//Dyes: Black=0 Red =1 Green=2 Brown=3 Blue=4 Purple=5 UNU=6 Silver=7 Grey=8 Pink=9 Lime=10 Yellow=11 Light Blue=12 Magenta=13 Orange=14 White=15
 		"type" : "seat",
+		"customType": "bed_adam",
 		"materials" : ["oredict:plankWood:3", "minecraft:string:-1:20"],
-		"standing" : true
+		"disableMirroring": true
+  },
+  "seat": {
+	"standing" : true
+  },
+  "rendering": {
+	"animatedObjects": [
+      {
+        "objectName": "blanket",
+        "animations": [
+          {
+            "animationType": "visibility",
+            "variable": "seat_occupied",
+			"clampMin": -0.0001,
+			"clampMax": 0.0001
+          }
+        ]
+      },
+	  {
+        "objectName": "blanket_occupied",
+        "animations": [
+          {
+            "animationType": "visibility",
+            "variable": "seat_occupied",
+			"clampMin": 1,
+			"clampMax": 1
+          }
+        ]
+      }
+	]
   },
   "definitions": [
         {
