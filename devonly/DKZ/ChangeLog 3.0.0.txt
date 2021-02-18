@@ -16,17 +16,22 @@ Primary Changes
 Vehicle & Part Changes
 - Complete Remodel of Fortina & Motostrut
 - Model 500 Snowkatt reidentified to S-500 Snowkatt
+- Model 800 Fortina reidentified to T-800 Fortina
 - Motorcycle Wheel Rescaled
 - Motorcycle Seat Rescaled
+- New Skins for Fortina & Motostrut
 
 New Vehicles
 - C-250 Wasp and C-250R Racing Wasp
 - Model 410 Rodimus
 - M-550 Snowlion
-- Model 850 Fortier (modeled and coded by Emma Andice [Emma The Futa#4952])
+- T-850 Fortier (modeled and coded by Emma Andice [Emma The Futa#4952])
 - VU-P35 Phoenixhawk (modeled by DKZ Employee [Requested anonymity]) WARNING: Unfinished
 - Raging Seagull Mk.1 (base model by Vini Damiani [vini_damiani#6109])
 - P40 Firestorm Anti-Tank Cannon
+
+New Skin
+- "Urban Cement" for UNU Short Tanker Trailer
 
 New Parts
 - Rodimus Removable Roof
