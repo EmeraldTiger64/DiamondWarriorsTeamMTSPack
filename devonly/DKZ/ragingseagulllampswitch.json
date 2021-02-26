@@ -1,0 +1,14 @@
+"collision": [
+
+],
+
+"doors": [
+    {
+        "name": "LampSwitch",
+        "closedPos":[-0.175, 0.3343, -0.10625],
+        "openPos":[-0.175, 0.3343, -0.10625],
+        "width": 0.0625, 
+        "height": 0.0625,
+        "closedByDefault": true
+    }
+],
