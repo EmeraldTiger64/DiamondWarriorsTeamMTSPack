@@ -499,8 +499,86 @@
 "doors": [
     {
         "name": "TailGate",
+        "closedPos":[0.1875, 1.0, -1.5],
+        "openPos":[1.32252, 1.0, -1.92913],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true,
+        "ignoresClicks": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.4375, 1.0, -1.5],
+        "openPos":[1.10601, 1.0, -1.80413],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true,
+        "ignoresClicks": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.1875, 1.0, -1.5],
+        "openPos":[-1.32252, 1.0, -1.92913],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true,
+        "ignoresClicks": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.4375, 1.0, -1.5],
+        "openPos":[-1.10601, 1.0, -1.80413],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true,
+        "ignoresClicks": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.6875, 1.0, -1.5],
+        "openPos":[0.8895, 1.0, -1.67913],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true,
+        "ignoresClicks": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.6875, 1.0, -1.5],
+        "openPos":[-0.8895, 1.0, -1.67913],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true,
+        "ignoresClicks": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[-0.125, 1.0, -1.4375],
+        "openPos":[-1.34539, 1.0, -2.0145],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.125, 1.0, -1.4375],
+        "openPos":[1.34539, 1.0, -2.0145],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
+        "closedPos":[0.125, 1.0, -1.5625],
+        "openPos":[1.40789, 1.0, -1.90625],
+        "width": 0.125, 
+        "height": 0.125,
+        "closedByDefault": true
+    },
+    {
+        "name": "TailGate",
         "closedPos":[-0.125, 1.0, -1.5625],
-        "openPos":[-0.125, 1.0, -1.5625],
+        "openPos":[-1.40789, 1.0, -1.90625],
         "width": 0.125, 
         "height": 0.125,
         "closedByDefault": true
