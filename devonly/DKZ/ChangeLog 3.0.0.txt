@@ -1,88 +1,26 @@
-DKZ Industries Automotive Branch; Change Log Addendum, Update 3.0.0:
+DKZ Industries Automotive Branch; Change Log Addendum, Update 3.0.3:
 
-COMPLETE OVERHAUL for IV/MTS V19.14.0. 
+New Stuff:
+- T-810 Fortravan
+- DKZ Visible Gas Pump
+- Traxxis: Modern Accessories Division
+	- D14TS01 Tyrax Rubber Tread Kit
+- Tow Hookup for 410 Rodimus
+- Flatbed Tow Hookup for Fortina
+- Flatbed Tow Hookup for Fortier
+	
+Bugfixes: 
+- Minigun Barrels not working
+- trailer hitch for 410 Rodimus
+- Proper Icon for 303 Swarm
+- Front Wheel motostrut animation fix
 
-Primary Changes
-- UNU Parts is now Required.
-- Creative Inventory sorting system implemented. 
-- Recipe Changes to all vehicles.
-- Windows Render on All Vehicles (configurable via mts, though recommended to keep them on for certain features.)
-- General Bugfixes for vehicles
-- Motostrut tire friction edited
-- MTS V19 Door animations and hitboxes
-- MTS V19 Hood and Trunk animations (using door code)
-- New DKZ Parts Pack, loaded with MTS V19 pack loader system
-
-Vehicle & Part Changes
-- Complete Remodel of Fortina & Motostrut
-- Model 500 Snowkatt reidentified to S-500 Snowkatt
-- Model 800 Fortina reidentified to T-800 Fortina
-- Motorcycle Wheel Rescaled
-- Motorcycle Seat Rescaled
-- New Skins for Fortina & Motostrut
-
-New Vehicles
-- C-250 Wasp and C-250R Racing Wasp
-- Model 410 Rodimus
-- M-550 Snowlion
-- T-850 Fortier (modeled and coded by Emma Andice [Emma The Futa#4952])
-- VU-P35 Phoenixhawk (modeled by DKZ Employee [Requested anonymity]) WARNING: Unfinished
-- Raging Seagull Mk.1 (base model by Vini Damiani [vini_damiani#6109])
-- P40 Firestorm Anti-Tank Cannon
-
-New Skin
-- "Urban Cement" for UNU Short Tanker Trailer
-
-New Parts
-- Rodimus Removable Roof
-- Rodimus Removable Hood
-- Snowlion Beds:
-   - Crate bed
-   - Tall crate bed
-   - Anti-Aircraft bed
-   - Personnel Transport bed
-   - Tanker bed
-- Snowlion Crate Bed Cover
-- Snowlion Personnel Transport Tarp
-- Snowlion Tank
-- P40 Anti-tank Trailer Wheel
-- Raging Seagull Parts:
-   - Front & Rear Wheels
-   - Pilot Seat
-   - Radio Operator Seat
-   - Gunner Seat
-   - Bristol Pegasus Engine
-   - Propeller
-- Phoenixhawk Parts:
-   - T700 GE TurboShaft Engine
-   - Front & Rear Wheels
-   - Left & Right Hard-Point Wings
-   - Airlift Hook
-   - ALQ-144 IRCM (Currently a Non-Functional Part)
-   - Refueling Probe
-   - Flare Mounting Bracket
-
-New Weapons & Ammo
-- M134 Vulcan [Rotary Machine Gun]
-   - 7.62 x 51mm Ammo (Standard, Armor-Piercing, High Explosive, Tracer) 
-- 308 Hive Machine Gun (Hand-Held) & 308 Swarm Machine Gun (For Raging Seagull)
-   - .308 97rnd Pan Magazine
-- 250lb Hailstorm Bomb Drop Unit
-   - Standard Bomb
-   - Napalm (fire) Bomb
-- 60lb Lightning Rocket Rail
-   - Standard Rocket
-- 700kg Titanus Torpedo Drop Unit
-   - Standard Torpedo
-- 850kg Derecho Drop Unit
-   - Standard Bomb
-- Thunderstorm-7 & Supercell-19 Rocket Salvo
-   - 70mm Rocket (compatible with Gyro and Franz)
-- 7.5cm Anti-Tank Shell
-   - Standard Ammo
-   - Explosive Ammo
-- SkyFire Mk.1 Counter-Flare Deployment System
-   - 1-inch Flare
-
-New Decor
-- Fuel Station Refill Covers (fluid loader/unloader)
+Changes: 
+- 308 Swarm renamed to 303 Swarm
+- 303 Swarm uses caseLength
+- P40 Firestorm has travelSpeed value
+- Rodimus Hood can not be removed unless one side is opened
+- Raging Seagull Light changes
+	- New Landing Light and Lamp Deflector Switch
+	- Recoded some lights to be consistent with other vehicles
+	- Retextured most lights to be consistent with other vehicles
