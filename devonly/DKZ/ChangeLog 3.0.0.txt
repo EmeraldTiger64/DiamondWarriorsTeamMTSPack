@@ -19,6 +19,8 @@ Changes:
 - 308 Swarm renamed to 303 Swarm
 - 303 Swarm uses caseLength
 - P40 Firestorm has travelSpeed value
+- 7.5cm Shells now identified as 75x714mmR
+- 75x714mmR now has 714mm caseLength
 - Rodimus Hood can not be removed unless one side is opened
 - Raging Seagull Light changes
 	- New Landing Light and Lamp Deflector Switch
